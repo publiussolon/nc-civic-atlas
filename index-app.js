@@ -8,7 +8,7 @@
     state_legislators: [
       'Find N.C. House and Senate members',
       'https://www.ncleg.gov/FindYourLegislators',
-      'Search by address; legislative districts can cross county lines. A county roster of members is not in this Phase 1 release.'
+      'Search by address; legislative districts can cross county lines.'
     ],
     us_house: [
       'Find your U.S. House member',
@@ -33,7 +33,7 @@
     budget: [
       'State budget office',
       'https://www.osbm.nc.gov/budget',
-      'North Carolina Office of State Budget and Management. County budgets are published by each county; a compiled county budget table is not in this Phase 1 release.'
+      'North Carolina Office of State Budget and Management. County budgets are published by each county and have not been ingested as checked figures.'
     ],
     bills: [
       'N.C. General Assembly legislation',
@@ -134,25 +134,26 @@
     if (tab === 'offices') {
       h.textContent = 'Elected and appointed offices';
       p.textContent =
-        'A North Carolina General Assembly roster mapped to counties will be added in Phase 2. Use the official address finder for your own members. County officeholder rosters have not been verified in this release.';
+        'Current N.C. House, Senate, and U.S. House members whose districts intersect this county appear below. Districts can split counties; use the official address finder for your own member. Sitting U.S. senators are listed on the Senate directory link. A complete county commissioner roster (all seated members) has not been verified.';
       selected = ['state_legislators', 'us_house', 'us_senate', 'county', 'elections'];
     }
+
     if (tab === 'living') {
       h.textContent = 'Income, rent and travel';
       p.textContent =
-        'Comparable American Community Survey estimates for all 100 North Carolina counties will be added in Phase 2. No income, rent, or commute figures are shown until those Census tables are loaded.';
+        'Comparable 2024 American Community Survey five-year estimates for all 100 North Carolina counties. These figures describe households or commuters who live in the county; survey uncertainty matters.';
       selected = [];
     }
     if (tab === 'money') {
       h.textContent = 'Budgets and spending';
       p.textContent =
-        'Checked county budget figures are not in this Phase 1 release. Start with the county website and the state budget office; budgeted amounts and actual spending are different measures.';
+        'Official state budget documents are linked below. County budgets are published by each county and have not been ingested as checked figures in this release; budgeted amounts and actual spending are different measures.';
       selected = ['budget', 'county'];
     }
     if (tab === 'docket') {
       h.textContent = 'Meetings and measures';
       p.textContent =
-        'County commissioner agendas and minutes are published by counties. Checked items and a tracked General Assembly docket will be added in a later phase.';
+        'Official NCGA calendar meetings are listed on the homepage docket. County commissioner agendas are published by counties and have not been ingested. Individual bills are not tracked in this release.';
       selected = ['county', 'bills', 'calendar'];
     }
     detail.append(h, p, grid);
@@ -160,7 +161,7 @@
     const note = document.createElement('div');
     note.className = 'note';
     note.innerHTML =
-      '<strong>Verification status:</strong> official county website listed from the NC.gov directory; additional county facts (officeholders, budgets, agendas) are not yet checked.';
+      '<strong>Verification status:</strong> legislator names and ACS estimates come from official rosters and Census tables cited on this page. County board majorities and county budget figures have not been verified.';
     detail.append(note);
 
     if (tab === 'offices') {
@@ -169,13 +170,14 @@
         const context = document.createElement('p');
         context.className = 'meta';
         context.textContent =
-          'N.C. General Assembly roster checked ' +
+          'N.C. General Assembly and U.S. House rosters checked ' +
           legislatorsData.as_of +
-          '. These districts intersect the county; use the address finder above to identify your own member.';
+          '. These districts intersect the county; use the address finder above to identify your own member. November 2026 election winners are not assumed seated before January 2027.';
         detail.append(context);
         for (const [headingText, people] of [
           ['N.C. House districts', rec.house],
-          ['N.C. Senate districts', rec.senate]
+          ['N.C. Senate districts', rec.senate],
+          ['U.S. House districts', rec.congress || []]
         ]) {
           const heading = document.createElement('h4');
           heading.textContent = headingText;
@@ -199,6 +201,52 @@
           }
           detail.append(cards);
         }
+      }
+    }
+
+    if (tab === 'offices' && commissionerResults) {
+      const heading = document.createElement('h4');
+      heading.textContent = 'November 3, 2026 county commissioner contests';
+      heading.style.marginTop = '25px';
+      detail.append(heading);
+      const limit = document.createElement('p');
+      limit.className = 'meta';
+      limit.textContent = commissionerResults.limitation;
+      detail.append(limit);
+      const countyContests = commissionerResults.counties?.[current]?.contests || [];
+      if (!countyContests.length) {
+        const p2 = document.createElement('p');
+        p2.textContent = 'No county board of commissioners contest for this county appears in the official NCSBE results file for November 3, 2026.';
+        detail.append(p2);
+      } else {
+        for (const contest of countyContests) {
+          const sub = document.createElement('h4');
+          sub.textContent = contest.contest + ' (vote for ' + contest.vote_for + ')';
+          detail.append(sub);
+          const cards = document.createElement('div');
+          cards.className = 'source-grid';
+          for (const person of contest.apparent_winners_by_total_votes) {
+            const card = document.createElement('div');
+            card.className = 'source-card';
+            const name = document.createElement('strong');
+            name.textContent = person.name;
+            const description = document.createElement('p');
+            description.textContent = (person.party || 'party not listed') + ' · ' + person.total_votes.toLocaleString() + ' votes (apparent winner by official total votes)';
+            card.append(name, description);
+            cards.append(card);
+          }
+          detail.append(cards);
+        }
+        const src = document.createElement('p');
+        src.className = 'meta';
+        src.append('Source: ');
+        const a = document.createElement('a');
+        a.href = commissionerResults.source_page;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = 'NCSBE historical election results';
+        src.append(a);
+        detail.append(src);
       }
     }
 
@@ -256,6 +304,38 @@
       }
     }
 
+
+    if (tab === 'money' && budgetData?.records?.length) {
+      const heading = document.createElement('h4');
+      heading.textContent = 'Official state budget documents';
+      heading.style.marginTop = '25px';
+      detail.append(heading);
+      const cards = document.createElement('div');
+      cards.className = 'source-grid';
+      for (const rec of budgetData.records) {
+        const card = document.createElement('div');
+        card.className = 'source-card';
+        const title = document.createElement('strong');
+        title.textContent = rec.title;
+        const p = document.createElement('p');
+        p.textContent = (rec.description || '') + (rec.checked_at ? ' · Checked ' + rec.checked_at : '');
+        const a = document.createElement('a');
+        a.href = rec.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = 'Open official document';
+        card.append(title, p, a);
+        cards.append(card);
+      }
+      detail.append(cards);
+      if (budgetData.note) {
+        const note = document.createElement('p');
+        note.className = 'meta';
+        note.textContent = budgetData.note;
+        detail.append(note);
+      }
+    }
+
     const record = seedRecords?.counties?.find((x) => x.county === current);
     if (record) {
       const heading = document.createElement('h4');
@@ -306,6 +386,7 @@
   let expandedDocket = null;
   let countyWork = null;
   let legislatorsData = null;
+  let commissionerResults = null;
 
   function paintMap() {
     if (!mapSvg) return;
@@ -436,7 +517,7 @@
           : mapMode === 'income'
             ? [
                 ['#f1d69d', 'Lower median household income'],
-                ['#a4632d', 'Higher median household income; ACS estimate (not yet loaded)']
+                ['#a4632d', 'Higher median household income; 2024 ACS five-year estimate']
               ]
             : [
                 ['#c9dce7', 'County boundary'],
@@ -463,7 +544,8 @@
         budgetResponse,
         expandedResponse,
         workResponse,
-        legislatorsResponse
+        legislatorsResponse,
+        commissionerResponse
       ] = await Promise.all([
         fetch('county-map.svg' + fresh, { cache: 'no-store' }),
         fetch('map-data.json' + fresh, { cache: 'no-store' }),
@@ -472,7 +554,8 @@
         fetch('budget-records.json' + fresh, { cache: 'no-store' }),
         fetch('docket-expanded.json' + fresh, { cache: 'no-store' }),
         fetch('county-work-affordability.json' + fresh, { cache: 'no-store' }),
-        fetch('nc-legislators.json' + fresh, { cache: 'no-store' })
+        fetch('nc-legislators.json' + fresh, { cache: 'no-store' }),
+        fetch('ncsbe-commissioner-contests-2026.json' + fresh, { cache: 'no-store' })
       ]);
       if (!svgResponse.ok) throw Error('map file unavailable');
       const svgText = await svgResponse.text();
@@ -507,6 +590,7 @@
       if (expandedResponse.ok) expandedDocket = await expandedResponse.json();
       if (workResponse.ok) countyWork = await workResponse.json();
       if (legislatorsResponse.ok) legislatorsData = await legislatorsResponse.json();
+      if (commissionerResponse.ok) commissionerResults = await commissionerResponse.json();
       renderDetail();
       renderDocket();
       paintMap();
@@ -548,7 +632,7 @@
       const card = document.createElement('div');
       card.className = 'card';
       card.innerHTML =
-        '<h3>No bills tracked yet</h3><p>TODO (Phase 2): a sourced N.C. General Assembly docket has not been loaded.</p>';
+        '<h3>No individual bills listed</h3><p>No specific bill or floor vote was verified from the official calendar in this release. Use the General Assembly legislation and calendar links to check current measures.</p>';
       bills.append(card);
     } else {
       for (const rec of tracked) {

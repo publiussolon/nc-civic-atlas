@@ -1,9 +1,5630 @@
 {
-  "title": "TODO (Phase 2): ACS income, rent burden, and commute estimates for North Carolina counties have not been loaded yet.",
-  "period": null,
-  "release_year": null,
-  "checked_at": null,
-  "source": null,
-  "definitions": {},
-  "counties": []
+  "title": "North Carolina county income, rent burden, and commute estimates, 2024 ACS 5-year",
+  "period": "2020-2024",
+  "release_year": 2024,
+  "checked_at": "2026-11-24",
+  "source": {
+    "agency": "U.S. Census Bureau",
+    "dataset": "2024 American Community Survey 5-year Detailed Tables",
+    "summary_file_url": "https://www.census.gov/programs-surveys/acs/data/summary-file.2024.html",
+    "table_urls": [
+      "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08303.dat"
+    ],
+    "documentation_url": "https://www.census.gov/programs-surveys/acs/data/summary-file.2024.html",
+    "variable_definitions": [
+      "https://api.census.gov/data/2024/acs/acs5/groups/B19013.html",
+      "https://api.census.gov/data/2024/acs/acs5/groups/B25070.html",
+      "https://api.census.gov/data/2024/acs/acs5/groups/B08303.html"
+    ]
+  },
+  "definitions": {
+    "income": "Median household income in past 12 months, 2024 inflation-adjusted dollars. Margin of error is the published ACS 90% MOE.",
+    "rent_burden": "Share of renter-occupied units paying gross rent of at least 30% of household income, excluding units where ratio was not computed. Gross rent includes contract rent plus utilities/fuels.",
+    "commute": "Share of workers age 16+ who did not work from home and traveled 30 minutes or longer to work. This is commute time, not financial cost of commuting.",
+    "uncertainty": "Published component 90% margins of error are included. Derived-share MOEs were not calculated; differences between counties or years should not be treated as statistically meaningful without a proper MOE calculation."
+  },
+  "counties": [
+    {
+      "county": "Alamance",
+      "county_fips": "37001",
+      "median_household_income": {
+        "usd_2024": 65651,
+        "moe_usd_2024_90pct": 1854,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 10642,
+        "denominator_households": 22808,
+        "share_percent": 46.7,
+        "total_renter_households": 24519,
+        "not_computed_households": 1711,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1118,
+          "B25070_007": 449,
+          "B25070_008": 411,
+          "B25070_009": 529,
+          "B25070_010": 589,
+          "B25070_011": 329
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 27460,
+        "denominator_persons": 74015,
+        "share_percent": 37.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1483,
+          "B08303_008": 700,
+          "B08303_009": 464,
+          "B08303_010": 561,
+          "B08303_011": 965,
+          "B08303_012": 434,
+          "B08303_013": 342
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Alexander",
+      "county_fips": "37003",
+      "median_household_income": {
+        "usd_2024": 65354,
+        "moe_usd_2024_90pct": 4962,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 892,
+        "denominator_households": 2262,
+        "share_percent": 39.4,
+        "total_renter_households": 2729,
+        "not_computed_households": 467,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 359,
+          "B25070_007": 104,
+          "B25070_008": 65,
+          "B25070_009": 114,
+          "B25070_010": 161,
+          "B25070_011": 163
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4864,
+        "denominator_persons": 14745,
+        "share_percent": 33.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 745,
+          "B08303_008": 399,
+          "B08303_009": 232,
+          "B08303_010": 166,
+          "B08303_011": 332,
+          "B08303_012": 274,
+          "B08303_013": 157
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Alleghany",
+      "county_fips": "37005",
+      "median_household_income": {
+        "usd_2024": 47172,
+        "moe_usd_2024_90pct": 4894,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 393,
+        "denominator_households": 981,
+        "share_percent": 40.1,
+        "total_renter_households": 1324,
+        "not_computed_households": 343,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 217,
+          "B25070_007": 93,
+          "B25070_008": 39,
+          "B25070_009": 14,
+          "B25070_010": 112,
+          "B25070_011": 141
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1284,
+        "denominator_persons": 3858,
+        "share_percent": 33.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 327,
+          "B08303_008": 169,
+          "B08303_009": 39,
+          "B08303_010": 89,
+          "B08303_011": 117,
+          "B08303_012": 85,
+          "B08303_013": 118
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Anson",
+      "county_fips": "37007",
+      "median_household_income": {
+        "usd_2024": 47302,
+        "moe_usd_2024_90pct": 5753,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 895,
+        "denominator_households": 2259,
+        "share_percent": 39.6,
+        "total_renter_households": 2691,
+        "not_computed_households": 432,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 416,
+          "B25070_007": 75,
+          "B25070_008": 84,
+          "B25070_009": 117,
+          "B25070_010": 177,
+          "B25070_011": 170
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 3788,
+        "denominator_persons": 8080,
+        "share_percent": 46.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 723,
+          "B08303_008": 321,
+          "B08303_009": 121,
+          "B08303_010": 175,
+          "B08303_011": 338,
+          "B08303_012": 163,
+          "B08303_013": 113
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Ashe",
+      "county_fips": "37009",
+      "median_household_income": {
+        "usd_2024": 56866,
+        "moe_usd_2024_90pct": 4577,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 753,
+        "denominator_households": 1820,
+        "share_percent": 41.4,
+        "total_renter_households": 2516,
+        "not_computed_households": 696,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 409,
+          "B25070_007": 63,
+          "B25070_008": 46,
+          "B25070_009": 73,
+          "B25070_010": 161,
+          "B25070_011": 217
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 3538,
+        "denominator_persons": 10226,
+        "share_percent": 34.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 528,
+          "B08303_008": 313,
+          "B08303_009": 158,
+          "B08303_010": 127,
+          "B08303_011": 253,
+          "B08303_012": 101,
+          "B08303_013": 158
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Avery",
+      "county_fips": "37011",
+      "median_household_income": {
+        "usd_2024": 61428,
+        "moe_usd_2024_90pct": 7429,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 390,
+        "denominator_households": 959,
+        "share_percent": 40.7,
+        "total_renter_households": 1154,
+        "not_computed_households": 195,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 244,
+          "B25070_007": 53,
+          "B25070_008": 47,
+          "B25070_009": 59,
+          "B25070_010": 90,
+          "B25070_011": 108
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1938,
+        "denominator_persons": 5846,
+        "share_percent": 33.2,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 369,
+          "B08303_008": 290,
+          "B08303_009": 113,
+          "B08303_010": 23,
+          "B08303_011": 197,
+          "B08303_012": 78,
+          "B08303_013": 86
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Beaufort",
+      "county_fips": "37013",
+      "median_household_income": {
+        "usd_2024": 58357,
+        "moe_usd_2024_90pct": 3205,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2439,
+        "denominator_households": 4779,
+        "share_percent": 51.0,
+        "total_renter_households": 5907,
+        "not_computed_households": 1128,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 493,
+          "B25070_007": 213,
+          "B25070_008": 159,
+          "B25070_009": 199,
+          "B25070_010": 384,
+          "B25070_011": 244
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 6115,
+        "denominator_persons": 17602,
+        "share_percent": 34.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 650,
+          "B08303_008": 366,
+          "B08303_009": 228,
+          "B08303_010": 190,
+          "B08303_011": 278,
+          "B08303_012": 247,
+          "B08303_013": 146
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Bertie",
+      "county_fips": "37015",
+      "median_household_income": {
+        "usd_2024": 48750,
+        "moe_usd_2024_90pct": 8791,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 686,
+        "denominator_households": 1518,
+        "share_percent": 45.2,
+        "total_renter_households": 1949,
+        "not_computed_households": 431,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 381,
+          "B25070_007": 83,
+          "B25070_008": 124,
+          "B25070_009": 76,
+          "B25070_010": 220,
+          "B25070_011": 174
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2108,
+        "denominator_persons": 6017,
+        "share_percent": 35.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 402,
+          "B08303_008": 203,
+          "B08303_009": 157,
+          "B08303_010": 142,
+          "B08303_011": 165,
+          "B08303_012": 125,
+          "B08303_013": 180
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Bladen",
+      "county_fips": "37017",
+      "median_household_income": {
+        "usd_2024": 42422,
+        "moe_usd_2024_90pct": 6049,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1349,
+        "denominator_households": 2629,
+        "share_percent": 51.3,
+        "total_renter_households": 3641,
+        "not_computed_households": 1012,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 406,
+          "B25070_007": 105,
+          "B25070_008": 153,
+          "B25070_009": 54,
+          "B25070_010": 262,
+          "B25070_011": 299
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4395,
+        "denominator_persons": 10245,
+        "share_percent": 42.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 621,
+          "B08303_008": 324,
+          "B08303_009": 133,
+          "B08303_010": 140,
+          "B08303_011": 316,
+          "B08303_012": 235,
+          "B08303_013": 124
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Brunswick",
+      "county_fips": "37019",
+      "median_household_income": {
+        "usd_2024": 77024,
+        "moe_usd_2024_90pct": 2734,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 4782,
+        "denominator_households": 9218,
+        "share_percent": 51.9,
+        "total_renter_households": 10652,
+        "not_computed_households": 1434,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 897,
+          "B25070_007": 176,
+          "B25070_008": 282,
+          "B25070_009": 261,
+          "B25070_010": 540,
+          "B25070_011": 323
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 17660,
+        "denominator_persons": 52242,
+        "share_percent": 33.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1318,
+          "B08303_008": 749,
+          "B08303_009": 332,
+          "B08303_010": 337,
+          "B08303_011": 470,
+          "B08303_012": 381,
+          "B08303_013": 442
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Buncombe",
+      "county_fips": "37021",
+      "median_household_income": {
+        "usd_2024": 74436,
+        "moe_usd_2024_90pct": 2206,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 16781,
+        "denominator_households": 31135,
+        "share_percent": 53.9,
+        "total_renter_households": 34444,
+        "not_computed_households": 3309,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1573,
+          "B25070_007": 629,
+          "B25070_008": 463,
+          "B25070_009": 563,
+          "B25070_010": 950,
+          "B25070_011": 586
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 22971,
+        "denominator_persons": 106360,
+        "share_percent": 21.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 2330,
+          "B08303_008": 926,
+          "B08303_009": 411,
+          "B08303_010": 400,
+          "B08303_011": 468,
+          "B08303_012": 460,
+          "B08303_013": 274
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Burke",
+      "county_fips": "37023",
+      "median_household_income": {
+        "usd_2024": 58592,
+        "moe_usd_2024_90pct": 3527,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2905,
+        "denominator_households": 7872,
+        "share_percent": 36.9,
+        "total_renter_households": 9252,
+        "not_computed_households": 1380,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 734,
+          "B25070_007": 191,
+          "B25070_008": 140,
+          "B25070_009": 251,
+          "B25070_010": 406,
+          "B25070_011": 346
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 10223,
+        "denominator_persons": 37708,
+        "share_percent": 27.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 916,
+          "B08303_008": 435,
+          "B08303_009": 343,
+          "B08303_010": 330,
+          "B08303_011": 429,
+          "B08303_012": 293,
+          "B08303_013": 294
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Cabarrus",
+      "county_fips": "37025",
+      "median_household_income": {
+        "usd_2024": 89005,
+        "moe_usd_2024_90pct": 3534,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 11425,
+        "denominator_households": 22831,
+        "share_percent": 50.0,
+        "total_renter_households": 24288,
+        "not_computed_households": 1457,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1180,
+          "B25070_007": 527,
+          "B25070_008": 539,
+          "B25070_009": 413,
+          "B25070_010": 669,
+          "B25070_011": 382
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 41894,
+        "denominator_persons": 97545,
+        "share_percent": 42.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1783,
+          "B08303_008": 1332,
+          "B08303_009": 546,
+          "B08303_010": 747,
+          "B08303_011": 1180,
+          "B08303_012": 636,
+          "B08303_013": 263
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Caldwell",
+      "county_fips": "37027",
+      "median_household_income": {
+        "usd_2024": 56425,
+        "moe_usd_2024_90pct": 2209,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 3006,
+        "denominator_households": 7550,
+        "share_percent": 39.8,
+        "total_renter_households": 8710,
+        "not_computed_households": 1160,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 736,
+          "B25070_007": 242,
+          "B25070_008": 179,
+          "B25070_009": 228,
+          "B25070_010": 337,
+          "B25070_011": 292
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 11165,
+        "denominator_persons": 33399,
+        "share_percent": 33.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1227,
+          "B08303_008": 717,
+          "B08303_009": 417,
+          "B08303_010": 265,
+          "B08303_011": 469,
+          "B08303_012": 267,
+          "B08303_013": 341
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Camden",
+      "county_fips": "37029",
+      "median_household_income": {
+        "usd_2024": 91078,
+        "moe_usd_2024_90pct": 14321,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 158,
+        "denominator_households": 574,
+        "share_percent": 27.5,
+        "total_renter_households": 718,
+        "not_computed_households": 144,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 223,
+          "B25070_007": 21,
+          "B25070_008": 33,
+          "B25070_009": 50,
+          "B25070_010": 105,
+          "B25070_011": 129
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1940,
+        "denominator_persons": 4866,
+        "share_percent": 39.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 319,
+          "B08303_008": 238,
+          "B08303_009": 100,
+          "B08303_010": 58,
+          "B08303_011": 156,
+          "B08303_012": 143,
+          "B08303_013": 123
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Carteret",
+      "county_fips": "37031",
+      "median_household_income": {
+        "usd_2024": 72322,
+        "moe_usd_2024_90pct": 2766,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 3968,
+        "denominator_households": 6963,
+        "share_percent": 57.0,
+        "total_renter_households": 8092,
+        "not_computed_households": 1129,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 588,
+          "B25070_007": 139,
+          "B25070_008": 311,
+          "B25070_009": 296,
+          "B25070_010": 291,
+          "B25070_011": 349
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 7824,
+        "denominator_persons": 26659,
+        "share_percent": 29.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 724,
+          "B08303_008": 446,
+          "B08303_009": 246,
+          "B08303_010": 205,
+          "B08303_011": 240,
+          "B08303_012": 162,
+          "B08303_013": 154
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Caswell",
+      "county_fips": "37033",
+      "median_household_income": {
+        "usd_2024": 59755,
+        "moe_usd_2024_90pct": 4753,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 774,
+        "denominator_households": 1857,
+        "share_percent": 41.7,
+        "total_renter_households": 2193,
+        "not_computed_households": 336,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 332,
+          "B25070_007": 90,
+          "B25070_008": 99,
+          "B25070_009": 84,
+          "B25070_010": 132,
+          "B25070_011": 123
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4035,
+        "denominator_persons": 8104,
+        "share_percent": 49.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 361,
+          "B08303_008": 338,
+          "B08303_009": 162,
+          "B08303_010": 176,
+          "B08303_011": 245,
+          "B08303_012": 197,
+          "B08303_013": 82
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Catawba",
+      "county_fips": "37035",
+      "median_household_income": {
+        "usd_2024": 67864,
+        "moe_usd_2024_90pct": 2779,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 6873,
+        "denominator_households": 16759,
+        "share_percent": 41.0,
+        "total_renter_households": 18433,
+        "not_computed_households": 1674,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1128,
+          "B25070_007": 430,
+          "B25070_008": 217,
+          "B25070_009": 327,
+          "B25070_010": 486,
+          "B25070_011": 386
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 18397,
+        "denominator_persons": 69616,
+        "share_percent": 26.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1558,
+          "B08303_008": 696,
+          "B08303_009": 445,
+          "B08303_010": 331,
+          "B08303_011": 522,
+          "B08303_012": 505,
+          "B08303_013": 439
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Chatham",
+      "county_fips": "37037",
+      "median_household_income": {
+        "usd_2024": 94317,
+        "moe_usd_2024_90pct": 4141,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2686,
+        "denominator_households": 5593,
+        "share_percent": 48.0,
+        "total_renter_households": 6413,
+        "not_computed_households": 820,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 760,
+          "B25070_007": 214,
+          "B25070_008": 132,
+          "B25070_009": 205,
+          "B25070_010": 444,
+          "B25070_011": 259
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 12799,
+        "denominator_persons": 28868,
+        "share_percent": 44.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 914,
+          "B08303_008": 598,
+          "B08303_009": 383,
+          "B08303_010": 258,
+          "B08303_011": 410,
+          "B08303_012": 427,
+          "B08303_013": 163
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Cherokee",
+      "county_fips": "37039",
+      "median_household_income": {
+        "usd_2024": 53628,
+        "moe_usd_2024_90pct": 3764,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 688,
+        "denominator_households": 1586,
+        "share_percent": 43.4,
+        "total_renter_households": 2158,
+        "not_computed_households": 572,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 383,
+          "B25070_007": 124,
+          "B25070_008": 80,
+          "B25070_009": 37,
+          "B25070_010": 123,
+          "B25070_011": 157
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 3360,
+        "denominator_persons": 10459,
+        "share_percent": 32.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 570,
+          "B08303_008": 272,
+          "B08303_009": 97,
+          "B08303_010": 165,
+          "B08303_011": 173,
+          "B08303_012": 116,
+          "B08303_013": 129
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Chowan",
+      "county_fips": "37041",
+      "median_household_income": {
+        "usd_2024": 53864,
+        "moe_usd_2024_90pct": 6862,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 862,
+        "denominator_households": 1583,
+        "share_percent": 54.5,
+        "total_renter_households": 1808,
+        "not_computed_households": 225,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 347,
+          "B25070_007": 160,
+          "B25070_008": 76,
+          "B25070_009": 47,
+          "B25070_010": 223,
+          "B25070_011": 93
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1839,
+        "denominator_persons": 5449,
+        "share_percent": 33.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 459,
+          "B08303_008": 252,
+          "B08303_009": 162,
+          "B08303_010": 122,
+          "B08303_011": 149,
+          "B08303_012": 157,
+          "B08303_013": 167
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Clay",
+      "county_fips": "37043",
+      "median_household_income": {
+        "usd_2024": 56971,
+        "moe_usd_2024_90pct": 8915,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 262,
+        "denominator_households": 648,
+        "share_percent": 40.4,
+        "total_renter_households": 956,
+        "not_computed_households": 308,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 272,
+          "B25070_007": 39,
+          "B25070_008": 46,
+          "B25070_009": 15,
+          "B25070_010": 107,
+          "B25070_011": 150
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 977,
+        "denominator_persons": 4050,
+        "share_percent": 24.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 438,
+          "B08303_008": 177,
+          "B08303_009": 47,
+          "B08303_010": 45,
+          "B08303_011": 65,
+          "B08303_012": 79,
+          "B08303_013": 117
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Cleveland",
+      "county_fips": "37045",
+      "median_household_income": {
+        "usd_2024": 58534,
+        "moe_usd_2024_90pct": 2730,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 4902,
+        "denominator_households": 9898,
+        "share_percent": 49.5,
+        "total_renter_households": 11310,
+        "not_computed_households": 1412,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 713,
+          "B25070_007": 235,
+          "B25070_008": 215,
+          "B25070_009": 317,
+          "B25070_010": 385,
+          "B25070_011": 354
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 13871,
+        "denominator_persons": 41112,
+        "share_percent": 33.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1264,
+          "B08303_008": 529,
+          "B08303_009": 371,
+          "B08303_010": 326,
+          "B08303_011": 494,
+          "B08303_012": 425,
+          "B08303_013": 221
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Columbus",
+      "county_fips": "37047",
+      "median_household_income": {
+        "usd_2024": 49442,
+        "moe_usd_2024_90pct": 4924,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2146,
+        "denominator_households": 4313,
+        "share_percent": 49.8,
+        "total_renter_households": 5796,
+        "not_computed_households": 1483,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 487,
+          "B25070_007": 166,
+          "B25070_008": 136,
+          "B25070_009": 193,
+          "B25070_010": 225,
+          "B25070_011": 329
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 8322,
+        "denominator_persons": 18265,
+        "share_percent": 45.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 713,
+          "B08303_008": 478,
+          "B08303_009": 166,
+          "B08303_010": 291,
+          "B08303_011": 406,
+          "B08303_012": 354,
+          "B08303_013": 175
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Craven",
+      "county_fips": "37049",
+      "median_household_income": {
+        "usd_2024": 65873,
+        "moe_usd_2024_90pct": 3115,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 5785,
+        "denominator_households": 12488,
+        "share_percent": 46.3,
+        "total_renter_households": 13528,
+        "not_computed_households": 1040,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 779,
+          "B25070_007": 259,
+          "B25070_008": 319,
+          "B25070_009": 247,
+          "B25070_010": 439,
+          "B25070_011": 325
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 11487,
+        "denominator_persons": 42716,
+        "share_percent": 26.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 994,
+          "B08303_008": 590,
+          "B08303_009": 349,
+          "B08303_010": 315,
+          "B08303_011": 447,
+          "B08303_012": 308,
+          "B08303_013": 199
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Cumberland",
+      "county_fips": "37051",
+      "median_household_income": {
+        "usd_2024": 61291,
+        "moe_usd_2024_90pct": 990,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 28093,
+        "denominator_households": 54133,
+        "share_percent": 51.9,
+        "total_renter_households": 58430,
+        "not_computed_households": 4297,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1122,
+          "B25070_007": 495,
+          "B25070_008": 380,
+          "B25070_009": 533,
+          "B25070_010": 723,
+          "B25070_011": 486
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 35448,
+        "denominator_persons": 144248,
+        "share_percent": 24.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1599,
+          "B08303_008": 933,
+          "B08303_009": 327,
+          "B08303_010": 478,
+          "B08303_011": 624,
+          "B08303_012": 477,
+          "B08303_013": 388
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Currituck",
+      "county_fips": "37053",
+      "median_household_income": {
+        "usd_2024": 93511,
+        "moe_usd_2024_90pct": 8425,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 580,
+        "denominator_households": 1208,
+        "share_percent": 48.0,
+        "total_renter_households": 1508,
+        "not_computed_households": 300,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 293,
+          "B25070_007": 102,
+          "B25070_008": 38,
+          "B25070_009": 90,
+          "B25070_010": 128,
+          "B25070_011": 128
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 8747,
+        "denominator_persons": 14205,
+        "share_percent": 61.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 517,
+          "B08303_008": 261,
+          "B08303_009": 210,
+          "B08303_010": 206,
+          "B08303_011": 436,
+          "B08303_012": 336,
+          "B08303_013": 184
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Dare",
+      "county_fips": "37055",
+      "median_household_income": {
+        "usd_2024": 88994,
+        "moe_usd_2024_90pct": 5211,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1616,
+        "denominator_households": 3365,
+        "share_percent": 48.0,
+        "total_renter_households": 3634,
+        "not_computed_households": 269,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 463,
+          "B25070_007": 155,
+          "B25070_008": 235,
+          "B25070_009": 148,
+          "B25070_010": 244,
+          "B25070_011": 118
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4473,
+        "denominator_persons": 16365,
+        "share_percent": 27.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 550,
+          "B08303_008": 453,
+          "B08303_009": 114,
+          "B08303_010": 109,
+          "B08303_011": 153,
+          "B08303_012": 206,
+          "B08303_013": 193
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Davidson",
+      "county_fips": "37057",
+      "median_household_income": {
+        "usd_2024": 64172,
+        "moe_usd_2024_90pct": 1806,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 6893,
+        "denominator_households": 16374,
+        "share_percent": 42.1,
+        "total_renter_households": 17902,
+        "not_computed_households": 1528,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 954,
+          "B25070_007": 359,
+          "B25070_008": 357,
+          "B25070_009": 283,
+          "B25070_010": 562,
+          "B25070_011": 317
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 22460,
+        "denominator_persons": 70564,
+        "share_percent": 31.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1774,
+          "B08303_008": 828,
+          "B08303_009": 426,
+          "B08303_010": 533,
+          "B08303_011": 522,
+          "B08303_012": 422,
+          "B08303_013": 269
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Davie",
+      "county_fips": "37059",
+      "median_household_income": {
+        "usd_2024": 75057,
+        "moe_usd_2024_90pct": 2836,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1087,
+        "denominator_households": 2404,
+        "share_percent": 45.2,
+        "total_renter_households": 3066,
+        "not_computed_households": 662,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 337,
+          "B25070_007": 51,
+          "B25070_008": 55,
+          "B25070_009": 93,
+          "B25070_010": 229,
+          "B25070_011": 202
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 7420,
+        "denominator_persons": 18293,
+        "share_percent": 40.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 624,
+          "B08303_008": 518,
+          "B08303_009": 230,
+          "B08303_010": 164,
+          "B08303_011": 354,
+          "B08303_012": 294,
+          "B08303_013": 186
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Duplin",
+      "county_fips": "37061",
+      "median_household_income": {
+        "usd_2024": 55148,
+        "moe_usd_2024_90pct": 3396,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2171,
+        "denominator_households": 5190,
+        "share_percent": 41.8,
+        "total_renter_households": 6166,
+        "not_computed_households": 976,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 524,
+          "B25070_007": 171,
+          "B25070_008": 158,
+          "B25070_009": 111,
+          "B25070_010": 254,
+          "B25070_011": 220
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 7793,
+        "denominator_persons": 19975,
+        "share_percent": 39.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 702,
+          "B08303_008": 338,
+          "B08303_009": 141,
+          "B08303_010": 221,
+          "B08303_011": 407,
+          "B08303_012": 337,
+          "B08303_013": 304
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Durham",
+      "county_fips": "37063",
+      "median_household_income": {
+        "usd_2024": 82316,
+        "moe_usd_2024_90pct": 1930,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 29135,
+        "denominator_households": 60194,
+        "share_percent": 48.4,
+        "total_renter_households": 63123,
+        "not_computed_households": 2929,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1435,
+          "B25070_007": 877,
+          "B25070_008": 823,
+          "B25070_009": 714,
+          "B25070_010": 1220,
+          "B25070_011": 537
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 36260,
+        "denominator_persons": 134042,
+        "share_percent": 27.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 2457,
+          "B08303_008": 1389,
+          "B08303_009": 530,
+          "B08303_010": 579,
+          "B08303_011": 816,
+          "B08303_012": 651,
+          "B08303_013": 478
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Edgecombe",
+      "county_fips": "37065",
+      "median_household_income": {
+        "usd_2024": 51265,
+        "moe_usd_2024_90pct": 3893,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 3222,
+        "denominator_households": 6655,
+        "share_percent": 48.4,
+        "total_renter_households": 7702,
+        "not_computed_households": 1047,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 504,
+          "B25070_007": 190,
+          "B25070_008": 120,
+          "B25070_009": 268,
+          "B25070_010": 335,
+          "B25070_011": 226
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 5890,
+        "denominator_persons": 18522,
+        "share_percent": 31.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 791,
+          "B08303_008": 525,
+          "B08303_009": 196,
+          "B08303_010": 310,
+          "B08303_011": 230,
+          "B08303_012": 241,
+          "B08303_013": 127
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Forsyth",
+      "county_fips": "37067",
+      "median_household_income": {
+        "usd_2024": 67165,
+        "moe_usd_2024_90pct": 1465,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 26547,
+        "denominator_households": 54105,
+        "share_percent": 49.1,
+        "total_renter_households": 58280,
+        "not_computed_households": 4175,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1346,
+          "B25070_007": 739,
+          "B25070_008": 508,
+          "B25070_009": 676,
+          "B25070_010": 1102,
+          "B25070_011": 566
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 37733,
+        "denominator_persons": 154807,
+        "share_percent": 24.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 2269,
+          "B08303_008": 1288,
+          "B08303_009": 517,
+          "B08303_010": 706,
+          "B08303_011": 653,
+          "B08303_012": 613,
+          "B08303_013": 563
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Franklin",
+      "county_fips": "37069",
+      "median_household_income": {
+        "usd_2024": 74240,
+        "moe_usd_2024_90pct": 3647,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2814,
+        "denominator_households": 5152,
+        "share_percent": 54.6,
+        "total_renter_households": 6109,
+        "not_computed_households": 957,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 625,
+          "B25070_007": 147,
+          "B25070_008": 190,
+          "B25070_009": 195,
+          "B25070_010": 386,
+          "B25070_011": 301
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 17715,
+        "denominator_persons": 30393,
+        "share_percent": 58.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 896,
+          "B08303_008": 509,
+          "B08303_009": 379,
+          "B08303_010": 308,
+          "B08303_011": 643,
+          "B08303_012": 710,
+          "B08303_013": 204
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Gaston",
+      "county_fips": "37071",
+      "median_household_income": {
+        "usd_2024": 67478,
+        "moe_usd_2024_90pct": 1710,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 14546,
+        "denominator_households": 28747,
+        "share_percent": 50.6,
+        "total_renter_households": 31022,
+        "not_computed_households": 2275,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1028,
+          "B25070_007": 478,
+          "B25070_008": 401,
+          "B25070_009": 389,
+          "B25070_010": 705,
+          "B25070_011": 429
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 40643,
+        "denominator_persons": 96494,
+        "share_percent": 42.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1710,
+          "B08303_008": 1154,
+          "B08303_009": 497,
+          "B08303_010": 564,
+          "B08303_011": 893,
+          "B08303_012": 555,
+          "B08303_013": 304
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Gates",
+      "county_fips": "37073",
+      "median_household_income": {
+        "usd_2024": 66333,
+        "moe_usd_2024_90pct": 9431,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 117,
+        "denominator_households": 456,
+        "share_percent": 25.7,
+        "total_renter_households": 802,
+        "not_computed_households": 346,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 194,
+          "B25070_007": 6,
+          "B25070_008": 29,
+          "B25070_009": 21,
+          "B25070_010": 71,
+          "B25070_011": 161
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2815,
+        "denominator_persons": 4250,
+        "share_percent": 66.2,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 307,
+          "B08303_008": 234,
+          "B08303_009": 104,
+          "B08303_010": 95,
+          "B08303_011": 183,
+          "B08303_012": 197,
+          "B08303_013": 197
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Graham",
+      "county_fips": "37075",
+      "median_household_income": {
+        "usd_2024": 49684,
+        "moe_usd_2024_90pct": 4545,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 256,
+        "denominator_households": 528,
+        "share_percent": 48.5,
+        "total_renter_households": 680,
+        "not_computed_households": 152,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 174,
+          "B25070_007": 63,
+          "B25070_008": 19,
+          "B25070_009": 11,
+          "B25070_010": 85,
+          "B25070_011": 82
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 943,
+        "denominator_persons": 2971,
+        "share_percent": 31.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 313,
+          "B08303_008": 138,
+          "B08303_009": 19,
+          "B08303_010": 74,
+          "B08303_011": 122,
+          "B08303_012": 137,
+          "B08303_013": 97
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Granville",
+      "county_fips": "37077",
+      "median_household_income": {
+        "usd_2024": 71111,
+        "moe_usd_2024_90pct": 4675,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1894,
+        "denominator_households": 4281,
+        "share_percent": 44.2,
+        "total_renter_households": 5149,
+        "not_computed_households": 868,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 505,
+          "B25070_007": 168,
+          "B25070_008": 105,
+          "B25070_009": 143,
+          "B25070_010": 265,
+          "B25070_011": 249
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 11167,
+        "denominator_persons": 21568,
+        "share_percent": 51.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1056,
+          "B08303_008": 507,
+          "B08303_009": 282,
+          "B08303_010": 401,
+          "B08303_011": 409,
+          "B08303_012": 344,
+          "B08303_013": 169
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Greene",
+      "county_fips": "37079",
+      "median_household_income": {
+        "usd_2024": 53244,
+        "moe_usd_2024_90pct": 3063,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 841,
+        "denominator_households": 2027,
+        "share_percent": 41.5,
+        "total_renter_households": 2315,
+        "not_computed_households": 288,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 327,
+          "B25070_007": 58,
+          "B25070_008": 88,
+          "B25070_009": 88,
+          "B25070_010": 124,
+          "B25070_011": 99
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2806,
+        "denominator_persons": 7771,
+        "share_percent": 36.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 498,
+          "B08303_008": 245,
+          "B08303_009": 164,
+          "B08303_010": 96,
+          "B08303_011": 164,
+          "B08303_012": 94,
+          "B08303_013": 167
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Guilford",
+      "county_fips": "37081",
+      "median_household_income": {
+        "usd_2024": 68642,
+        "moe_usd_2024_90pct": 1579,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 42622,
+        "denominator_households": 82029,
+        "share_percent": 52.0,
+        "total_renter_households": 88003,
+        "not_computed_households": 5974,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1820,
+          "B25070_007": 905,
+          "B25070_008": 906,
+          "B25070_009": 1060,
+          "B25070_010": 1189,
+          "B25070_011": 735
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 54605,
+        "denominator_persons": 227304,
+        "share_percent": 24.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 3107,
+          "B08303_008": 1675,
+          "B08303_009": 739,
+          "B08303_010": 564,
+          "B08303_011": 1032,
+          "B08303_012": 827,
+          "B08303_013": 827
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Halifax",
+      "county_fips": "37083",
+      "median_household_income": {
+        "usd_2024": 45590,
+        "moe_usd_2024_90pct": 2970,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 3206,
+        "denominator_households": 6485,
+        "share_percent": 49.4,
+        "total_renter_households": 7553,
+        "not_computed_households": 1068,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 473,
+          "B25070_007": 174,
+          "B25070_008": 192,
+          "B25070_009": 166,
+          "B25070_010": 322,
+          "B25070_011": 243
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 5723,
+        "denominator_persons": 16267,
+        "share_percent": 35.2,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 735,
+          "B08303_008": 407,
+          "B08303_009": 147,
+          "B08303_010": 298,
+          "B08303_011": 228,
+          "B08303_012": 209,
+          "B08303_013": 201
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Harnett",
+      "county_fips": "37085",
+      "median_household_income": {
+        "usd_2024": 71287,
+        "moe_usd_2024_90pct": 2853,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 5837,
+        "denominator_households": 12952,
+        "share_percent": 45.1,
+        "total_renter_households": 14441,
+        "not_computed_households": 1489,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 832,
+          "B25070_007": 281,
+          "B25070_008": 242,
+          "B25070_009": 382,
+          "B25070_010": 422,
+          "B25070_011": 373
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 28689,
+        "denominator_persons": 54830,
+        "share_percent": 52.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1236,
+          "B08303_008": 720,
+          "B08303_009": 417,
+          "B08303_010": 469,
+          "B08303_011": 738,
+          "B08303_012": 784,
+          "B08303_013": 371
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Haywood",
+      "county_fips": "37087",
+      "median_household_income": {
+        "usd_2024": 61912,
+        "moe_usd_2024_90pct": 2423,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2873,
+        "denominator_households": 5569,
+        "share_percent": 51.6,
+        "total_renter_households": 6809,
+        "not_computed_households": 1240,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 623,
+          "B25070_007": 195,
+          "B25070_008": 220,
+          "B25070_009": 185,
+          "B25070_010": 398,
+          "B25070_011": 304
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 8901,
+        "denominator_persons": 25143,
+        "share_percent": 35.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 939,
+          "B08303_008": 474,
+          "B08303_009": 336,
+          "B08303_010": 296,
+          "B08303_011": 405,
+          "B08303_012": 139,
+          "B08303_013": 148
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Henderson",
+      "county_fips": "37089",
+      "median_household_income": {
+        "usd_2024": 68187,
+        "moe_usd_2024_90pct": 3678,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 5489,
+        "denominator_households": 11507,
+        "share_percent": 47.7,
+        "total_renter_households": 12756,
+        "not_computed_households": 1249,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 817,
+          "B25070_007": 335,
+          "B25070_008": 267,
+          "B25070_009": 279,
+          "B25070_010": 491,
+          "B25070_011": 284
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 14322,
+        "denominator_persons": 47983,
+        "share_percent": 29.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1372,
+          "B08303_008": 934,
+          "B08303_009": 318,
+          "B08303_010": 389,
+          "B08303_011": 386,
+          "B08303_012": 497,
+          "B08303_013": 199
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Hertford",
+      "county_fips": "37091",
+      "median_household_income": {
+        "usd_2024": 45537,
+        "moe_usd_2024_90pct": 2991,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1519,
+        "denominator_households": 2401,
+        "share_percent": 63.3,
+        "total_renter_households": 2704,
+        "not_computed_households": 303,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 261,
+          "B25070_007": 64,
+          "B25070_008": 54,
+          "B25070_009": 146,
+          "B25070_010": 165,
+          "B25070_011": 84
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2664,
+        "denominator_persons": 7440,
+        "share_percent": 35.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 334,
+          "B08303_008": 211,
+          "B08303_009": 57,
+          "B08303_010": 82,
+          "B08303_011": 136,
+          "B08303_012": 188,
+          "B08303_013": 84
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Hoke",
+      "county_fips": "37093",
+      "median_household_income": {
+        "usd_2024": 64912,
+        "moe_usd_2024_90pct": 2386,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2213,
+        "denominator_households": 4409,
+        "share_percent": 50.2,
+        "total_renter_households": 5205,
+        "not_computed_households": 796,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 438,
+          "B25070_007": 112,
+          "B25070_008": 99,
+          "B25070_009": 165,
+          "B25070_010": 221,
+          "B25070_011": 176
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 9698,
+        "denominator_persons": 20872,
+        "share_percent": 46.5,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 710,
+          "B08303_008": 499,
+          "B08303_009": 275,
+          "B08303_010": 232,
+          "B08303_011": 343,
+          "B08303_012": 212,
+          "B08303_013": 181
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Hyde",
+      "county_fips": "37095",
+      "median_household_income": {
+        "usd_2024": 53713,
+        "moe_usd_2024_90pct": 12155,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 242,
+        "denominator_households": 387,
+        "share_percent": 62.5,
+        "total_renter_households": 544,
+        "not_computed_households": 157,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 211,
+          "B25070_007": 76,
+          "B25070_008": 50,
+          "B25070_009": 14,
+          "B25070_010": 93,
+          "B25070_011": 140
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 671,
+        "denominator_persons": 1734,
+        "share_percent": 38.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 328,
+          "B08303_008": 77,
+          "B08303_009": 49,
+          "B08303_010": 15,
+          "B08303_011": 70,
+          "B08303_012": 116,
+          "B08303_013": 157
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Iredell",
+      "county_fips": "37097",
+      "median_household_income": {
+        "usd_2024": 81419,
+        "moe_usd_2024_90pct": 2620,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 8508,
+        "denominator_households": 19503,
+        "share_percent": 43.6,
+        "total_renter_households": 21488,
+        "not_computed_households": 1985,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 875,
+          "B25070_007": 313,
+          "B25070_008": 288,
+          "B25070_009": 468,
+          "B25070_010": 567,
+          "B25070_011": 516
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 27513,
+        "denominator_persons": 81817,
+        "share_percent": 33.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1688,
+          "B08303_008": 818,
+          "B08303_009": 431,
+          "B08303_010": 368,
+          "B08303_011": 654,
+          "B08303_012": 599,
+          "B08303_013": 287
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Jackson",
+      "county_fips": "37099",
+      "median_household_income": {
+        "usd_2024": 55815,
+        "moe_usd_2024_90pct": 5024,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2573,
+        "denominator_households": 6103,
+        "share_percent": 42.2,
+        "total_renter_households": 7229,
+        "not_computed_households": 1126,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 652,
+          "B25070_007": 227,
+          "B25070_008": 139,
+          "B25070_009": 173,
+          "B25070_010": 306,
+          "B25070_011": 375
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4705,
+        "denominator_persons": 17502,
+        "share_percent": 26.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 980,
+          "B08303_008": 483,
+          "B08303_009": 138,
+          "B08303_010": 146,
+          "B08303_011": 306,
+          "B08303_012": 210,
+          "B08303_013": 97
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Johnston",
+      "county_fips": "37101",
+      "median_household_income": {
+        "usd_2024": 83384,
+        "moe_usd_2024_90pct": 2239,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 9066,
+        "denominator_households": 18790,
+        "share_percent": 48.2,
+        "total_renter_households": 20499,
+        "not_computed_households": 1709,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1263,
+          "B25070_007": 476,
+          "B25070_008": 348,
+          "B25070_009": 350,
+          "B25070_010": 882,
+          "B25070_011": 337
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 53088,
+        "denominator_persons": 97727,
+        "share_percent": 54.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 2073,
+          "B08303_008": 1083,
+          "B08303_009": 556,
+          "B08303_010": 869,
+          "B08303_011": 1035,
+          "B08303_012": 1090,
+          "B08303_013": 492
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Jones",
+      "county_fips": "37103",
+      "median_household_income": {
+        "usd_2024": 59641,
+        "moe_usd_2024_90pct": 6422,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 262,
+        "denominator_households": 650,
+        "share_percent": 40.3,
+        "total_renter_households": 848,
+        "not_computed_households": 198,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 173,
+          "B25070_007": 59,
+          "B25070_008": 22,
+          "B25070_009": 42,
+          "B25070_010": 67,
+          "B25070_011": 84
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1707,
+        "denominator_persons": 3844,
+        "share_percent": 44.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 210,
+          "B08303_008": 168,
+          "B08303_009": 84,
+          "B08303_010": 94,
+          "B08303_011": 133,
+          "B08303_012": 100,
+          "B08303_013": 27
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Lee",
+      "county_fips": "37105",
+      "median_household_income": {
+        "usd_2024": 65387,
+        "moe_usd_2024_90pct": 3096,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 3237,
+        "denominator_households": 7385,
+        "share_percent": 43.8,
+        "total_renter_households": 8218,
+        "not_computed_households": 833,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 673,
+          "B25070_007": 203,
+          "B25070_008": 184,
+          "B25070_009": 225,
+          "B25070_010": 373,
+          "B25070_011": 297
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 10565,
+        "denominator_persons": 28036,
+        "share_percent": 37.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 906,
+          "B08303_008": 504,
+          "B08303_009": 239,
+          "B08303_010": 377,
+          "B08303_011": 417,
+          "B08303_012": 435,
+          "B08303_013": 192
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Lenoir",
+      "county_fips": "37107",
+      "median_household_income": {
+        "usd_2024": 45143,
+        "moe_usd_2024_90pct": 2547,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 3872,
+        "denominator_households": 8328,
+        "share_percent": 46.5,
+        "total_renter_households": 9525,
+        "not_computed_households": 1197,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 721,
+          "B25070_007": 227,
+          "B25070_008": 241,
+          "B25070_009": 241,
+          "B25070_010": 374,
+          "B25070_011": 260
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 6632,
+        "denominator_persons": 21294,
+        "share_percent": 31.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 809,
+          "B08303_008": 358,
+          "B08303_009": 179,
+          "B08303_010": 177,
+          "B08303_011": 400,
+          "B08303_012": 493,
+          "B08303_013": 176
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Lincoln",
+      "county_fips": "37109",
+      "median_household_income": {
+        "usd_2024": 80016,
+        "moe_usd_2024_90pct": 4599,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2848,
+        "denominator_households": 6834,
+        "share_percent": 41.7,
+        "total_renter_households": 7759,
+        "not_computed_households": 925,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 727,
+          "B25070_007": 116,
+          "B25070_008": 155,
+          "B25070_009": 229,
+          "B25070_010": 482,
+          "B25070_011": 262
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 17940,
+        "denominator_persons": 37365,
+        "share_percent": 48.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1204,
+          "B08303_008": 613,
+          "B08303_009": 400,
+          "B08303_010": 451,
+          "B08303_011": 660,
+          "B08303_012": 529,
+          "B08303_013": 246
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Macon",
+      "county_fips": "37113",
+      "median_household_income": {
+        "usd_2024": 59061,
+        "moe_usd_2024_90pct": 6098,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1416,
+        "denominator_households": 3716,
+        "share_percent": 38.1,
+        "total_renter_households": 4121,
+        "not_computed_households": 405,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 647,
+          "B25070_007": 112,
+          "B25070_008": 159,
+          "B25070_009": 113,
+          "B25070_010": 311,
+          "B25070_011": 167
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4088,
+        "denominator_persons": 14749,
+        "share_percent": 27.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 825,
+          "B08303_008": 314,
+          "B08303_009": 144,
+          "B08303_010": 256,
+          "B08303_011": 302,
+          "B08303_012": 204,
+          "B08303_013": 151
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Madison",
+      "county_fips": "37115",
+      "median_household_income": {
+        "usd_2024": 58531,
+        "moe_usd_2024_90pct": 4714,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 590,
+        "denominator_households": 1443,
+        "share_percent": 40.9,
+        "total_renter_households": 1881,
+        "not_computed_households": 438,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 257,
+          "B25070_007": 53,
+          "B25070_008": 48,
+          "B25070_009": 56,
+          "B25070_010": 151,
+          "B25070_011": 177
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4246,
+        "denominator_persons": 8619,
+        "share_percent": 49.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 501,
+          "B08303_008": 258,
+          "B08303_009": 188,
+          "B08303_010": 160,
+          "B08303_011": 269,
+          "B08303_012": 252,
+          "B08303_013": 165
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Martin",
+      "county_fips": "37117",
+      "median_household_income": {
+        "usd_2024": 48578,
+        "moe_usd_2024_90pct": 4615,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1112,
+        "denominator_households": 2674,
+        "share_percent": 41.6,
+        "total_renter_households": 3156,
+        "not_computed_households": 482,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 351,
+          "B25070_007": 71,
+          "B25070_008": 86,
+          "B25070_009": 134,
+          "B25070_010": 197,
+          "B25070_011": 182
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 3431,
+        "denominator_persons": 8747,
+        "share_percent": 39.2,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 500,
+          "B08303_008": 277,
+          "B08303_009": 123,
+          "B08303_010": 119,
+          "B08303_011": 305,
+          "B08303_012": 157,
+          "B08303_013": 97
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "McDowell",
+      "county_fips": "37111",
+      "median_household_income": {
+        "usd_2024": 57168,
+        "moe_usd_2024_90pct": 4181,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1523,
+        "denominator_households": 3835,
+        "share_percent": 39.7,
+        "total_renter_households": 4550,
+        "not_computed_households": 715,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 521,
+          "B25070_007": 173,
+          "B25070_008": 90,
+          "B25070_009": 145,
+          "B25070_010": 206,
+          "B25070_011": 191
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 6251,
+        "denominator_persons": 17910,
+        "share_percent": 34.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 690,
+          "B08303_008": 401,
+          "B08303_009": 254,
+          "B08303_010": 213,
+          "B08303_011": 408,
+          "B08303_012": 199,
+          "B08303_013": 100
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Mecklenburg",
+      "county_fips": "37119",
+      "median_household_income": {
+        "usd_2024": 87005,
+        "moe_usd_2024_90pct": 1162,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 99003,
+        "denominator_households": 200234,
+        "share_percent": 49.4,
+        "total_renter_households": 209360,
+        "not_computed_households": 9126,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 2911,
+          "B25070_007": 1258,
+          "B25070_008": 1023,
+          "B25070_009": 1335,
+          "B25070_010": 1958,
+          "B25070_011": 981
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 158899,
+        "denominator_persons": 442592,
+        "share_percent": 35.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 4713,
+          "B08303_008": 2583,
+          "B08303_009": 1194,
+          "B08303_010": 1235,
+          "B08303_011": 1351,
+          "B08303_012": 1090,
+          "B08303_013": 870
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Mitchell",
+      "county_fips": "37121",
+      "median_household_income": {
+        "usd_2024": 57602,
+        "moe_usd_2024_90pct": 5146,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 516,
+        "denominator_households": 1265,
+        "share_percent": 40.8,
+        "total_renter_households": 1564,
+        "not_computed_households": 299,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 263,
+          "B25070_007": 73,
+          "B25070_008": 67,
+          "B25070_009": 84,
+          "B25070_010": 91,
+          "B25070_011": 123
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2136,
+        "denominator_persons": 5999,
+        "share_percent": 35.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 388,
+          "B08303_008": 238,
+          "B08303_009": 98,
+          "B08303_010": 75,
+          "B08303_011": 184,
+          "B08303_012": 190,
+          "B08303_013": 80
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Montgomery",
+      "county_fips": "37123",
+      "median_household_income": {
+        "usd_2024": 57766,
+        "moe_usd_2024_90pct": 3070,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 799,
+        "denominator_households": 2121,
+        "share_percent": 37.7,
+        "total_renter_households": 2662,
+        "not_computed_households": 541,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 355,
+          "B25070_007": 38,
+          "B25070_008": 107,
+          "B25070_009": 144,
+          "B25070_010": 108,
+          "B25070_011": 160
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 4047,
+        "denominator_persons": 10205,
+        "share_percent": 39.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 480,
+          "B08303_008": 287,
+          "B08303_009": 163,
+          "B08303_010": 114,
+          "B08303_011": 234,
+          "B08303_012": 232,
+          "B08303_013": 147
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Moore",
+      "county_fips": "37125",
+      "median_household_income": {
+        "usd_2024": 86080,
+        "moe_usd_2024_90pct": 3381,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 4446,
+        "denominator_households": 9111,
+        "share_percent": 48.8,
+        "total_renter_households": 10392,
+        "not_computed_households": 1281,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 757,
+          "B25070_007": 229,
+          "B25070_008": 248,
+          "B25070_009": 294,
+          "B25070_010": 302,
+          "B25070_011": 366
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 16067,
+        "denominator_persons": 39802,
+        "share_percent": 40.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1013,
+          "B08303_008": 617,
+          "B08303_009": 325,
+          "B08303_010": 322,
+          "B08303_011": 571,
+          "B08303_012": 472,
+          "B08303_013": 207
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Nash",
+      "county_fips": "37127",
+      "median_household_income": {
+        "usd_2024": 62426,
+        "moe_usd_2024_90pct": 2990,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 5283,
+        "denominator_households": 13012,
+        "share_percent": 40.6,
+        "total_renter_households": 14139,
+        "not_computed_households": 1127,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 752,
+          "B25070_007": 347,
+          "B25070_008": 298,
+          "B25070_009": 308,
+          "B25070_010": 394,
+          "B25070_011": 269
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 12135,
+        "denominator_persons": 38631,
+        "share_percent": 31.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1100,
+          "B08303_008": 670,
+          "B08303_009": 261,
+          "B08303_010": 184,
+          "B08303_011": 476,
+          "B08303_012": 377,
+          "B08303_013": 179
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "New Hanover",
+      "county_fips": "37129",
+      "median_household_income": {
+        "usd_2024": 75166,
+        "moe_usd_2024_90pct": 2054,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 21063,
+        "denominator_households": 38372,
+        "share_percent": 54.9,
+        "total_renter_households": 40473,
+        "not_computed_households": 2101,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1432,
+          "B25070_007": 571,
+          "B25070_008": 503,
+          "B25070_009": 664,
+          "B25070_010": 1091,
+          "B25070_011": 578
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 20264,
+        "denominator_persons": 97796,
+        "share_percent": 20.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 2260,
+          "B08303_008": 1151,
+          "B08303_009": 343,
+          "B08303_010": 229,
+          "B08303_011": 522,
+          "B08303_012": 573,
+          "B08303_013": 473
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Northampton",
+      "county_fips": "37131",
+      "median_household_income": {
+        "usd_2024": 50086,
+        "moe_usd_2024_90pct": 3007,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 753,
+        "denominator_households": 1486,
+        "share_percent": 50.7,
+        "total_renter_households": 1997,
+        "not_computed_households": 511,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 215,
+          "B25070_007": 78,
+          "B25070_008": 52,
+          "B25070_009": 54,
+          "B25070_010": 143,
+          "B25070_011": 136
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2519,
+        "denominator_persons": 6163,
+        "share_percent": 40.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 370,
+          "B08303_008": 167,
+          "B08303_009": 102,
+          "B08303_010": 153,
+          "B08303_011": 152,
+          "B08303_012": 112,
+          "B08303_013": 110
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Onslow",
+      "county_fips": "37133",
+      "median_household_income": {
+        "usd_2024": 68148,
+        "moe_usd_2024_90pct": 2456,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 12893,
+        "denominator_households": 25415,
+        "share_percent": 50.7,
+        "total_renter_households": 27294,
+        "not_computed_households": 1879,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1104,
+          "B25070_007": 536,
+          "B25070_008": 336,
+          "B25070_009": 787,
+          "B25070_010": 781,
+          "B25070_011": 461
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 26257,
+        "denominator_persons": 93224,
+        "share_percent": 28.2,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1840,
+          "B08303_008": 919,
+          "B08303_009": 445,
+          "B08303_010": 479,
+          "B08303_011": 750,
+          "B08303_012": 530,
+          "B08303_013": 421
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Orange",
+      "county_fips": "37135",
+      "median_household_income": {
+        "usd_2024": 90089,
+        "moe_usd_2024_90pct": 2394,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 11290,
+        "denominator_households": 19420,
+        "share_percent": 58.1,
+        "total_renter_households": 20736,
+        "not_computed_households": 1316,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 830,
+          "B25070_007": 336,
+          "B25070_008": 332,
+          "B25070_009": 357,
+          "B25070_010": 603,
+          "B25070_011": 323
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 15902,
+        "denominator_persons": 53245,
+        "share_percent": 29.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1232,
+          "B08303_008": 624,
+          "B08303_009": 330,
+          "B08303_010": 260,
+          "B08303_011": 373,
+          "B08303_012": 406,
+          "B08303_013": 275
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Pamlico",
+      "county_fips": "37137",
+      "median_household_income": {
+        "usd_2024": 59717,
+        "moe_usd_2024_90pct": 4799,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 303,
+        "denominator_households": 633,
+        "share_percent": 47.9,
+        "total_renter_households": 934,
+        "not_computed_households": 301,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 179,
+          "B25070_007": 45,
+          "B25070_008": 31,
+          "B25070_009": 58,
+          "B25070_010": 41,
+          "B25070_011": 133
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1324,
+        "denominator_persons": 3839,
+        "share_percent": 34.5,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 257,
+          "B08303_008": 120,
+          "B08303_009": 101,
+          "B08303_010": 110,
+          "B08303_011": 98,
+          "B08303_012": 66,
+          "B08303_013": 69
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Pasquotank",
+      "county_fips": "37139",
+      "median_household_income": {
+        "usd_2024": 66589,
+        "moe_usd_2024_90pct": 7087,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2473,
+        "denominator_households": 4936,
+        "share_percent": 50.1,
+        "total_renter_households": 5132,
+        "not_computed_households": 196,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 466,
+          "B25070_007": 130,
+          "B25070_008": 120,
+          "B25070_009": 225,
+          "B25070_010": 250,
+          "B25070_011": 100
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 5971,
+        "denominator_persons": 16408,
+        "share_percent": 36.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 709,
+          "B08303_008": 287,
+          "B08303_009": 148,
+          "B08303_010": 275,
+          "B08303_011": 340,
+          "B08303_012": 376,
+          "B08303_013": 246
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Pender",
+      "county_fips": "37141",
+      "median_household_income": {
+        "usd_2024": 80396,
+        "moe_usd_2024_90pct": 3889,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1970,
+        "denominator_households": 3926,
+        "share_percent": 50.2,
+        "total_renter_households": 4375,
+        "not_computed_households": 449,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 583,
+          "B25070_007": 224,
+          "B25070_008": 179,
+          "B25070_009": 134,
+          "B25070_010": 286,
+          "B25070_011": 125
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 13449,
+        "denominator_persons": 26305,
+        "share_percent": 51.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 862,
+          "B08303_008": 449,
+          "B08303_009": 572,
+          "B08303_010": 427,
+          "B08303_011": 506,
+          "B08303_012": 311,
+          "B08303_013": 253
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Perquimans",
+      "county_fips": "37143",
+      "median_household_income": {
+        "usd_2024": 67917,
+        "moe_usd_2024_90pct": 7998,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 476,
+        "denominator_households": 1043,
+        "share_percent": 45.6,
+        "total_renter_households": 1317,
+        "not_computed_households": 274,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 256,
+          "B25070_007": 103,
+          "B25070_008": 49,
+          "B25070_009": 84,
+          "B25070_010": 100,
+          "B25070_011": 128
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2355,
+        "denominator_persons": 5055,
+        "share_percent": 46.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 388,
+          "B08303_008": 194,
+          "B08303_009": 54,
+          "B08303_010": 59,
+          "B08303_011": 161,
+          "B08303_012": 167,
+          "B08303_013": 105
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Person",
+      "county_fips": "37145",
+      "median_household_income": {
+        "usd_2024": 63300,
+        "moe_usd_2024_90pct": 6412,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1955,
+        "denominator_households": 3236,
+        "share_percent": 60.4,
+        "total_renter_households": 3649,
+        "not_computed_households": 413,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 460,
+          "B25070_007": 151,
+          "B25070_008": 167,
+          "B25070_009": 177,
+          "B25070_010": 308,
+          "B25070_011": 192
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 7794,
+        "denominator_persons": 15948,
+        "share_percent": 48.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 954,
+          "B08303_008": 351,
+          "B08303_009": 447,
+          "B08303_010": 218,
+          "B08303_011": 481,
+          "B08303_012": 350,
+          "B08303_013": 191
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Pitt",
+      "county_fips": "37147",
+      "median_household_income": {
+        "usd_2024": 58188,
+        "moe_usd_2024_90pct": 2075,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 17073,
+        "denominator_households": 33760,
+        "share_percent": 50.6,
+        "total_renter_households": 36189,
+        "not_computed_households": 2429,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1364,
+          "B25070_007": 553,
+          "B25070_008": 674,
+          "B25070_009": 581,
+          "B25070_010": 1033,
+          "B25070_011": 440
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 17130,
+        "denominator_persons": 72719,
+        "share_percent": 23.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1946,
+          "B08303_008": 796,
+          "B08303_009": 292,
+          "B08303_010": 349,
+          "B08303_011": 599,
+          "B08303_012": 503,
+          "B08303_013": 374
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Polk",
+      "county_fips": "37149",
+      "median_household_income": {
+        "usd_2024": 67758,
+        "moe_usd_2024_90pct": 6109,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 783,
+        "denominator_households": 1502,
+        "share_percent": 52.1,
+        "total_renter_households": 2074,
+        "not_computed_households": 572,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 310,
+          "B25070_007": 82,
+          "B25070_008": 57,
+          "B25070_009": 53,
+          "B25070_010": 120,
+          "B25070_011": 234
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 3262,
+        "denominator_persons": 7267,
+        "share_percent": 44.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 454,
+          "B08303_008": 201,
+          "B08303_009": 100,
+          "B08303_010": 120,
+          "B08303_011": 207,
+          "B08303_012": 92,
+          "B08303_013": 146
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Randolph",
+      "county_fips": "37151",
+      "median_household_income": {
+        "usd_2024": 61022,
+        "moe_usd_2024_90pct": 2939,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 6303,
+        "denominator_households": 14410,
+        "share_percent": 43.7,
+        "total_renter_households": 15853,
+        "not_computed_households": 1443,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 928,
+          "B25070_007": 374,
+          "B25070_008": 330,
+          "B25070_009": 305,
+          "B25070_010": 426,
+          "B25070_011": 318
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 21989,
+        "denominator_persons": 62849,
+        "share_percent": 35.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1445,
+          "B08303_008": 870,
+          "B08303_009": 475,
+          "B08303_010": 487,
+          "B08303_011": 631,
+          "B08303_012": 416,
+          "B08303_013": 350
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Richmond",
+      "county_fips": "37153",
+      "median_household_income": {
+        "usd_2024": 44883,
+        "moe_usd_2024_90pct": 5326,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2265,
+        "denominator_households": 4411,
+        "share_percent": 51.3,
+        "total_renter_households": 5798,
+        "not_computed_households": 1387,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 636,
+          "B25070_007": 208,
+          "B25070_008": 126,
+          "B25070_009": 107,
+          "B25070_010": 393,
+          "B25070_011": 414
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 5413,
+        "denominator_persons": 16537,
+        "share_percent": 32.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 934,
+          "B08303_008": 483,
+          "B08303_009": 144,
+          "B08303_010": 212,
+          "B08303_011": 304,
+          "B08303_012": 231,
+          "B08303_013": 204
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Robeson",
+      "county_fips": "37155",
+      "median_household_income": {
+        "usd_2024": 41978,
+        "moe_usd_2024_90pct": 1323,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 5600,
+        "denominator_households": 11627,
+        "share_percent": 48.2,
+        "total_renter_households": 14735,
+        "not_computed_households": 3108,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 547,
+          "B25070_007": 213,
+          "B25070_008": 149,
+          "B25070_009": 167,
+          "B25070_010": 300,
+          "B25070_011": 300
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 14102,
+        "denominator_persons": 40667,
+        "share_percent": 34.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 916,
+          "B08303_008": 417,
+          "B08303_009": 237,
+          "B08303_010": 214,
+          "B08303_011": 291,
+          "B08303_012": 311,
+          "B08303_013": 205
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Rockingham",
+      "county_fips": "37157",
+      "median_household_income": {
+        "usd_2024": 57053,
+        "moe_usd_2024_90pct": 2844,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 4685,
+        "denominator_households": 9200,
+        "share_percent": 50.9,
+        "total_renter_households": 11061,
+        "not_computed_households": 1861,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 727,
+          "B25070_007": 351,
+          "B25070_008": 259,
+          "B25070_009": 304,
+          "B25070_010": 476,
+          "B25070_011": 406
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 15382,
+        "denominator_persons": 36844,
+        "share_percent": 41.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1162,
+          "B08303_008": 682,
+          "B08303_009": 466,
+          "B08303_010": 367,
+          "B08303_011": 476,
+          "B08303_012": 394,
+          "B08303_013": 266
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Rowan",
+      "county_fips": "37159",
+      "median_household_income": {
+        "usd_2024": 65725,
+        "moe_usd_2024_90pct": 2025,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 6954,
+        "denominator_households": 14884,
+        "share_percent": 46.7,
+        "total_renter_households": 16306,
+        "not_computed_households": 1422,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 1090,
+          "B25070_007": 370,
+          "B25070_008": 256,
+          "B25070_009": 270,
+          "B25070_010": 558,
+          "B25070_011": 306
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 21810,
+        "denominator_persons": 61168,
+        "share_percent": 35.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1714,
+          "B08303_008": 708,
+          "B08303_009": 351,
+          "B08303_010": 442,
+          "B08303_011": 744,
+          "B08303_012": 575,
+          "B08303_013": 376
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Rutherford",
+      "county_fips": "37161",
+      "median_household_income": {
+        "usd_2024": 51410,
+        "moe_usd_2024_90pct": 2731,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2681,
+        "denominator_households": 5726,
+        "share_percent": 46.8,
+        "total_renter_households": 6958,
+        "not_computed_households": 1232,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 560,
+          "B25070_007": 182,
+          "B25070_008": 166,
+          "B25070_009": 185,
+          "B25070_010": 323,
+          "B25070_011": 278
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 8824,
+        "denominator_persons": 24371,
+        "share_percent": 36.2,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1071,
+          "B08303_008": 391,
+          "B08303_009": 209,
+          "B08303_010": 260,
+          "B08303_011": 390,
+          "B08303_012": 361,
+          "B08303_013": 193
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Sampson",
+      "county_fips": "37163",
+      "median_household_income": {
+        "usd_2024": 52432,
+        "moe_usd_2024_90pct": 4188,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2219,
+        "denominator_households": 4745,
+        "share_percent": 46.8,
+        "total_renter_households": 5659,
+        "not_computed_households": 914,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 534,
+          "B25070_007": 103,
+          "B25070_008": 182,
+          "B25070_009": 172,
+          "B25070_010": 289,
+          "B25070_011": 222
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 9086,
+        "denominator_persons": 22776,
+        "share_percent": 39.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 839,
+          "B08303_008": 364,
+          "B08303_009": 199,
+          "B08303_010": 270,
+          "B08303_011": 449,
+          "B08303_012": 243,
+          "B08303_013": 203
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Scotland",
+      "county_fips": "37165",
+      "median_household_income": {
+        "usd_2024": 45730,
+        "moe_usd_2024_90pct": 3850,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2025,
+        "denominator_households": 3906,
+        "share_percent": 51.8,
+        "total_renter_households": 4807,
+        "not_computed_households": 901,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 283,
+          "B25070_007": 111,
+          "B25070_008": 96,
+          "B25070_009": 86,
+          "B25070_010": 253,
+          "B25070_011": 155
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 3353,
+        "denominator_persons": 11451,
+        "share_percent": 29.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 445,
+          "B08303_008": 188,
+          "B08303_009": 133,
+          "B08303_010": 140,
+          "B08303_011": 151,
+          "B08303_012": 103,
+          "B08303_013": 142
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Stanly",
+      "county_fips": "37167",
+      "median_household_income": {
+        "usd_2024": 60704,
+        "moe_usd_2024_90pct": 3835,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2606,
+        "denominator_households": 5331,
+        "share_percent": 48.9,
+        "total_renter_households": 6448,
+        "not_computed_households": 1117,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 497,
+          "B25070_007": 176,
+          "B25070_008": 95,
+          "B25070_009": 216,
+          "B25070_010": 272,
+          "B25070_011": 322
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 10769,
+        "denominator_persons": 25819,
+        "share_percent": 41.7,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 822,
+          "B08303_008": 364,
+          "B08303_009": 261,
+          "B08303_010": 336,
+          "B08303_011": 441,
+          "B08303_012": 368,
+          "B08303_013": 203
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Stokes",
+      "county_fips": "37169",
+      "median_household_income": {
+        "usd_2024": 62969,
+        "moe_usd_2024_90pct": 2276,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1609,
+        "denominator_households": 3494,
+        "share_percent": 46.1,
+        "total_renter_households": 4068,
+        "not_computed_households": 574,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 523,
+          "B25070_007": 112,
+          "B25070_008": 256,
+          "B25070_009": 146,
+          "B25070_010": 196,
+          "B25070_011": 216
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 9398,
+        "denominator_persons": 18147,
+        "share_percent": 51.8,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 780,
+          "B08303_008": 577,
+          "B08303_009": 283,
+          "B08303_010": 256,
+          "B08303_011": 462,
+          "B08303_012": 277,
+          "B08303_013": 224
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Surry",
+      "county_fips": "37171",
+      "median_household_income": {
+        "usd_2024": 55656,
+        "moe_usd_2024_90pct": 3280,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2993,
+        "denominator_households": 6909,
+        "share_percent": 43.3,
+        "total_renter_households": 7939,
+        "not_computed_households": 1030,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 674,
+          "B25070_007": 199,
+          "B25070_008": 136,
+          "B25070_009": 200,
+          "B25070_010": 335,
+          "B25070_011": 221
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 8864,
+        "denominator_persons": 29145,
+        "share_percent": 30.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 924,
+          "B08303_008": 369,
+          "B08303_009": 243,
+          "B08303_010": 238,
+          "B08303_011": 355,
+          "B08303_012": 296,
+          "B08303_013": 204
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Swain",
+      "county_fips": "37173",
+      "median_household_income": {
+        "usd_2024": 52349,
+        "moe_usd_2024_90pct": 5811,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 496,
+        "denominator_households": 1299,
+        "share_percent": 38.2,
+        "total_renter_households": 1644,
+        "not_computed_households": 345,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 235,
+          "B25070_007": 63,
+          "B25070_008": 61,
+          "B25070_009": 57,
+          "B25070_010": 119,
+          "B25070_011": 126
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1354,
+        "denominator_persons": 5553,
+        "share_percent": 24.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 374,
+          "B08303_008": 286,
+          "B08303_009": 64,
+          "B08303_010": 52,
+          "B08303_011": 75,
+          "B08303_012": 112,
+          "B08303_013": 69
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Transylvania",
+      "county_fips": "37175",
+      "median_household_income": {
+        "usd_2024": 66184,
+        "moe_usd_2024_90pct": 5016,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1530,
+        "denominator_households": 3204,
+        "share_percent": 47.8,
+        "total_renter_households": 3695,
+        "not_computed_households": 491,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 347,
+          "B25070_007": 104,
+          "B25070_008": 110,
+          "B25070_009": 95,
+          "B25070_010": 249,
+          "B25070_011": 160
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 3381,
+        "denominator_persons": 11563,
+        "share_percent": 29.2,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 622,
+          "B08303_008": 313,
+          "B08303_009": 118,
+          "B08303_010": 133,
+          "B08303_011": 193,
+          "B08303_012": 168,
+          "B08303_013": 77
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Tyrrell",
+      "county_fips": "37177",
+      "median_household_income": {
+        "usd_2024": 41685,
+        "moe_usd_2024_90pct": 12236,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 154,
+        "denominator_households": 295,
+        "share_percent": 52.2,
+        "total_renter_households": 343,
+        "not_computed_households": 48,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 132,
+          "B25070_007": 22,
+          "B25070_008": 34,
+          "B25070_009": 61,
+          "B25070_010": 27,
+          "B25070_011": 43
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 574,
+        "denominator_persons": 1091,
+        "share_percent": 52.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 210,
+          "B08303_008": 37,
+          "B08303_009": 27,
+          "B08303_010": 28,
+          "B08303_011": 144,
+          "B08303_012": 129,
+          "B08303_013": 51
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Union",
+      "county_fips": "37179",
+      "median_household_income": {
+        "usd_2024": 102900,
+        "moe_usd_2024_90pct": 1953,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 6029,
+        "denominator_households": 13967,
+        "share_percent": 43.2,
+        "total_renter_households": 15459,
+        "not_computed_households": 1492,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 958,
+          "B25070_007": 282,
+          "B25070_008": 246,
+          "B25070_009": 328,
+          "B25070_010": 384,
+          "B25070_011": 290
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 48287,
+        "denominator_persons": 100584,
+        "share_percent": 48.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1890,
+          "B08303_008": 1006,
+          "B08303_009": 524,
+          "B08303_010": 523,
+          "B08303_011": 983,
+          "B08303_012": 725,
+          "B08303_013": 345
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Vance",
+      "county_fips": "37181",
+      "median_household_income": {
+        "usd_2024": 50465,
+        "moe_usd_2024_90pct": 4966,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 3107,
+        "denominator_households": 5459,
+        "share_percent": 56.9,
+        "total_renter_households": 6435,
+        "not_computed_households": 976,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 532,
+          "B25070_007": 225,
+          "B25070_008": 166,
+          "B25070_009": 186,
+          "B25070_010": 334,
+          "B25070_011": 268
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 5069,
+        "denominator_persons": 15814,
+        "share_percent": 32.1,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 713,
+          "B08303_008": 327,
+          "B08303_009": 170,
+          "B08303_010": 203,
+          "B08303_011": 309,
+          "B08303_012": 338,
+          "B08303_013": 180
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Wake",
+      "county_fips": "37183",
+      "median_household_income": {
+        "usd_2024": 105768,
+        "moe_usd_2024_90pct": 1626,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 76915,
+        "denominator_households": 159290,
+        "share_percent": 48.3,
+        "total_renter_households": 165106,
+        "not_computed_households": 5816,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 3068,
+          "B25070_007": 1360,
+          "B25070_008": 1324,
+          "B25070_009": 1262,
+          "B25070_010": 1653,
+          "B25070_011": 808
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 157801,
+        "denominator_persons": 439202,
+        "share_percent": 35.9,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 4836,
+          "B08303_008": 2826,
+          "B08303_009": 1158,
+          "B08303_010": 1376,
+          "B08303_011": 1934,
+          "B08303_012": 1309,
+          "B08303_013": 802
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Warren",
+      "county_fips": "37185",
+      "median_household_income": {
+        "usd_2024": 50638,
+        "moe_usd_2024_90pct": 4322,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1082,
+        "denominator_households": 2025,
+        "share_percent": 53.4,
+        "total_renter_households": 2496,
+        "not_computed_households": 471,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 326,
+          "B25070_007": 102,
+          "B25070_008": 140,
+          "B25070_009": 89,
+          "B25070_010": 127,
+          "B25070_011": 132
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2741,
+        "denominator_persons": 6290,
+        "share_percent": 43.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 388,
+          "B08303_008": 213,
+          "B08303_009": 55,
+          "B08303_010": 178,
+          "B08303_011": 165,
+          "B08303_012": 126,
+          "B08303_013": 108
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Washington",
+      "county_fips": "37187",
+      "median_household_income": {
+        "usd_2024": 41813,
+        "moe_usd_2024_90pct": 7001,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 512,
+        "denominator_households": 1034,
+        "share_percent": 49.5,
+        "total_renter_households": 1517,
+        "not_computed_households": 483,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 260,
+          "B25070_007": 105,
+          "B25070_008": 60,
+          "B25070_009": 26,
+          "B25070_010": 162,
+          "B25070_011": 166
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 1339,
+        "denominator_persons": 3265,
+        "share_percent": 41.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 419,
+          "B08303_008": 162,
+          "B08303_009": 91,
+          "B08303_010": 24,
+          "B08303_011": 117,
+          "B08303_012": 160,
+          "B08303_013": 137
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Watauga",
+      "county_fips": "37189",
+      "median_household_income": {
+        "usd_2024": 51693,
+        "moe_usd_2024_90pct": 3285,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 4717,
+        "denominator_households": 7154,
+        "share_percent": 65.9,
+        "total_renter_households": 8041,
+        "not_computed_households": 887,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 618,
+          "B25070_007": 231,
+          "B25070_008": 145,
+          "B25070_009": 195,
+          "B25070_010": 463,
+          "B25070_011": 241
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 5195,
+        "denominator_persons": 22982,
+        "share_percent": 22.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 898,
+          "B08303_008": 484,
+          "B08303_009": 193,
+          "B08303_010": 183,
+          "B08303_011": 335,
+          "B08303_012": 230,
+          "B08303_013": 193
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Wayne",
+      "county_fips": "37191",
+      "median_household_income": {
+        "usd_2024": 59733,
+        "moe_usd_2024_90pct": 2739,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 7886,
+        "denominator_households": 16666,
+        "share_percent": 47.3,
+        "total_renter_households": 18312,
+        "not_computed_households": 1646,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 919,
+          "B25070_007": 405,
+          "B25070_008": 281,
+          "B25070_009": 298,
+          "B25070_010": 557,
+          "B25070_011": 333
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 13389,
+        "denominator_persons": 50506,
+        "share_percent": 26.5,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 1332,
+          "B08303_008": 679,
+          "B08303_009": 229,
+          "B08303_010": 403,
+          "B08303_011": 439,
+          "B08303_012": 403,
+          "B08303_013": 246
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Wilkes",
+      "county_fips": "37193",
+      "median_household_income": {
+        "usd_2024": 51721,
+        "moe_usd_2024_90pct": 2459,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 2407,
+        "denominator_households": 5605,
+        "share_percent": 42.9,
+        "total_renter_households": 7179,
+        "not_computed_households": 1574,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 606,
+          "B25070_007": 188,
+          "B25070_008": 242,
+          "B25070_009": 243,
+          "B25070_010": 252,
+          "B25070_011": 337
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 8317,
+        "denominator_persons": 25736,
+        "share_percent": 32.3,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 946,
+          "B08303_008": 502,
+          "B08303_009": 263,
+          "B08303_010": 199,
+          "B08303_011": 305,
+          "B08303_012": 354,
+          "B08303_013": 236
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Wilson",
+      "county_fips": "37195",
+      "median_household_income": {
+        "usd_2024": 56423,
+        "moe_usd_2024_90pct": 3380,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 5631,
+        "denominator_households": 12063,
+        "share_percent": 46.7,
+        "total_renter_households": 13212,
+        "not_computed_households": 1149,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 644,
+          "B25070_007": 249,
+          "B25070_008": 302,
+          "B25070_009": 173,
+          "B25070_010": 463,
+          "B25070_011": 293
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 9441,
+        "denominator_persons": 31458,
+        "share_percent": 30.0,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 984,
+          "B08303_008": 543,
+          "B08303_009": 353,
+          "B08303_010": 280,
+          "B08303_011": 356,
+          "B08303_012": 379,
+          "B08303_013": 167
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Yadkin",
+      "county_fips": "37197",
+      "median_household_income": {
+        "usd_2024": 62932,
+        "moe_usd_2024_90pct": 2830,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 1514,
+        "denominator_households": 3008,
+        "share_percent": 50.3,
+        "total_renter_households": 3463,
+        "not_computed_households": 455,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 423,
+          "B25070_007": 255,
+          "B25070_008": 148,
+          "B25070_009": 104,
+          "B25070_010": 161,
+          "B25070_011": 133
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 6881,
+        "denominator_persons": 15866,
+        "share_percent": 43.4,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 536,
+          "B08303_008": 413,
+          "B08303_009": 210,
+          "B08303_010": 242,
+          "B08303_011": 259,
+          "B08303_012": 241,
+          "B08303_013": 289
+        },
+        "derived_share_moe": null
+      }
+    },
+    {
+      "county": "Yancey",
+      "county_fips": "37199",
+      "median_household_income": {
+        "usd_2024": 58709,
+        "moe_usd_2024_90pct": 5720,
+        "acs_variable": "B19013_001"
+      },
+      "renter_households_gross_rent_30pct_plus": {
+        "households": 519,
+        "denominator_households": 1094,
+        "share_percent": 47.4,
+        "total_renter_households": 1673,
+        "not_computed_households": 579,
+        "numerator_variables": [
+          "B25070_007",
+          "B25070_008",
+          "B25070_009",
+          "B25070_010"
+        ],
+        "denominator_definition": "B25070_001 minus B25070_011 (not computed)",
+        "component_moe_90pct": {
+          "B25070_001": 309,
+          "B25070_007": 55,
+          "B25070_008": 56,
+          "B25070_009": 40,
+          "B25070_010": 150,
+          "B25070_011": 159
+        },
+        "derived_share_moe": null
+      },
+      "commuters_30_minutes_plus": {
+        "persons": 2787,
+        "denominator_persons": 6861,
+        "share_percent": 40.6,
+        "numerator_variables": [
+          "B08303_008",
+          "B08303_009",
+          "B08303_010",
+          "B08303_011",
+          "B08303_012",
+          "B08303_013"
+        ],
+        "denominator_variable": "B08303_001",
+        "component_moe_90pct": {
+          "B08303_001": 442,
+          "B08303_008": 252,
+          "B08303_009": 93,
+          "B08303_010": 168,
+          "B08303_011": 232,
+          "B08303_012": 140,
+          "B08303_013": 67
+        },
+        "derived_share_moe": null
+      }
+    }
+  ]
 }

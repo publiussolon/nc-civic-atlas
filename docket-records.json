@@ -1,6 +1,6 @@
 {
-  "checked_at": null,
-  "session_note": "TODO (Phase 2): North Carolina legislative docket and county agenda checks have not been loaded yet.",
+  "checked_at": "2026-11-24",
+  "session_note": "Phase 2 includes official NCGA calendar meetings only. No individual bill actions were checked.",
   "records": [],
   "county_agenda_checks": []
 }

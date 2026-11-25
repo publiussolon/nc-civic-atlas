@@ -1,4 +1,23 @@
 {
-  "records": [],
-  "todo": "Phase 2: add sourced North Carolina county and state budget documents. No figures are included in this release."
+  "checked_at": "2026-11-24",
+  "todo": null,
+  "note": "No dollar figures are published here. Official state budget documents are linked; county budgets remain on each county website and have not been ingested.",
+  "records": [
+    {
+      "scope": "state",
+      "title": "Certified Budget, Fiscal Year 2026-27",
+      "publisher": "North Carolina Office of State Budget and Management",
+      "url": "https://www.osbm.nc.gov/budget/certified-budget",
+      "description": "Official certified agency budget documents for FY 2026-27, as published by OSBM.",
+      "checked_at": "2026-11-24"
+    },
+    {
+      "scope": "state",
+      "title": "OSBM Budget office",
+      "publisher": "North Carolina Office of State Budget and Management",
+      "url": "https://www.osbm.nc.gov/budget",
+      "description": "State budget office landing page, including certified budgets, the budget manual, and the Governor's recommendations.",
+      "checked_at": "2026-11-24"
+    }
+  ]
 }

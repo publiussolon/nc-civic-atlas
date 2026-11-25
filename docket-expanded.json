@@ -1,11 +1,61 @@
 {
-  "checked_at": null,
-  "session": null,
-  "status_summary": "TODO (Phase 2): no North Carolina bills or meetings have been checked in this release.",
-  "status_sources": [],
-  "upcoming_meetings": [],
+  "checked_at": "2026-11-24",
+  "session": "2025-2026 Session (current roster); official calendar also lists later dates",
+  "status_summary": "The official NCGA legislative calendar, checked November 24, 2026, lists a House session convening on November 30, 2026, and Blue Ribbon Commission on Public Education meetings on December 14, 2026, January 25, 2027, and February 22, 2027. No tracked bill or scheduled floor vote was verified in this release. Calendars can change; check official schedules directly.",
+  "status_sources": {
+    "legislative_calendar": "https://www.ncleg.gov/LegislativeCalendar",
+    "house_current_calendar": "https://calendars.ncleg.gov/CurrentCalendarDoc/H",
+    "senate_current_calendar": "https://calendars.ncleg.gov/CurrentCalendarDoc/S",
+    "legislation": "https://www.ncleg.gov/Legislation"
+  },
+  "upcoming_meetings": [
+    {
+      "scope": "state",
+      "county": null,
+      "body": "North Carolina House of Representatives",
+      "date": "2026-11-30",
+      "time": "12:00 p.m.",
+      "topic": "House: Session Convenes",
+      "item_status": "Listed on the official NCGA legislative calendar",
+      "vote_status": "A scheduled session is not a verified floor vote on any bill",
+      "source_url": "https://www.ncleg.gov/LegislativeCalendarEvent/134621"
+    },
+    {
+      "scope": "state",
+      "county": null,
+      "body": "Blue Ribbon Commission on Public Education",
+      "date": "2026-12-14",
+      "time": "10:00 a.m.",
+      "topic": "Commission meeting at the Friday Institute for Educational Innovation",
+      "item_status": "Listed on the official NCGA legislative calendar",
+      "vote_status": "A listed meeting is not a verified vote",
+      "source_url": "https://www.ncleg.gov/LegislativeCalendarEvent/134383"
+    },
+    {
+      "scope": "state",
+      "county": null,
+      "body": "Blue Ribbon Commission on Public Education",
+      "date": "2027-01-25",
+      "time": "10:00 a.m.",
+      "topic": "Commission meeting at the Friday Institute for Educational Innovation",
+      "item_status": "Listed on the official NCGA legislative calendar",
+      "vote_status": "A listed meeting is not a verified vote",
+      "source_url": "https://www.ncleg.gov/LegislativeCalendarEvent/134384"
+    },
+    {
+      "scope": "state",
+      "county": null,
+      "body": "Blue Ribbon Commission on Public Education",
+      "date": "2027-02-22",
+      "time": "10:00 a.m.",
+      "topic": "Commission meeting at the Friday Institute for Educational Innovation",
+      "item_status": "Listed on the official NCGA legislative calendar",
+      "vote_status": "A listed meeting is not a verified vote",
+      "source_url": "https://www.ncleg.gov/LegislativeCalendarEvent/134385"
+    }
+  ],
   "tracked_bills": [],
   "county_agenda_sources": [],
-  "method_note": "Placeholder file so the homepage atlas can load without Pennsylvania docket records.",
+  "method_note": "Meetings are copied from official NCGA calendar event pages. Individual bills are not listed until a specific official calendar or bill page is checked. County commissioner agendas are not yet ingested.",
   "machine_readable_sources": []
 }

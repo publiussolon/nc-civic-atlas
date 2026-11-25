@@ -7,7 +7,7 @@
   "boundary_source": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
   "boundary_source_page": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
   "boundary_vintage": "Census Cartographic Boundary File 2024, 1:500,000, state FIPS 37",
-  "party_control_definition": "Majority party of the county board of commissioners, not how the county voted in an election. Not yet verified for any North Carolina county in this Phase 1 release.",
+  "party_control_definition": "Majority party of the county board of commissioners, not how the county voted in an election. Not assigned in this release: official November 3, 2026 NCSBE results cover only the commissioner seats on that ballot, not every sitting member. See ncsbe-commissioner-contests-2026.json.",
   "checked_at": "2026-11-24",
   "counties": {
     "Alamance": {
@@ -710,5 +710,8 @@
       "party_control_as_of": null,
       "party_source": null
     }
-  }
+  },
+  "party_control_status": "unverified_all_counties",
+  "party_control_checked_at": "2026-11-24",
+  "party_control_source_note": "These are official vote totals for county board of commissioners contests on the November 3, 2026 ballot, aggregated from the NCSBE precinct results file (all precinct rows, including administrative precincts). They are not a complete roster of the sitting board and are not used to assign county party control, because most boards have members whose seats were not up in this election."
 }

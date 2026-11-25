@@ -1,0 +1,6521 @@
+{
+  "election": "November 3, 2026 General Election",
+  "election_date": "2026-11-03",
+  "checked_at": "2026-11-24",
+  "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip",
+  "source_page": "https://www.ncsbe.gov/results-data/election-results/historical-election-results-data",
+  "layout": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/layout_results_pct.txt",
+  "certification_note": "The State Board of Elections certified the November 3, 2026 general election on November 24, 2026, except for contests still under recount, including N.C. House District 62. See https://www.ncsbe.gov/news/press-releases/2026/11/24/state-board-unanimously-certifies-midterm-elections",
+  "limitation": "These are official vote totals for county board of commissioners contests on the November 3, 2026 ballot, aggregated from the NCSBE precinct results file (all precinct rows, including administrative precincts). They are not a complete roster of the sitting board and are not used to assign county party control, because most boards have members whose seats were not up in this election.",
+  "counties_with_commissioner_contests": 99,
+  "counties": {
+    "Alamance": {
+      "contests": [
+        {
+          "contest": "ALAMANCE COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Ramona Allen",
+              "party": "Democratic",
+              "total_votes": 33274
+            },
+            {
+              "name": "Sean C. Ewing",
+              "party": "Democratic",
+              "total_votes": 32911
+            },
+            {
+              "name": "Steve Carter",
+              "party": "Republican",
+              "total_votes": 29321
+            },
+            {
+              "name": "Kelly Allen",
+              "party": "Republican",
+              "total_votes": 29245
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ramona Allen",
+              "party": "Democratic",
+              "total_votes": 33274
+            },
+            {
+              "name": "Sean C. Ewing",
+              "party": "Democratic",
+              "total_votes": 32911
+            }
+          ]
+        },
+        {
+          "contest": "ALAMANCE COUNTY BOARD OF COMMISSIONERS (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Kourtney J. Royster",
+              "party": "Democratic",
+              "total_votes": 35799
+            },
+            {
+              "name": "Samuel C. Powell",
+              "party": "Republican",
+              "total_votes": 31654
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Kourtney J. Royster",
+              "party": "Democratic",
+              "total_votes": 35799
+            }
+          ]
+        }
+      ]
+    },
+    "Alexander": {
+      "contests": [
+        {
+          "contest": "ALEXANDER COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Marty Loudermilt",
+              "party": "Republican",
+              "total_votes": 9474
+            },
+            {
+              "name": "Ronnie L. Reese",
+              "party": "Republican",
+              "total_votes": 9191
+            },
+            {
+              "name": "Andrew Johnson",
+              "party": "Republican",
+              "total_votes": 9134
+            },
+            {
+              "name": "Steven Warren",
+              "party": "Democratic",
+              "total_votes": 3722
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Marty Loudermilt",
+              "party": "Republican",
+              "total_votes": 9474
+            },
+            {
+              "name": "Ronnie L. Reese",
+              "party": "Republican",
+              "total_votes": 9191
+            },
+            {
+              "name": "Andrew Johnson",
+              "party": "Republican",
+              "total_votes": 9134
+            }
+          ]
+        }
+      ]
+    },
+    "Alleghany": {
+      "contests": [
+        {
+          "contest": "ALLEGHANY COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "William B. (Brant) Arnold",
+              "party": "Republican",
+              "total_votes": 3159
+            },
+            {
+              "name": "Tommy C. McKnight",
+              "party": "Republican",
+              "total_votes": 2922
+            },
+            {
+              "name": "Timmy Evans",
+              "party": "Republican",
+              "total_votes": 2908
+            },
+            {
+              "name": "Brad Mabe",
+              "party": "Democratic",
+              "total_votes": 1986
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "William B. (Brant) Arnold",
+              "party": "Republican",
+              "total_votes": 3159
+            },
+            {
+              "name": "Tommy C. McKnight",
+              "party": "Republican",
+              "total_votes": 2922
+            },
+            {
+              "name": "Timmy Evans",
+              "party": "Republican",
+              "total_votes": 2908
+            }
+          ]
+        }
+      ]
+    },
+    "Anson": {
+      "contests": [
+        {
+          "contest": "ANSON COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "William (Boogie) Short",
+              "party": "Republican",
+              "total_votes": 4059
+            },
+            {
+              "name": "Priscilla Little-Reid",
+              "party": "Democratic",
+              "total_votes": 4037
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "William (Boogie) Short",
+              "party": "Republican",
+              "total_votes": 4059
+            }
+          ]
+        },
+        {
+          "contest": "ANSON COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jamie Caudle",
+              "party": "Republican",
+              "total_votes": 4992
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jamie Caudle",
+              "party": "Republican",
+              "total_votes": 4992
+            }
+          ]
+        },
+        {
+          "contest": "ANSON COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Robbie Hill",
+              "party": "Republican",
+              "total_votes": 4137
+            },
+            {
+              "name": "Kevin Adams",
+              "party": "Unaffiliated",
+              "total_votes": 3685
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Robbie Hill",
+              "party": "Republican",
+              "total_votes": 4137
+            }
+          ]
+        }
+      ]
+    },
+    "Ashe": {
+      "contests": [
+        {
+          "contest": "ASHE COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Mike Eldreth",
+              "party": "Republican",
+              "total_votes": 7529
+            },
+            {
+              "name": "Todd A. McNeill",
+              "party": "Republican",
+              "total_votes": 7497
+            },
+            {
+              "name": "Jerry D. Powers",
+              "party": "Republican",
+              "total_votes": 6840
+            },
+            {
+              "name": "Leslie Colvard",
+              "party": "Democratic",
+              "total_votes": 4337
+            },
+            {
+              "name": "Caroline Renfro",
+              "party": "Democratic",
+              "total_votes": 4086
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mike Eldreth",
+              "party": "Republican",
+              "total_votes": 7529
+            },
+            {
+              "name": "Todd A. McNeill",
+              "party": "Republican",
+              "total_votes": 7497
+            },
+            {
+              "name": "Jerry D. Powers",
+              "party": "Republican",
+              "total_votes": 6840
+            }
+          ]
+        }
+      ]
+    },
+    "Avery": {
+      "contests": [
+        {
+          "contest": "AVERY COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Robert Burleson",
+              "party": "Republican",
+              "total_votes": 4404
+            },
+            {
+              "name": "Dennis Aldridge",
+              "party": "Republican",
+              "total_votes": 3999
+            },
+            {
+              "name": "Jason Grindstaff",
+              "party": "Republican",
+              "total_votes": 3993
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Robert Burleson",
+              "party": "Republican",
+              "total_votes": 4404
+            },
+            {
+              "name": "Dennis Aldridge",
+              "party": "Republican",
+              "total_votes": 3999
+            },
+            {
+              "name": "Jason Grindstaff",
+              "party": "Republican",
+              "total_votes": 3993
+            }
+          ]
+        }
+      ]
+    },
+    "Beaufort": {
+      "contests": [
+        {
+          "contest": "BEAUFORT COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ed Booth",
+              "party": "Democratic",
+              "total_votes": 7240
+            },
+            {
+              "name": "John T. Edwards",
+              "party": "Republican",
+              "total_votes": 5971
+            },
+            {
+              "name": "Ashley Woolard",
+              "party": "Republican",
+              "total_votes": 3614
+            },
+            {
+              "name": "Stan Deatherage",
+              "party": "Republican",
+              "total_votes": 2879
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ed Booth",
+              "party": "Democratic",
+              "total_votes": 7240
+            }
+          ]
+        }
+      ]
+    },
+    "Bertie": {
+      "contests": [
+        {
+          "contest": "BERTIE COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Miles Davis",
+              "party": "Democratic",
+              "total_votes": 4968
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Miles Davis",
+              "party": "Democratic",
+              "total_votes": 4968
+            }
+          ]
+        },
+        {
+          "contest": "BERTIE COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Corey Ballance, Sr.",
+              "party": "Democratic",
+              "total_votes": 4853
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Corey Ballance, Sr.",
+              "party": "Democratic",
+              "total_votes": 4853
+            }
+          ]
+        },
+        {
+          "contest": "BERTIE COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ronald (Ron) Roberson",
+              "party": "Democratic",
+              "total_votes": 4819
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ronald (Ron) Roberson",
+              "party": "Democratic",
+              "total_votes": 4819
+            }
+          ]
+        }
+      ]
+    },
+    "Bladen": {
+      "contests": [
+        {
+          "contest": "BLADEN COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Arthur A. Bullock",
+              "party": "Democratic",
+              "total_votes": 2258
+            },
+            {
+              "name": "Levi Roberts",
+              "party": "Unaffiliated",
+              "total_votes": 1353
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Arthur A. Bullock",
+              "party": "Democratic",
+              "total_votes": 2258
+            }
+          ]
+        },
+        {
+          "contest": "BLADEN COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Charles Ray Peterson",
+              "party": "Republican",
+              "total_votes": 2681
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Charles Ray Peterson",
+              "party": "Republican",
+              "total_votes": 2681
+            }
+          ]
+        },
+        {
+          "contest": "BLADEN COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Cameron McGill",
+              "party": "Republican",
+              "total_votes": 2672
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Cameron McGill",
+              "party": "Republican",
+              "total_votes": 2672
+            }
+          ]
+        }
+      ]
+    },
+    "Brunswick": {
+      "contests": [
+        {
+          "contest": "BRUNSWICK COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Randy Thompson",
+              "party": "Republican",
+              "total_votes": 48779
+            },
+            {
+              "name": "Gary Woods",
+              "party": "Democratic",
+              "total_votes": 37394
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Randy Thompson",
+              "party": "Republican",
+              "total_votes": 48779
+            }
+          ]
+        },
+        {
+          "contest": "BRUNSWICK COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Patti Hewett",
+              "party": "Republican",
+              "total_votes": 48976
+            },
+            {
+              "name": "Sara Singer",
+              "party": "Democratic",
+              "total_votes": 37034
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Patti Hewett",
+              "party": "Republican",
+              "total_votes": 48976
+            }
+          ]
+        }
+      ]
+    },
+    "Buncombe": {
+      "contests": [
+        {
+          "contest": "BUNCOMBE COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Anna V. Stearns",
+              "party": "Democratic",
+              "total_votes": 29783
+            },
+            {
+              "name": "Rob Stetson",
+              "party": "Republican",
+              "total_votes": 14788
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Anna V. Stearns",
+              "party": "Democratic",
+              "total_votes": 29783
+            }
+          ]
+        },
+        {
+          "contest": "BUNCOMBE COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Lonnie Israel",
+              "party": "Democratic",
+              "total_votes": 24023
+            },
+            {
+              "name": "Greg Parks",
+              "party": "Republican",
+              "total_votes": 16025
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Lonnie Israel",
+              "party": "Democratic",
+              "total_votes": 24023
+            }
+          ]
+        },
+        {
+          "contest": "BUNCOMBE COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Al Whitesides",
+              "party": "Democratic",
+              "total_votes": 38340
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Al Whitesides",
+              "party": "Democratic",
+              "total_votes": 38340
+            }
+          ]
+        }
+      ]
+    },
+    "Burke": {
+      "contests": [
+        {
+          "contest": "BURKE COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Randy Burns",
+              "party": "Republican",
+              "total_votes": 18214
+            },
+            {
+              "name": "Phil Smith",
+              "party": "Republican",
+              "total_votes": 15803
+            },
+            {
+              "name": "Pam Genant",
+              "party": "Democratic",
+              "total_votes": 11705
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Randy Burns",
+              "party": "Republican",
+              "total_votes": 18214
+            },
+            {
+              "name": "Phil Smith",
+              "party": "Republican",
+              "total_votes": 15803
+            }
+          ]
+        }
+      ]
+    },
+    "Cabarrus": {
+      "contests": [
+        {
+          "contest": "CABARRUS COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Ingrid Nurse",
+              "party": "Democratic",
+              "total_votes": 43968
+            },
+            {
+              "name": "Dan Redding",
+              "party": "Democratic",
+              "total_votes": 43746
+            },
+            {
+              "name": "Phil Henry",
+              "party": "Democratic",
+              "total_votes": 39233
+            },
+            {
+              "name": "James N. Bailey",
+              "party": "Republican",
+              "total_votes": 35911
+            },
+            {
+              "name": "Kristel Swayze",
+              "party": "Republican",
+              "total_votes": 35692
+            },
+            {
+              "name": "Ian Patrick",
+              "party": "Republican",
+              "total_votes": 33652
+            },
+            {
+              "name": "Thomas Hill",
+              "party": "Libertarian",
+              "total_votes": 5382
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ingrid Nurse",
+              "party": "Democratic",
+              "total_votes": 43968
+            },
+            {
+              "name": "Dan Redding",
+              "party": "Democratic",
+              "total_votes": 43746
+            },
+            {
+              "name": "Phil Henry",
+              "party": "Democratic",
+              "total_votes": 39233
+            }
+          ]
+        }
+      ]
+    },
+    "Caldwell": {
+      "contests": [
+        {
+          "contest": "CALDWELL COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Mike LaBrose",
+              "party": "Republican",
+              "total_votes": 16450
+            },
+            {
+              "name": "Corey Moore",
+              "party": "Republican",
+              "total_votes": 15305
+            },
+            {
+              "name": "Roger Patterson",
+              "party": "Democratic",
+              "total_votes": 7848
+            },
+            {
+              "name": "Faith Naff",
+              "party": "Democratic",
+              "total_votes": 7480
+            },
+            {
+              "name": "Kenneth Johnson (Write-In)",
+              "party": "\u0000",
+              "total_votes": 759
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 519
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mike LaBrose",
+              "party": "Republican",
+              "total_votes": 16450
+            },
+            {
+              "name": "Corey Moore",
+              "party": "Republican",
+              "total_votes": 15305
+            }
+          ]
+        }
+      ]
+    },
+    "Camden": {
+      "contests": [
+        {
+          "contest": "CAMDEN COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Francisco Salmeron",
+              "party": "Republican",
+              "total_votes": 1729
+            },
+            {
+              "name": "Matt Davis",
+              "party": "Unaffiliated",
+              "total_votes": 1557
+            },
+            {
+              "name": "David Chick",
+              "party": "Unaffiliated",
+              "total_votes": 800
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Francisco Salmeron",
+              "party": "Republican",
+              "total_votes": 1729
+            }
+          ]
+        },
+        {
+          "contest": "CAMDEN COUNTY BOARD OF COMMISSIONERS SHILOH DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Troy Leary",
+              "party": "Republican",
+              "total_votes": 3527
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Troy Leary",
+              "party": "Republican",
+              "total_votes": 3527
+            }
+          ]
+        }
+      ]
+    },
+    "Carteret": {
+      "contests": [
+        {
+          "contest": "CARTERET COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Steven Overby",
+              "party": "Republican",
+              "total_votes": 25524
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Steven Overby",
+              "party": "Republican",
+              "total_votes": 25524
+            }
+          ]
+        },
+        {
+          "contest": "CARTERET COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Chuck Shinn",
+              "party": "Republican",
+              "total_votes": 25569
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Chuck Shinn",
+              "party": "Republican",
+              "total_votes": 25569
+            }
+          ]
+        },
+        {
+          "contest": "CARTERET COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jimmy Paylor",
+              "party": "Republican",
+              "total_votes": 24202
+            },
+            {
+              "name": "Chris Monteleon",
+              "party": "Democratic",
+              "total_votes": 10464
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jimmy Paylor",
+              "party": "Republican",
+              "total_votes": 24202
+            }
+          ]
+        },
+        {
+          "contest": "CARTERET COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Chris Chadwick",
+              "party": "Republican",
+              "total_votes": 25487
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Chris Chadwick",
+              "party": "Republican",
+              "total_votes": 25487
+            }
+          ]
+        }
+      ]
+    },
+    "Caswell": {
+      "contests": [
+        {
+          "contest": "CASWELL COUNTY BOARD OF COMMISSIONERS AT-LARGE (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Randy D. Simmons",
+              "party": "Republican",
+              "total_votes": 4709
+            },
+            {
+              "name": "Jelesa Hardin",
+              "party": "Democratic",
+              "total_votes": 3918
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Randy D. Simmons",
+              "party": "Republican",
+              "total_votes": 4709
+            }
+          ]
+        },
+        {
+          "contest": "CASWELL COUNTY BOARD OF COMMISSIONERS DIST 04 (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Brian Totten",
+              "party": "Democratic",
+              "total_votes": 1196
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Brian Totten",
+              "party": "Democratic",
+              "total_votes": 1196
+            }
+          ]
+        },
+        {
+          "contest": "CASWELL COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Cathy Lucas",
+              "party": "Republican",
+              "total_votes": 1153
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Cathy Lucas",
+              "party": "Republican",
+              "total_votes": 1153
+            }
+          ]
+        },
+        {
+          "contest": "CASWELL COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Finch Holt",
+              "party": "Republican",
+              "total_votes": 985
+            },
+            {
+              "name": "Antonio Foster",
+              "party": "Democratic",
+              "total_votes": 793
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Finch Holt",
+              "party": "Republican",
+              "total_votes": 985
+            }
+          ]
+        },
+        {
+          "contest": "CASWELL COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Tim Yarbrough",
+              "party": "Republican",
+              "total_votes": 1395
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tim Yarbrough",
+              "party": "Republican",
+              "total_votes": 1395
+            }
+          ]
+        }
+      ]
+    },
+    "Catawba": {
+      "contests": [
+        {
+          "contest": "CATAWBA COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Sherry Edmonds Butler",
+              "party": "Republican",
+              "total_votes": 33845
+            },
+            {
+              "name": "Jay Moore",
+              "party": "Republican",
+              "total_votes": 33175
+            },
+            {
+              "name": "Cole Terrell Setzer",
+              "party": "Republican",
+              "total_votes": 33139
+            },
+            {
+              "name": "Aubrey Gregory",
+              "party": "Democratic",
+              "total_votes": 21585
+            },
+            {
+              "name": "Jesse Alden",
+              "party": "Democratic",
+              "total_votes": 21023
+            },
+            {
+              "name": "Phyllis Michaux",
+              "party": "Democratic",
+              "total_votes": 20408
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Sherry Edmonds Butler",
+              "party": "Republican",
+              "total_votes": 33845
+            },
+            {
+              "name": "Jay Moore",
+              "party": "Republican",
+              "total_votes": 33175
+            },
+            {
+              "name": "Cole Terrell Setzer",
+              "party": "Republican",
+              "total_votes": 33139
+            }
+          ]
+        }
+      ]
+    },
+    "Chatham": {
+      "contests": [
+        {
+          "contest": "CHATHAM COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Michael R. (Mike) Roberson",
+              "party": "Democratic",
+              "total_votes": 29448
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Michael R. (Mike) Roberson",
+              "party": "Democratic",
+              "total_votes": 29448
+            }
+          ]
+        },
+        {
+          "contest": "CHATHAM COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Katie Kenlan",
+              "party": "Democratic",
+              "total_votes": 27208
+            },
+            {
+              "name": "John M. Crowell",
+              "party": "Republican",
+              "total_votes": 15413
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Katie Kenlan",
+              "party": "Democratic",
+              "total_votes": 27208
+            }
+          ]
+        },
+        {
+          "contest": "CHATHAM COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Franklin Gomez Flores",
+              "party": "Democratic",
+              "total_votes": 26844
+            },
+            {
+              "name": "Steve Ganley",
+              "party": "Republican",
+              "total_votes": 15729
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Franklin Gomez Flores",
+              "party": "Democratic",
+              "total_votes": 26844
+            }
+          ]
+        }
+      ]
+    },
+    "Cherokee": {
+      "contests": [
+        {
+          "contest": "CHEROKEE COUNTY BD OF COMMISSIONERS DISTRICT II (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Mark Stiles",
+              "party": "Republican",
+              "total_votes": 9893
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mark Stiles",
+              "party": "Republican",
+              "total_votes": 9893
+            }
+          ]
+        },
+        {
+          "contest": "CHEROKEE COUNTY BD OF COMMISSIONERS DISTRICT V (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jan Griggs",
+              "party": "Republican",
+              "total_votes": 9671
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jan Griggs",
+              "party": "Republican",
+              "total_votes": 9671
+            }
+          ]
+        },
+        {
+          "contest": "CHEROKEE COUNTY BOARD OF COMMISSIONERS DISTRICT I",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jeana Conley",
+              "party": "Republican",
+              "total_votes": 8548
+            },
+            {
+              "name": "Rex Cable",
+              "party": "Democratic",
+              "total_votes": 3449
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jeana Conley",
+              "party": "Republican",
+              "total_votes": 8548
+            }
+          ]
+        },
+        {
+          "contest": "CHEROKEE COUNTY BOARD OF COMMISSIONERS DISTRICT III",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Steve Coleman",
+              "party": "Republican",
+              "total_votes": 8637
+            },
+            {
+              "name": "Judith Bodley",
+              "party": "Democratic",
+              "total_votes": 3492
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Steve Coleman",
+              "party": "Republican",
+              "total_votes": 8637
+            }
+          ]
+        },
+        {
+          "contest": "CHEROKEE COUNTY BOARD OF COMMISSIONERS DISTRICT IV",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Sue Lynn Ledford",
+              "party": "Republican",
+              "total_votes": 10021
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Sue Lynn Ledford",
+              "party": "Republican",
+              "total_votes": 10021
+            }
+          ]
+        }
+      ]
+    },
+    "Chowan": {
+      "contests": [
+        {
+          "contest": "CHOWAN COUNTY BOARD OF COMMISSIONERS DISTRICT 01 SEAT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Lisa Perry",
+              "party": "Republican",
+              "total_votes": 1474
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Lisa Perry",
+              "party": "Republican",
+              "total_votes": 1474
+            }
+          ]
+        },
+        {
+          "contest": "CHOWAN COUNTY BOARD OF COMMISSIONERS DISTRICT 02 SEAT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Larry McLaughlin",
+              "party": "Republican",
+              "total_votes": 1515
+            },
+            {
+              "name": "Kathleen Miglorie",
+              "party": "Democratic",
+              "total_votes": 830
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Larry McLaughlin",
+              "party": "Republican",
+              "total_votes": 1515
+            }
+          ]
+        },
+        {
+          "contest": "CHOWAN COUNTY BOARD OF COMMISSIONERS DISTRICT 03 SEAT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ellis Lawrence",
+              "party": "Democratic",
+              "total_votes": 1235
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ellis Lawrence",
+              "party": "Democratic",
+              "total_votes": 1235
+            }
+          ]
+        }
+      ]
+    },
+    "Clay": {
+      "contests": [
+        {
+          "contest": "CLAY COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Dwight S. McClure, Sr.",
+              "party": "Republican",
+              "total_votes": 3405
+            },
+            {
+              "name": "Andy James",
+              "party": "Republican",
+              "total_votes": 3279
+            },
+            {
+              "name": "Jason A. Rickett",
+              "party": "Republican",
+              "total_votes": 3184
+            },
+            {
+              "name": "Keyla Youngblood-Stillwell",
+              "party": "Democratic",
+              "total_votes": 1912
+            },
+            {
+              "name": "Sandy Zimmerman",
+              "party": "Unaffiliated",
+              "total_votes": 1747
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Dwight S. McClure, Sr.",
+              "party": "Republican",
+              "total_votes": 3405
+            },
+            {
+              "name": "Andy James",
+              "party": "Republican",
+              "total_votes": 3279
+            },
+            {
+              "name": "Jason A. Rickett",
+              "party": "Republican",
+              "total_votes": 3184
+            }
+          ]
+        },
+        {
+          "contest": "CLAY COUNTY BOARD OF COMMISSIONERS (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Bill Carter",
+              "party": "Republican",
+              "total_votes": 4161
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Bill Carter",
+              "party": "Republican",
+              "total_votes": 4161
+            }
+          ]
+        }
+      ]
+    },
+    "Cleveland": {
+      "contests": [
+        {
+          "contest": "CLEVELAND COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Doug Bridges",
+              "party": "Republican",
+              "total_votes": 19574
+            },
+            {
+              "name": "Wayne King",
+              "party": "Republican",
+              "total_votes": 19337
+            },
+            {
+              "name": "Curtis Pressley",
+              "party": "Democratic",
+              "total_votes": 13393
+            },
+            {
+              "name": "David Peace",
+              "party": "Democratic",
+              "total_votes": 11766
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Doug Bridges",
+              "party": "Republican",
+              "total_votes": 19574
+            },
+            {
+              "name": "Wayne King",
+              "party": "Republican",
+              "total_votes": 19337
+            }
+          ]
+        }
+      ]
+    },
+    "Columbus": {
+      "contests": [
+        {
+          "contest": "COLUMBUS COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Barbara Roseboro Featherson",
+              "party": "Democratic",
+              "total_votes": 1705
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Barbara Roseboro Featherson",
+              "party": "Democratic",
+              "total_votes": 1705
+            }
+          ]
+        },
+        {
+          "contest": "COLUMBUS COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jeanne McPherson",
+              "party": "Republican",
+              "total_votes": 1965
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jeanne McPherson",
+              "party": "Republican",
+              "total_votes": 1965
+            }
+          ]
+        },
+        {
+          "contest": "COLUMBUS COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Scott Floyd",
+              "party": "Republican",
+              "total_votes": 1387
+            },
+            {
+              "name": "Jeff Register",
+              "party": "Democratic",
+              "total_votes": 881
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Scott Floyd",
+              "party": "Republican",
+              "total_votes": 1387
+            }
+          ]
+        }
+      ]
+    },
+    "Craven": {
+      "contests": [
+        {
+          "contest": "CRAVEN COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Joshua D. Whitford",
+              "party": "Republican",
+              "total_votes": 4261
+            },
+            {
+              "name": "Jeffrey O'Neill",
+              "party": "GRE",
+              "total_votes": 1155
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Joshua D. Whitford",
+              "party": "Republican",
+              "total_votes": 4261
+            }
+          ]
+        },
+        {
+          "contest": "CRAVEN COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jason R. Jones",
+              "party": "Republican",
+              "total_votes": 3721
+            },
+            {
+              "name": "Gregory Holmes",
+              "party": "Democratic",
+              "total_votes": 2613
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jason R. Jones",
+              "party": "Republican",
+              "total_votes": 3721
+            }
+          ]
+        },
+        {
+          "contest": "CRAVEN COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Beatrice (Bea) Smith",
+              "party": "Democratic",
+              "total_votes": 3834
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Beatrice (Bea) Smith",
+              "party": "Democratic",
+              "total_votes": 3834
+            }
+          ]
+        },
+        {
+          "contest": "CRAVEN COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Guy D. Smith",
+              "party": "Republican",
+              "total_votes": 5182
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Guy D. Smith",
+              "party": "Republican",
+              "total_votes": 5182
+            }
+          ]
+        },
+        {
+          "contest": "CRAVEN COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Theron McCabe",
+              "party": "Democratic",
+              "total_votes": 2030
+            },
+            {
+              "name": "Shevel (Sherry) Hunt",
+              "party": "Republican",
+              "total_votes": 1929
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Theron McCabe",
+              "party": "Democratic",
+              "total_votes": 2030
+            }
+          ]
+        },
+        {
+          "contest": "CRAVEN COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Chadwick B. Howard",
+              "party": "Republican",
+              "total_votes": 3596
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Chadwick B. Howard",
+              "party": "Republican",
+              "total_votes": 3596
+            }
+          ]
+        },
+        {
+          "contest": "CRAVEN COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Denny Bucher",
+              "party": "Republican",
+              "total_votes": 5697
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Denny Bucher",
+              "party": "Republican",
+              "total_votes": 5697
+            }
+          ]
+        }
+      ]
+    },
+    "Cumberland": {
+      "contests": [
+        {
+          "contest": "CUMBERLAND COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Charles Evans",
+              "party": "Democratic",
+              "total_votes": 54607
+            },
+            {
+              "name": "Veronica B. Jones",
+              "party": "Democratic",
+              "total_votes": 51527
+            },
+            {
+              "name": "Greg West",
+              "party": "Republican",
+              "total_votes": 32043
+            },
+            {
+              "name": "Ron Ross",
+              "party": "Republican",
+              "total_votes": 24075
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Charles Evans",
+              "party": "Democratic",
+              "total_votes": 54607
+            },
+            {
+              "name": "Veronica B. Jones",
+              "party": "Democratic",
+              "total_votes": 51527
+            }
+          ]
+        },
+        {
+          "contest": "CUMBERLAND COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Sheila Cuffee",
+              "party": "Democratic",
+              "total_votes": 18543
+            },
+            {
+              "name": "Glenn Adams",
+              "party": "Democratic",
+              "total_votes": 18138
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Sheila Cuffee",
+              "party": "Democratic",
+              "total_votes": 18543
+            },
+            {
+              "name": "Glenn Adams",
+              "party": "Democratic",
+              "total_votes": 18138
+            }
+          ]
+        }
+      ]
+    },
+    "Currituck": {
+      "contests": [
+        {
+          "contest": "CURRITUCK COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Matt Beickert",
+              "party": "Republican",
+              "total_votes": 8721
+            },
+            {
+              "name": "Reggie Saunders",
+              "party": "Democratic",
+              "total_votes": 3937
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Matt Beickert",
+              "party": "Republican",
+              "total_votes": 8721
+            }
+          ]
+        },
+        {
+          "contest": "CURRITUCK COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Mike Payment",
+              "party": "Republican",
+              "total_votes": 9724
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mike Payment",
+              "party": "Republican",
+              "total_votes": 9724
+            }
+          ]
+        },
+        {
+          "contest": "CURRITUCK COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Steve Hedrick",
+              "party": "Republican",
+              "total_votes": 8628
+            },
+            {
+              "name": "JeKeith Cowell, Sr.",
+              "party": "Democratic",
+              "total_votes": 3950
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Steve Hedrick",
+              "party": "Republican",
+              "total_votes": 8628
+            }
+          ]
+        }
+      ]
+    },
+    "Dare": {
+      "contests": [
+        {
+          "contest": "DARE COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ervin Bateman",
+              "party": "Republican",
+              "total_votes": 10703
+            },
+            {
+              "name": "Aida Havel",
+              "party": "Democratic",
+              "total_votes": 8251
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ervin Bateman",
+              "party": "Republican",
+              "total_votes": 10703
+            }
+          ]
+        },
+        {
+          "contest": "DARE COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "David Twiddy",
+              "party": "Republican",
+              "total_votes": 11863
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David Twiddy",
+              "party": "Republican",
+              "total_votes": 11863
+            }
+          ]
+        },
+        {
+          "contest": "DARE COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Rob Ross",
+              "party": "Republican",
+              "total_votes": 11415
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Rob Ross",
+              "party": "Republican",
+              "total_votes": 11415
+            }
+          ]
+        }
+      ]
+    },
+    "Davidson": {
+      "contests": [
+        {
+          "contest": "DAVIDSON COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 4,
+          "choices": [
+            {
+              "name": "Matt Mizell",
+              "party": "Republican",
+              "total_votes": 41902
+            },
+            {
+              "name": "Dexter M. Short",
+              "party": "Republican",
+              "total_votes": 40736
+            },
+            {
+              "name": "Robbie Beasley",
+              "party": "Republican",
+              "total_votes": 40462
+            },
+            {
+              "name": "Dwight D. Cornelison",
+              "party": "Republican",
+              "total_votes": 39536
+            },
+            {
+              "name": "Tonya A. Lanier",
+              "party": "Democratic",
+              "total_votes": 21781
+            },
+            {
+              "name": "Andrea N. Tate",
+              "party": "Democratic",
+              "total_votes": 21305
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Matt Mizell",
+              "party": "Republican",
+              "total_votes": 41902
+            },
+            {
+              "name": "Dexter M. Short",
+              "party": "Republican",
+              "total_votes": 40736
+            },
+            {
+              "name": "Robbie Beasley",
+              "party": "Republican",
+              "total_votes": 40462
+            },
+            {
+              "name": "Dwight D. Cornelison",
+              "party": "Republican",
+              "total_votes": 39536
+            }
+          ]
+        },
+        {
+          "contest": "DAVIDSON COUNTY BOARD OF COMMISSIONERS (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Steve Shook",
+              "party": "Republican",
+              "total_votes": 38119
+            },
+            {
+              "name": "Charles (Chuck) Slipetsky",
+              "party": "Democratic",
+              "total_votes": 19705
+            },
+            {
+              "name": "Felicia Dreher",
+              "party": "Libertarian",
+              "total_votes": 2498
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Steve Shook",
+              "party": "Republican",
+              "total_votes": 38119
+            }
+          ]
+        }
+      ]
+    },
+    "Davie": {
+      "contests": [
+        {
+          "contest": "DAVIE COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Mark White",
+              "party": "Republican",
+              "total_votes": 14282
+            },
+            {
+              "name": "Benita Finney",
+              "party": "Republican",
+              "total_votes": 13946
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mark White",
+              "party": "Republican",
+              "total_votes": 14282
+            },
+            {
+              "name": "Benita Finney",
+              "party": "Republican",
+              "total_votes": 13946
+            }
+          ]
+        }
+      ]
+    },
+    "Duplin": {
+      "contests": [
+        {
+          "contest": "DUPLIN COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Dexter Edwards",
+              "party": "Republican",
+              "total_votes": 2046
+            },
+            {
+              "name": "Tracey Simmons Kornegay (Write-In)",
+              "party": "\u0000",
+              "total_votes": 714
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 45
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Dexter Edwards",
+              "party": "Republican",
+              "total_votes": 2046
+            }
+          ]
+        },
+        {
+          "contest": "DUPLIN COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Justin Edwards",
+              "party": "Republican",
+              "total_votes": 2885
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Justin Edwards",
+              "party": "Republican",
+              "total_votes": 2885
+            }
+          ]
+        }
+      ]
+    },
+    "Durham": {
+      "contests": []
+    },
+    "Edgecombe": {
+      "contests": [
+        {
+          "contest": "EDGECOMBE COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "George B. Thorne",
+              "party": "Democratic",
+              "total_votes": 1993
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "George B. Thorne",
+              "party": "Democratic",
+              "total_votes": 1993
+            }
+          ]
+        },
+        {
+          "contest": "EDGECOMBE COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "David Batts",
+              "party": "Democratic",
+              "total_votes": 1331
+            },
+            {
+              "name": "Amy Harris Robinette (Write-In)",
+              "party": "\u0000",
+              "total_votes": 437
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 33
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David Batts",
+              "party": "Democratic",
+              "total_votes": 1331
+            }
+          ]
+        },
+        {
+          "contest": "EDGECOMBE COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Larry D. Woodley",
+              "party": "Democratic",
+              "total_votes": 2191
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Larry D. Woodley",
+              "party": "Democratic",
+              "total_votes": 2191
+            }
+          ]
+        }
+      ]
+    },
+    "Forsyth": {
+      "contests": [
+        {
+          "contest": "FORSYTH COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Dan Besse",
+              "party": "Democratic",
+              "total_votes": 99019
+            },
+            {
+              "name": "Terri Mrazek",
+              "party": "Republican",
+              "total_votes": 52544
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Dan Besse",
+              "party": "Democratic",
+              "total_votes": 99019
+            }
+          ]
+        },
+        {
+          "contest": "FORSYTH COUNTY BOARD OF COMMISSIONERS DISTRICT A",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Tonya McDaniel",
+              "party": "Democratic",
+              "total_votes": 27092
+            },
+            {
+              "name": "Mali (Shai) Woodbury",
+              "party": "Democratic",
+              "total_votes": 27046
+            },
+            {
+              "name": "Contessa Smith",
+              "party": "Republican",
+              "total_votes": 6067
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tonya McDaniel",
+              "party": "Democratic",
+              "total_votes": 27092
+            },
+            {
+              "name": "Mali (Shai) Woodbury",
+              "party": "Democratic",
+              "total_votes": 27046
+            }
+          ]
+        },
+        {
+          "contest": "FORSYTH COUNTY BOARD OF COMMISSIONERS DISTRICT B",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Marsie West",
+              "party": "Democratic",
+              "total_votes": 65410
+            },
+            {
+              "name": "Chris Parker",
+              "party": "Republican",
+              "total_votes": 48466
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Marsie West",
+              "party": "Democratic",
+              "total_votes": 65410
+            }
+          ]
+        }
+      ]
+    },
+    "Franklin": {
+      "contests": [
+        {
+          "contest": "FRANKLIN COUNTY BOARD OF COMMISSIONERS AT-LARGE SEAT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Harry Foy",
+              "party": "Republican",
+              "total_votes": 17049
+            },
+            {
+              "name": "Milltrene Brodie Newell",
+              "party": "Democratic",
+              "total_votes": 15869
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Harry Foy",
+              "party": "Republican",
+              "total_votes": 17049
+            }
+          ]
+        },
+        {
+          "contest": "FRANKLIN COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Darin Wilder",
+              "party": "Democratic",
+              "total_votes": 3873
+            },
+            {
+              "name": "Roxanne Bragg",
+              "party": "Republican",
+              "total_votes": 2769
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Darin Wilder",
+              "party": "Democratic",
+              "total_votes": 3873
+            }
+          ]
+        },
+        {
+          "contest": "FRANKLIN COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "David Bunn",
+              "party": "Republican",
+              "total_votes": 3379
+            },
+            {
+              "name": "Michelle D. Strong",
+              "party": "Democratic",
+              "total_votes": 2578
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David Bunn",
+              "party": "Republican",
+              "total_votes": 3379
+            }
+          ]
+        }
+      ]
+    },
+    "Gaston": {
+      "contests": [
+        {
+          "contest": "GASTON COUNTY BOARD OF COMMISSIONERS DALLAS TWP",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Cathy Cloninger",
+              "party": "Republican",
+              "total_votes": 43246
+            },
+            {
+              "name": "Matt Buchanan",
+              "party": "Democratic",
+              "total_votes": 38568
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Cathy Cloninger",
+              "party": "Republican",
+              "total_votes": 43246
+            }
+          ]
+        },
+        {
+          "contest": "GASTON COUNTY BOARD OF COMMISSIONERS GASTONIA TWP",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Tom Keigher",
+              "party": "Republican",
+              "total_votes": 42326
+            },
+            {
+              "name": "Jessica Maria Moreno",
+              "party": "Democratic",
+              "total_votes": 39751
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tom Keigher",
+              "party": "Republican",
+              "total_votes": 42326
+            }
+          ]
+        },
+        {
+          "contest": "GASTON COUNTY BOARD OF COMMISSIONERS RIVERBEND TWP",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Chad Brown",
+              "party": "Republican",
+              "total_votes": 42770
+            },
+            {
+              "name": "Charley Killian (Write-In)",
+              "party": "\u0000",
+              "total_votes": 13019
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 2491
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Chad Brown",
+              "party": "Republican",
+              "total_votes": 42770
+            }
+          ]
+        }
+      ]
+    },
+    "Gates": {
+      "contests": [
+        {
+          "contest": "GATES COUNTY BOARD OF COMMISSIONERS EURE DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jay Peay",
+              "party": "Republican",
+              "total_votes": 2046
+            },
+            {
+              "name": "Larry (Scooter) Williams",
+              "party": "Unaffiliated",
+              "total_votes": 1824
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jay Peay",
+              "party": "Republican",
+              "total_votes": 2046
+            }
+          ]
+        },
+        {
+          "contest": "GATES COUNTY BOARD OF COMMISSIONERS GATES DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Joshua (Josh) Miller",
+              "party": "Unaffiliated",
+              "total_votes": 2126
+            },
+            {
+              "name": "Brian Keith Rountree",
+              "party": "Democratic",
+              "total_votes": 1954
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Joshua (Josh) Miller",
+              "party": "Unaffiliated",
+              "total_votes": 2126
+            }
+          ]
+        },
+        {
+          "contest": "GATES COUNTY BOARD OF COMMISSIONERS GATESVILLE DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Emily Truman",
+              "party": "Unaffiliated",
+              "total_votes": 2908
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Emily Truman",
+              "party": "Unaffiliated",
+              "total_votes": 2908
+            }
+          ]
+        }
+      ]
+    },
+    "Graham": {
+      "contests": [
+        {
+          "contest": "GRAHAM COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Natasha Williams",
+              "party": "Republican",
+              "total_votes": 2247
+            },
+            {
+              "name": "Brian (Taco) Johnson",
+              "party": "Republican",
+              "total_votes": 2198
+            },
+            {
+              "name": "Jacob Nelms",
+              "party": "Republican",
+              "total_votes": 2029
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Natasha Williams",
+              "party": "Republican",
+              "total_votes": 2247
+            },
+            {
+              "name": "Brian (Taco) Johnson",
+              "party": "Republican",
+              "total_votes": 2198
+            },
+            {
+              "name": "Jacob Nelms",
+              "party": "Republican",
+              "total_votes": 2029
+            }
+          ]
+        }
+      ]
+    },
+    "Granville": {
+      "contests": [
+        {
+          "contest": "GRANVILLE COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Daniel Joseph (Joe) Sinnema",
+              "party": "Republican",
+              "total_votes": 2319
+            },
+            {
+              "name": "Tonya N. Sneed",
+              "party": "Democratic",
+              "total_votes": 1671
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Daniel Joseph (Joe) Sinnema",
+              "party": "Republican",
+              "total_votes": 2319
+            }
+          ]
+        },
+        {
+          "contest": "GRANVILLE COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Amanda J. LaBrecque",
+              "party": "Republican",
+              "total_votes": 2175
+            },
+            {
+              "name": "LaHoma Smith Romocki",
+              "party": "Democratic",
+              "total_votes": 1765
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Amanda J. LaBrecque",
+              "party": "Republican",
+              "total_votes": 2175
+            }
+          ]
+        },
+        {
+          "contest": "GRANVILLE COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Josh Shank",
+              "party": "Republican",
+              "total_votes": 1486
+            },
+            {
+              "name": "Banici Townsend Harrison (Write-In)",
+              "party": "\u0000",
+              "total_votes": 184
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 68
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Josh Shank",
+              "party": "Republican",
+              "total_votes": 1486
+            }
+          ]
+        }
+      ]
+    },
+    "Greene": {
+      "contests": [
+        {
+          "contest": "GREENE COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Tammy Jennette",
+              "party": "Democratic",
+              "total_votes": 3241
+            },
+            {
+              "name": "Jerry R. Jones",
+              "party": "Republican",
+              "total_votes": 2933
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tammy Jennette",
+              "party": "Democratic",
+              "total_votes": 3241
+            }
+          ]
+        },
+        {
+          "contest": "GREENE COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Tyrone Sutton, Jr.",
+              "party": "Democratic",
+              "total_votes": 4146
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tyrone Sutton, Jr.",
+              "party": "Democratic",
+              "total_votes": 4146
+            }
+          ]
+        },
+        {
+          "contest": "GREENE COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ray Johnson",
+              "party": "Republican",
+              "total_votes": 3788
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ray Johnson",
+              "party": "Republican",
+              "total_votes": 3788
+            }
+          ]
+        }
+      ]
+    },
+    "Guilford": {
+      "contests": [
+        {
+          "contest": "GUILFORD COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Greg Drumwright",
+              "party": "Democratic",
+              "total_votes": 143074
+            },
+            {
+              "name": "Mike Perdue",
+              "party": "Republican",
+              "total_votes": 71777
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Greg Drumwright",
+              "party": "Democratic",
+              "total_votes": 143074
+            }
+          ]
+        },
+        {
+          "contest": "GUILFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Carlvena Foster",
+              "party": "Democratic",
+              "total_votes": 15511
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Carlvena Foster",
+              "party": "Democratic",
+              "total_votes": 15511
+            }
+          ]
+        },
+        {
+          "contest": "GUILFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Scott A. Jones",
+              "party": "Democratic",
+              "total_votes": 13131
+            },
+            {
+              "name": "Alan Perdue",
+              "party": "Republican",
+              "total_votes": 12389
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Scott A. Jones",
+              "party": "Democratic",
+              "total_votes": 13131
+            }
+          ]
+        },
+        {
+          "contest": "GUILFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Derek Mobley",
+              "party": "Democratic",
+              "total_votes": 19316
+            },
+            {
+              "name": "Pat Tillman",
+              "party": "Republican",
+              "total_votes": 15342
+            },
+            {
+              "name": "Jeanine Couto",
+              "party": "GRE",
+              "total_votes": 866
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Derek Mobley",
+              "party": "Democratic",
+              "total_votes": 19316
+            }
+          ]
+        },
+        {
+          "contest": "GUILFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Lisa McMillan",
+              "party": "Democratic",
+              "total_votes": 20328
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Lisa McMillan",
+              "party": "Democratic",
+              "total_votes": 20328
+            }
+          ]
+        }
+      ]
+    },
+    "Halifax": {
+      "contests": [
+        {
+          "contest": "HALIFAX COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Vernon J. Bryant",
+              "party": "Democratic",
+              "total_votes": 10804
+            },
+            {
+              "name": "Chenoa Richardson Davis",
+              "party": "Democratic",
+              "total_votes": 9986
+            },
+            {
+              "name": "Tyus S. Few",
+              "party": "Democratic",
+              "total_votes": 9409
+            },
+            {
+              "name": "Chuck Hasty",
+              "party": "Republican",
+              "total_votes": 6304
+            },
+            {
+              "name": "Sammy Davis Webb",
+              "party": "Republican",
+              "total_votes": 5346
+            },
+            {
+              "name": "John Whichard",
+              "party": "Republican",
+              "total_votes": 3835
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Vernon J. Bryant",
+              "party": "Democratic",
+              "total_votes": 10804
+            },
+            {
+              "name": "Chenoa Richardson Davis",
+              "party": "Democratic",
+              "total_votes": 9986
+            },
+            {
+              "name": "Tyus S. Few",
+              "party": "Democratic",
+              "total_votes": 9409
+            }
+          ]
+        }
+      ]
+    },
+    "Harnett": {
+      "contests": [
+        {
+          "contest": "HARNETT COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Barbara McKoy",
+              "party": "Democratic",
+              "total_votes": 4851
+            },
+            {
+              "name": "Abraham (Abe) Durante",
+              "party": "Republican",
+              "total_votes": 2501
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Barbara McKoy",
+              "party": "Democratic",
+              "total_votes": 4851
+            }
+          ]
+        },
+        {
+          "contest": "HARNETT COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Dewayne Lee",
+              "party": "Republican",
+              "total_votes": 6082
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Dewayne Lee",
+              "party": "Republican",
+              "total_votes": 6082
+            }
+          ]
+        }
+      ]
+    },
+    "Haywood": {
+      "contests": [
+        {
+          "contest": "HAYWOOD COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "David Burnette",
+              "party": "Republican",
+              "total_votes": 13529
+            },
+            {
+              "name": "Jeff Stines",
+              "party": "Republican",
+              "total_votes": 12413
+            },
+            {
+              "name": "Tommy Long",
+              "party": "Republican",
+              "total_votes": 12095
+            },
+            {
+              "name": "Michael T. Sorrells",
+              "party": "Democratic",
+              "total_votes": 11657
+            },
+            {
+              "name": "Carly Pugh",
+              "party": "Democratic",
+              "total_votes": 10459
+            },
+            {
+              "name": "Vicki Hyatt",
+              "party": "Unaffiliated",
+              "total_votes": 9276
+            },
+            {
+              "name": "Blake T. Hart",
+              "party": "Unaffiliated",
+              "total_votes": 3156
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David Burnette",
+              "party": "Republican",
+              "total_votes": 13529
+            },
+            {
+              "name": "Jeff Stines",
+              "party": "Republican",
+              "total_votes": 12413
+            },
+            {
+              "name": "Tommy Long",
+              "party": "Republican",
+              "total_votes": 12095
+            }
+          ]
+        }
+      ]
+    },
+    "Henderson": {
+      "contests": [
+        {
+          "contest": "HENDERSON COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "J. Michael Edney",
+              "party": "Republican",
+              "total_votes": 35818
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "J. Michael Edney",
+              "party": "Republican",
+              "total_votes": 35818
+            }
+          ]
+        },
+        {
+          "contest": "HENDERSON COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Rudd Orr",
+              "party": "Republican",
+              "total_votes": 36073
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Rudd Orr",
+              "party": "Republican",
+              "total_votes": 36073
+            }
+          ]
+        },
+        {
+          "contest": "HENDERSON COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Rebecca K. McCall",
+              "party": "Republican",
+              "total_votes": 36016
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Rebecca K. McCall",
+              "party": "Republican",
+              "total_votes": 36016
+            }
+          ]
+        }
+      ]
+    },
+    "Hertford": {
+      "contests": [
+        {
+          "contest": "HERTFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Leroy Douglas II",
+              "party": "Democratic",
+              "total_votes": 5308
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Leroy Douglas II",
+              "party": "Democratic",
+              "total_votes": 5308
+            }
+          ]
+        },
+        {
+          "contest": "HERTFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Andre M. Lassiter",
+              "party": "Democratic",
+              "total_votes": 5522
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Andre M. Lassiter",
+              "party": "Democratic",
+              "total_votes": 5522
+            }
+          ]
+        }
+      ]
+    },
+    "Hoke": {
+      "contests": [
+        {
+          "contest": "HOKE COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Allen Thomas",
+              "party": "Democratic",
+              "total_votes": 9405
+            },
+            {
+              "name": "Deborah McMillan-Evans",
+              "party": "Democratic",
+              "total_votes": 8991
+            },
+            {
+              "name": "Harry Southerland",
+              "party": "Democratic",
+              "total_votes": 8424
+            },
+            {
+              "name": "Stephanie Carter",
+              "party": "Republican",
+              "total_votes": 5771
+            },
+            {
+              "name": "David Frump",
+              "party": "Republican",
+              "total_votes": 5487
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Allen Thomas",
+              "party": "Democratic",
+              "total_votes": 9405
+            },
+            {
+              "name": "Deborah McMillan-Evans",
+              "party": "Democratic",
+              "total_votes": 8991
+            },
+            {
+              "name": "Harry Southerland",
+              "party": "Democratic",
+              "total_votes": 8424
+            }
+          ]
+        }
+      ]
+    },
+    "Hyde": {
+      "contests": [
+        {
+          "contest": "HYDE COUNTY BOARD OF COMMISSIONERS CURRITUCK TWP",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Shannon Swindell (Write-In)",
+              "party": "\u0000",
+              "total_votes": 296
+            },
+            {
+              "name": "Horace Taylor (Write-In)",
+              "party": "\u0000",
+              "total_votes": 223
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 42
+            },
+            {
+              "name": "\u0000",
+              "party": null,
+              "total_votes": 0
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Shannon Swindell (Write-In)",
+              "party": "\u0000",
+              "total_votes": 296
+            }
+          ]
+        },
+        {
+          "contest": "HYDE COUNTY BOARD OF COMMISSIONERS SWAN QUARTER TWP",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jan Moore",
+              "party": "Republican",
+              "total_votes": 1284
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jan Moore",
+              "party": "Republican",
+              "total_votes": 1284
+            }
+          ]
+        }
+      ]
+    },
+    "Iredell": {
+      "contests": [
+        {
+          "contest": "IREDELL COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Brent Goddard",
+              "party": "Republican",
+              "total_votes": 41794
+            },
+            {
+              "name": "Bert Connolly",
+              "party": "Republican",
+              "total_votes": 41345
+            },
+            {
+              "name": "Scottie Brown",
+              "party": "Republican",
+              "total_votes": 40930
+            },
+            {
+              "name": "Terence Clark",
+              "party": "Democratic",
+              "total_votes": 28312
+            },
+            {
+              "name": "Amanda Brown Kotis",
+              "party": "Democratic",
+              "total_votes": 27546
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Brent Goddard",
+              "party": "Republican",
+              "total_votes": 41794
+            },
+            {
+              "name": "Bert Connolly",
+              "party": "Republican",
+              "total_votes": 41345
+            },
+            {
+              "name": "Scottie Brown",
+              "party": "Republican",
+              "total_votes": 40930
+            }
+          ]
+        }
+      ]
+    },
+    "Jackson": {
+      "contests": [
+        {
+          "contest": "JACKSON COUNTY BOARD OF COMMISSIONERS CHAIRMAN",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Marcia Almond",
+              "party": "Democratic",
+              "total_votes": 9054
+            },
+            {
+              "name": "David J. Rogers",
+              "party": "Republican",
+              "total_votes": 6996
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Marcia Almond",
+              "party": "Democratic",
+              "total_votes": 9054
+            }
+          ]
+        },
+        {
+          "contest": "JACKSON COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Casey Walawender",
+              "party": "Democratic",
+              "total_votes": 8952
+            },
+            {
+              "name": "Steven J. Sutton",
+              "party": "Republican",
+              "total_votes": 7085
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Casey Walawender",
+              "party": "Democratic",
+              "total_votes": 8952
+            }
+          ]
+        },
+        {
+          "contest": "JACKSON COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Sean Bridgers",
+              "party": "Democratic",
+              "total_votes": 9248
+            },
+            {
+              "name": "John W. Smith",
+              "party": "Republican",
+              "total_votes": 6782
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Sean Bridgers",
+              "party": "Democratic",
+              "total_votes": 9248
+            }
+          ]
+        }
+      ]
+    },
+    "Johnston": {
+      "contests": [
+        {
+          "contest": "JOHNSTON COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Adam Caldwell",
+              "party": "Republican",
+              "total_votes": 54119
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Adam Caldwell",
+              "party": "Republican",
+              "total_votes": 54119
+            }
+          ]
+        },
+        {
+          "contest": "JOHNSTON COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Patrick Harris",
+              "party": "Republican",
+              "total_votes": 49546
+            },
+            {
+              "name": "Will Byrd (Write-In)",
+              "party": "\u0000",
+              "total_votes": 3796
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 2490
+            },
+            {
+              "name": "Pat LeGrand (Write-In)",
+              "party": "\u0000",
+              "total_votes": 5
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Patrick Harris",
+              "party": "Republican",
+              "total_votes": 49546
+            }
+          ]
+        },
+        {
+          "contest": "JOHNSTON COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "R.S. (Butch) Lawter, Jr.",
+              "party": "Republican",
+              "total_votes": 53491
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "R.S. (Butch) Lawter, Jr.",
+              "party": "Republican",
+              "total_votes": 53491
+            }
+          ]
+        }
+      ]
+    },
+    "Jones": {
+      "contests": [
+        {
+          "contest": "JONES COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Lou Miller",
+              "party": "Democratic",
+              "total_votes": 393
+            },
+            {
+              "name": "Ralph Gray",
+              "party": "Republican",
+              "total_votes": 201
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Lou Miller",
+              "party": "Democratic",
+              "total_votes": 393
+            }
+          ]
+        },
+        {
+          "contest": "JONES COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Brittney Meadows",
+              "party": "Democratic",
+              "total_votes": 379
+            },
+            {
+              "name": "Michael Jordan",
+              "party": "Republican",
+              "total_votes": 238
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Brittney Meadows",
+              "party": "Democratic",
+              "total_votes": 379
+            }
+          ]
+        },
+        {
+          "contest": "JONES COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "John H. (Jack) Bender III",
+              "party": "Unaffiliated",
+              "total_votes": 365
+            },
+            {
+              "name": "Fernanda Copeland",
+              "party": "Unaffiliated",
+              "total_votes": 152
+            },
+            {
+              "name": "Richard Avery, Jr.",
+              "party": "Unaffiliated",
+              "total_votes": 104
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "John H. (Jack) Bender III",
+              "party": "Unaffiliated",
+              "total_votes": 365
+            }
+          ]
+        },
+        {
+          "contest": "JONES COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Zachary (Zach) Simons",
+              "party": "Unaffiliated",
+              "total_votes": 220
+            },
+            {
+              "name": "Michael D. Pretty",
+              "party": "Democratic",
+              "total_votes": 136
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Zachary (Zach) Simons",
+              "party": "Unaffiliated",
+              "total_votes": 220
+            }
+          ]
+        },
+        {
+          "contest": "JONES COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Frank Emory",
+              "party": "Republican",
+              "total_votes": 414
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Frank Emory",
+              "party": "Republican",
+              "total_votes": 414
+            }
+          ]
+        },
+        {
+          "contest": "JONES COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Harvey L. Rouse, Jr.",
+              "party": "Republican",
+              "total_votes": 276
+            },
+            {
+              "name": "Mike Haddock",
+              "party": "Unaffiliated",
+              "total_votes": 206
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Harvey L. Rouse, Jr.",
+              "party": "Republican",
+              "total_votes": 276
+            }
+          ]
+        },
+        {
+          "contest": "JONES COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ashley Norris",
+              "party": "Republican",
+              "total_votes": 331
+            },
+            {
+              "name": "Vernon Lee Harris",
+              "party": "Unaffiliated",
+              "total_votes": 168
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ashley Norris",
+              "party": "Republican",
+              "total_votes": 331
+            }
+          ]
+        }
+      ]
+    },
+    "Lee": {
+      "contests": [
+        {
+          "contest": "LEE COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Robert Reives",
+              "party": "Democratic",
+              "total_votes": 2851
+            },
+            {
+              "name": "Louis D. Williams",
+              "party": "Republican",
+              "total_votes": 838
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Robert Reives",
+              "party": "Democratic",
+              "total_votes": 2851
+            }
+          ]
+        },
+        {
+          "contest": "LEE COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Kirk D. Smith",
+              "party": "Republican",
+              "total_votes": 2705
+            },
+            {
+              "name": "Jonathan Boyce (Write-In)",
+              "party": "\u0000",
+              "total_votes": 1886
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 125
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Kirk D. Smith",
+              "party": "Republican",
+              "total_votes": 2705
+            }
+          ]
+        },
+        {
+          "contest": "LEE COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Andre Knecht",
+              "party": "Republican",
+              "total_votes": 2933
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Andre Knecht",
+              "party": "Republican",
+              "total_votes": 2933
+            }
+          ]
+        },
+        {
+          "contest": "LEE COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jamey Laudate",
+              "party": "Democratic",
+              "total_votes": 4038
+            },
+            {
+              "name": "Eric N. Davidson",
+              "party": "Republican",
+              "total_votes": 2766
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jamey Laudate",
+              "party": "Democratic",
+              "total_votes": 4038
+            }
+          ]
+        }
+      ]
+    },
+    "Lenoir": {
+      "contests": [
+        {
+          "contest": "LENOIR COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "J. Mac Daughety",
+              "party": "Republican",
+              "total_votes": 2971
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "J. Mac Daughety",
+              "party": "Republican",
+              "total_votes": 2971
+            }
+          ]
+        },
+        {
+          "contest": "LENOIR COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "BJ Murphy",
+              "party": "Republican",
+              "total_votes": 2940
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "BJ Murphy",
+              "party": "Republican",
+              "total_votes": 2940
+            }
+          ]
+        },
+        {
+          "contest": "LENOIR COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Cleveland Lovick",
+              "party": "Democratic",
+              "total_votes": 2629
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Cleveland Lovick",
+              "party": "Democratic",
+              "total_votes": 2629
+            }
+          ]
+        }
+      ]
+    },
+    "Lincoln": {
+      "contests": [
+        {
+          "contest": "LINCOLN COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "David M. Carpenter",
+              "party": "Republican",
+              "total_votes": 22380
+            },
+            {
+              "name": "Bud Cesena",
+              "party": "Republican",
+              "total_votes": 21390
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David M. Carpenter",
+              "party": "Republican",
+              "total_votes": 22380
+            },
+            {
+              "name": "Bud Cesena",
+              "party": "Republican",
+              "total_votes": 21390
+            }
+          ]
+        }
+      ]
+    },
+    "Macon": {
+      "contests": [
+        {
+          "contest": "MACON COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "John Shearl",
+              "party": "Republican",
+              "total_votes": 8673
+            },
+            {
+              "name": "Russ Lunn",
+              "party": "Democratic",
+              "total_votes": 7228
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "John Shearl",
+              "party": "Republican",
+              "total_votes": 8673
+            }
+          ]
+        },
+        {
+          "contest": "MACON COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Kellie McConnell Burns",
+              "party": "Republican",
+              "total_votes": 8454
+            },
+            {
+              "name": "Dylan Castle",
+              "party": "Republican",
+              "total_votes": 8348
+            },
+            {
+              "name": "Terry Bell",
+              "party": "Democratic",
+              "total_votes": 6477
+            },
+            {
+              "name": "Janet Jacobs Greene",
+              "party": "Democratic",
+              "total_votes": 5600
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Kellie McConnell Burns",
+              "party": "Republican",
+              "total_votes": 8454
+            },
+            {
+              "name": "Dylan Castle",
+              "party": "Republican",
+              "total_votes": 8348
+            }
+          ]
+        }
+      ]
+    },
+    "Madison": {
+      "contests": [
+        {
+          "contest": "MADISON COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Mark Snelson",
+              "party": "Democratic",
+              "total_votes": 5696
+            },
+            {
+              "name": "Connie Molland",
+              "party": "Democratic",
+              "total_votes": 5015
+            },
+            {
+              "name": "C. William Briggs III",
+              "party": "Republican",
+              "total_votes": 4872
+            },
+            {
+              "name": "Alan C. Wyatt",
+              "party": "Republican",
+              "total_votes": 4848
+            },
+            {
+              "name": "Jeremy Hensley",
+              "party": "Republican",
+              "total_votes": 4844
+            },
+            {
+              "name": "Shannon Dowler",
+              "party": "Democratic",
+              "total_votes": 4775
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mark Snelson",
+              "party": "Democratic",
+              "total_votes": 5696
+            },
+            {
+              "name": "Connie Molland",
+              "party": "Democratic",
+              "total_votes": 5015
+            },
+            {
+              "name": "C. William Briggs III",
+              "party": "Republican",
+              "total_votes": 4872
+            }
+          ]
+        }
+      ]
+    },
+    "Martin": {
+      "contests": [
+        {
+          "contest": "MARTIN COUNTY BOARD OF COMMISSIONERS WESTERN DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Joe R. Ayers",
+              "party": "Republican",
+              "total_votes": 4469
+            },
+            {
+              "name": "Ronnie Smith",
+              "party": "Democratic",
+              "total_votes": 3566
+            },
+            {
+              "name": "J. C. Edwards, Jr.",
+              "party": "Unaffiliated",
+              "total_votes": 1115
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Joe R. Ayers",
+              "party": "Republican",
+              "total_votes": 4469
+            }
+          ]
+        }
+      ]
+    },
+    "McDowell": {
+      "contests": [
+        {
+          "contest": "MCDOWELL COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Chris Allison",
+              "party": "Republican",
+              "total_votes": 9269
+            },
+            {
+              "name": "Tony G. Brown",
+              "party": "Republican",
+              "total_votes": 8988
+            },
+            {
+              "name": "David Walker",
+              "party": "Republican",
+              "total_votes": 8516
+            },
+            {
+              "name": "Terry English",
+              "party": "Democratic",
+              "total_votes": 6371
+            },
+            {
+              "name": "Matt Suttles",
+              "party": "Democratic",
+              "total_votes": 5267
+            },
+            {
+              "name": "Stephanie Tenery",
+              "party": "Democratic",
+              "total_votes": 4868
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Chris Allison",
+              "party": "Republican",
+              "total_votes": 9269
+            },
+            {
+              "name": "Tony G. Brown",
+              "party": "Republican",
+              "total_votes": 8988
+            },
+            {
+              "name": "David Walker",
+              "party": "Republican",
+              "total_votes": 8516
+            }
+          ]
+        }
+      ]
+    },
+    "Mecklenburg": {
+      "contests": [
+        {
+          "contest": "MECKLENBURG COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Leigh Altman",
+              "party": "Democratic",
+              "total_votes": 339588
+            },
+            {
+              "name": "Arthur Griffin, Jr.",
+              "party": "Democratic",
+              "total_votes": 339584
+            },
+            {
+              "name": "Yvette Townsend-Ingram",
+              "party": "Democratic",
+              "total_votes": 335305
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Leigh Altman",
+              "party": "Democratic",
+              "total_votes": 339588
+            },
+            {
+              "name": "Arthur Griffin, Jr.",
+              "party": "Democratic",
+              "total_votes": 339584
+            },
+            {
+              "name": "Yvette Townsend-Ingram",
+              "party": "Democratic",
+              "total_votes": 335305
+            }
+          ]
+        },
+        {
+          "contest": "MECKLENBURG COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Morris (Mac) McAdoo",
+              "party": "Democratic",
+              "total_votes": 63268
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Morris (Mac) McAdoo",
+              "party": "Democratic",
+              "total_votes": 63268
+            }
+          ]
+        },
+        {
+          "contest": "MECKLENBURG COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Monifa (Mo) Drayton",
+              "party": "Democratic",
+              "total_votes": 54808
+            },
+            {
+              "name": "Angela White Edwards",
+              "party": "Republican",
+              "total_votes": 10807
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Monifa (Mo) Drayton",
+              "party": "Democratic",
+              "total_votes": 54808
+            }
+          ]
+        },
+        {
+          "contest": "MECKLENBURG COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "George Dunlap",
+              "party": "Democratic",
+              "total_votes": 57887
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "George Dunlap",
+              "party": "Democratic",
+              "total_votes": 57887
+            }
+          ]
+        },
+        {
+          "contest": "MECKLENBURG COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Mark Jerrell",
+              "party": "Democratic",
+              "total_votes": 57555
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mark Jerrell",
+              "party": "Democratic",
+              "total_votes": 57555
+            }
+          ]
+        },
+        {
+          "contest": "MECKLENBURG COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Charles DeLoach",
+              "party": "Democratic",
+              "total_votes": 57814
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Charles DeLoach",
+              "party": "Democratic",
+              "total_votes": 57814
+            }
+          ]
+        },
+        {
+          "contest": "MECKLENBURG COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Susan Rodriguez-McDowell",
+              "party": "Democratic",
+              "total_votes": 60579
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Susan Rodriguez-McDowell",
+              "party": "Democratic",
+              "total_votes": 60579
+            }
+          ]
+        }
+      ]
+    },
+    "Mitchell": {
+      "contests": [
+        {
+          "contest": "MITCHELL COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Vic Burleson",
+              "party": "Republican",
+              "total_votes": 3731
+            },
+            {
+              "name": "Steve Pitman",
+              "party": "Republican",
+              "total_votes": 3706
+            },
+            {
+              "name": "Harley Masters",
+              "party": "Republican",
+              "total_votes": 3633
+            },
+            {
+              "name": "Chelsea Wilson Thayer",
+              "party": "Unaffiliated",
+              "total_votes": 1849
+            },
+            {
+              "name": "Jeremy Boston Wise",
+              "party": "Democratic",
+              "total_votes": 1733
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Vic Burleson",
+              "party": "Republican",
+              "total_votes": 3731
+            },
+            {
+              "name": "Steve Pitman",
+              "party": "Republican",
+              "total_votes": 3706
+            },
+            {
+              "name": "Harley Masters",
+              "party": "Republican",
+              "total_votes": 3633
+            }
+          ]
+        }
+      ]
+    },
+    "Montgomery": {
+      "contests": [
+        {
+          "contest": "MONTGOMERY COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Michael Criscoe",
+              "party": "Republican",
+              "total_votes": 4390
+            },
+            {
+              "name": "Steve Hair",
+              "party": "Republican",
+              "total_votes": 4221
+            },
+            {
+              "name": "Alan (Bostic) Parker",
+              "party": "Democratic",
+              "total_votes": 3545
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Michael Criscoe",
+              "party": "Republican",
+              "total_votes": 4390
+            },
+            {
+              "name": "Steve Hair",
+              "party": "Republican",
+              "total_votes": 4221
+            }
+          ]
+        }
+      ]
+    },
+    "Moore": {
+      "contests": [
+        {
+          "contest": "MOORE COUNTY BOARD OF COMMISSIONERS DISTRICT I",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jim Von Canon",
+              "party": "Republican",
+              "total_votes": 29391
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jim Von Canon",
+              "party": "Republican",
+              "total_votes": 29391
+            }
+          ]
+        },
+        {
+          "contest": "MOORE COUNTY BOARD OF COMMISSIONERS DISTRICT III",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Cameron Dockery",
+              "party": "Republican",
+              "total_votes": 29128
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Cameron Dockery",
+              "party": "Republican",
+              "total_votes": 29128
+            }
+          ]
+        },
+        {
+          "contest": "MOORE COUNTY BOARD OF COMMISSIONERS DISTRICT V",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Kurt J. Cook",
+              "party": "Republican",
+              "total_votes": 29119
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Kurt J. Cook",
+              "party": "Republican",
+              "total_votes": 29119
+            }
+          ]
+        }
+      ]
+    },
+    "Nash": {
+      "contests": [
+        {
+          "contest": "NASH COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Quentin T. Sumner",
+              "party": "Democratic",
+              "total_votes": 3476
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Quentin T. Sumner",
+              "party": "Democratic",
+              "total_votes": 3476
+            }
+          ]
+        },
+        {
+          "contest": "NASH COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "DeLeon Parker",
+              "party": "Republican",
+              "total_votes": 3853
+            },
+            {
+              "name": "Erica Mitchell",
+              "party": "Democratic",
+              "total_votes": 2518
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "DeLeon Parker",
+              "party": "Republican",
+              "total_votes": 3853
+            }
+          ]
+        },
+        {
+          "contest": "NASH COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Gwen Wilkins",
+              "party": "Democratic",
+              "total_votes": 4331
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Gwen Wilkins",
+              "party": "Democratic",
+              "total_votes": 4331
+            }
+          ]
+        },
+        {
+          "contest": "NASH COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jerry Barnes",
+              "party": "Republican",
+              "total_votes": 4484
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jerry Barnes",
+              "party": "Republican",
+              "total_votes": 4484
+            }
+          ]
+        }
+      ]
+    },
+    "New Hanover": {
+      "contests": [
+        {
+          "contest": "NEW HANOVER COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Rob Zapple",
+              "party": "Democratic",
+              "total_votes": 56540
+            },
+            {
+              "name": "LeShonda Wallace",
+              "party": "Democratic",
+              "total_votes": 51328
+            },
+            {
+              "name": "LeAnn Pierce",
+              "party": "Republican",
+              "total_votes": 42447
+            },
+            {
+              "name": "Richard M. Collier",
+              "party": "Republican",
+              "total_votes": 39603
+            },
+            {
+              "name": "Bob Drach",
+              "party": "Libertarian",
+              "total_votes": 5338
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Rob Zapple",
+              "party": "Democratic",
+              "total_votes": 56540
+            },
+            {
+              "name": "LeShonda Wallace",
+              "party": "Democratic",
+              "total_votes": 51328
+            }
+          ]
+        }
+      ]
+    },
+    "Northampton": {
+      "contests": [
+        {
+          "contest": "NORTHAMPTON COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ed Martin",
+              "party": "Democratic",
+              "total_votes": 4482
+            },
+            {
+              "name": "Earl Daniels",
+              "party": "Unaffiliated",
+              "total_votes": 2045
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ed Martin",
+              "party": "Democratic",
+              "total_votes": 4482
+            }
+          ]
+        },
+        {
+          "contest": "NORTHAMPTON COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Melvetta Broadnax Taylor",
+              "party": "Democratic",
+              "total_votes": 5091
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Melvetta Broadnax Taylor",
+              "party": "Democratic",
+              "total_votes": 5091
+            }
+          ]
+        },
+        {
+          "contest": "NORTHAMPTON COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Kelvin Edwards",
+              "party": "Democratic",
+              "total_votes": 5141
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Kelvin Edwards",
+              "party": "Democratic",
+              "total_votes": 5141
+            }
+          ]
+        }
+      ]
+    },
+    "Onslow": {
+      "contests": [
+        {
+          "contest": "ONSLOW COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Tim Foster",
+              "party": "Republican",
+              "total_votes": 28549
+            },
+            {
+              "name": "Whitney Cantrell",
+              "party": "Republican",
+              "total_votes": 28109
+            },
+            {
+              "name": "Royce Bennett",
+              "party": "Republican",
+              "total_votes": 26585
+            },
+            {
+              "name": "Rebecca Cooper",
+              "party": "Democratic",
+              "total_votes": 20849
+            },
+            {
+              "name": "Michel Leandre, Jr.",
+              "party": "Democratic",
+              "total_votes": 17987
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tim Foster",
+              "party": "Republican",
+              "total_votes": 28549
+            },
+            {
+              "name": "Whitney Cantrell",
+              "party": "Republican",
+              "total_votes": 28109
+            },
+            {
+              "name": "Royce Bennett",
+              "party": "Republican",
+              "total_votes": 26585
+            }
+          ]
+        }
+      ]
+    },
+    "Orange": {
+      "contests": [
+        {
+          "contest": "ORANGE COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Karen Stegman",
+              "party": "Democratic",
+              "total_votes": 58084
+            },
+            {
+              "name": "Jeffrey Hoagland",
+              "party": "Republican",
+              "total_votes": 13199
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Karen Stegman",
+              "party": "Democratic",
+              "total_votes": 58084
+            }
+          ]
+        },
+        {
+          "contest": "ORANGE COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Rani Dasi",
+              "party": "Democratic",
+              "total_votes": 59988
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Rani Dasi",
+              "party": "Democratic",
+              "total_votes": 59988
+            }
+          ]
+        },
+        {
+          "contest": "ORANGE COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Beth Bronson",
+              "party": "Democratic",
+              "total_votes": 58352
+            },
+            {
+              "name": "Louis D. Capitanio",
+              "party": "Republican",
+              "total_votes": 12926
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Beth Bronson",
+              "party": "Democratic",
+              "total_votes": 58352
+            }
+          ]
+        }
+      ]
+    },
+    "Pamlico": {
+      "contests": [
+        {
+          "contest": "PAMLICO COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Doug Brinson",
+              "party": "Republican",
+              "total_votes": 3182
+            },
+            {
+              "name": "Derek Potter",
+              "party": "Republican",
+              "total_votes": 2731
+            },
+            {
+              "name": "Jennifer Sanders Williford",
+              "party": "Unaffiliated",
+              "total_votes": 1654
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Doug Brinson",
+              "party": "Republican",
+              "total_votes": 3182
+            },
+            {
+              "name": "Derek Potter",
+              "party": "Republican",
+              "total_votes": 2731
+            }
+          ]
+        },
+        {
+          "contest": "PAMLICO COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Edward Riggs, Jr.",
+              "party": "Republican",
+              "total_votes": 703
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Edward Riggs, Jr.",
+              "party": "Republican",
+              "total_votes": 703
+            }
+          ]
+        },
+        {
+          "contest": "PAMLICO COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Carl J. Ollison",
+              "party": "Democratic",
+              "total_votes": 524
+            },
+            {
+              "name": "Willie Midgette (Write-In)",
+              "party": "\u0000",
+              "total_votes": 102
+            },
+            {
+              "name": "Write-In (Miscellaneous)",
+              "party": "\u0000",
+              "total_votes": 23
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Carl J. Ollison",
+              "party": "Democratic",
+              "total_votes": 524
+            }
+          ]
+        }
+      ]
+    },
+    "Pasquotank": {
+      "contests": [
+        {
+          "contest": "PASQUOTANK COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Timothy C. Stallings, Jr.",
+              "party": "Democratic",
+              "total_votes": 7268
+            },
+            {
+              "name": "Carl Witten",
+              "party": "Republican",
+              "total_votes": 5735
+            },
+            {
+              "name": "Charles Jordan",
+              "party": "Democratic",
+              "total_votes": 4324
+            },
+            {
+              "name": "Ernest (Bootie) Cartwright, Jr.",
+              "party": "Unaffiliated",
+              "total_votes": 3856
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Timothy C. Stallings, Jr.",
+              "party": "Democratic",
+              "total_votes": 7268
+            },
+            {
+              "name": "Carl Witten",
+              "party": "Republican",
+              "total_votes": 5735
+            }
+          ]
+        },
+        {
+          "contest": "PASQUOTANK COUNTY BOARD OF COMMISSIONERS NORTHERN OUTSIDE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Sean Lavin",
+              "party": "Republican",
+              "total_votes": 2448
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Sean Lavin",
+              "party": "Republican",
+              "total_votes": 2448
+            }
+          ]
+        },
+        {
+          "contest": "PASQUOTANK COUNTY BOARD OF COMMISSIONERS SOUTHERN INSIDE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Clifford Shaw",
+              "party": "Democratic",
+              "total_votes": 2468
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Clifford Shaw",
+              "party": "Democratic",
+              "total_votes": 2468
+            }
+          ]
+        }
+      ]
+    },
+    "Pender": {
+      "contests": [
+        {
+          "contest": "PENDER COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Shayne Frey",
+              "party": "Republican",
+              "total_votes": 14184
+            },
+            {
+              "name": "Tim Zizack",
+              "party": "Democratic",
+              "total_votes": 11281
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Shayne Frey",
+              "party": "Republican",
+              "total_votes": 14184
+            }
+          ]
+        },
+        {
+          "contest": "PENDER COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ryan Collins",
+              "party": "Republican",
+              "total_votes": 15214
+            },
+            {
+              "name": "Brookey Hardee",
+              "party": "Democratic",
+              "total_votes": 10282
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ryan Collins",
+              "party": "Republican",
+              "total_votes": 15214
+            }
+          ]
+        },
+        {
+          "contest": "PENDER COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Andy Jessie DeVane",
+              "party": "Republican",
+              "total_votes": 17137
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Andy Jessie DeVane",
+              "party": "Republican",
+              "total_votes": 17137
+            }
+          ]
+        },
+        {
+          "contest": "PENDER COUNTY BOARD OF COMMISSIONERS DISTRICT 04 (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jimmy T. Tate",
+              "party": "Republican",
+              "total_votes": 18127
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jimmy T. Tate",
+              "party": "Republican",
+              "total_votes": 18127
+            }
+          ]
+        }
+      ]
+    },
+    "Perquimans": {
+      "contests": [
+        {
+          "contest": "PERQUIMANS COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Tim Corprew",
+              "party": "Republican",
+              "total_votes": 2330
+            },
+            {
+              "name": "Wallace Nelson",
+              "party": "Republican",
+              "total_votes": 1107
+            },
+            {
+              "name": "James Williams Ward",
+              "party": "Republican",
+              "total_votes": 1026
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tim Corprew",
+              "party": "Republican",
+              "total_votes": 2330
+            }
+          ]
+        }
+      ]
+    },
+    "Person": {
+      "contests": [
+        {
+          "contest": "PERSON COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Ricky Hughes",
+              "party": "Democratic",
+              "total_votes": 8484
+            },
+            {
+              "name": "Jimmy Wilkins",
+              "party": "Republican",
+              "total_votes": 7867
+            },
+            {
+              "name": "Donald Long",
+              "party": "Republican",
+              "total_votes": 7223
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ricky Hughes",
+              "party": "Democratic",
+              "total_votes": 8484
+            },
+            {
+              "name": "Jimmy Wilkins",
+              "party": "Republican",
+              "total_votes": 7867
+            }
+          ]
+        },
+        {
+          "contest": "PERSON COUNTY BOARD OF COMMISSIONERS (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "John R. Byrd, Sr.",
+              "party": "Republican",
+              "total_votes": 8329
+            },
+            {
+              "name": "Peter L. Baker",
+              "party": "Democratic",
+              "total_votes": 7243
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "John R. Byrd, Sr.",
+              "party": "Republican",
+              "total_votes": 8329
+            }
+          ]
+        }
+      ]
+    },
+    "Pitt": {
+      "contests": [
+        {
+          "contest": "PITT COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ann Floyd Huggins",
+              "party": "Democratic",
+              "total_votes": 7951
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ann Floyd Huggins",
+              "party": "Democratic",
+              "total_votes": 7951
+            }
+          ]
+        },
+        {
+          "contest": "PITT COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Mary Perkins-Williams",
+              "party": "Democratic",
+              "total_votes": 6011
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mary Perkins-Williams",
+              "party": "Democratic",
+              "total_votes": 6011
+            }
+          ]
+        },
+        {
+          "contest": "PITT COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Christopher W. Nunnally",
+              "party": "Democratic",
+              "total_votes": 7401
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Christopher W. Nunnally",
+              "party": "Democratic",
+              "total_votes": 7401
+            }
+          ]
+        },
+        {
+          "contest": "PITT COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Rodney D. Harris",
+              "party": "Democratic",
+              "total_votes": 6372
+            },
+            {
+              "name": "Benji Holloman",
+              "party": "Republican",
+              "total_votes": 5092
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Rodney D. Harris",
+              "party": "Democratic",
+              "total_votes": 6372
+            }
+          ]
+        },
+        {
+          "contest": "PITT COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Dennis McLawhorn",
+              "party": "Democratic",
+              "total_votes": 7250
+            },
+            {
+              "name": "Mark C. Smith",
+              "party": "Republican",
+              "total_votes": 4982
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Dennis McLawhorn",
+              "party": "Democratic",
+              "total_votes": 7250
+            }
+          ]
+        },
+        {
+          "contest": "PITT COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Gary Weaver",
+              "party": "Republican",
+              "total_votes": 6917
+            },
+            {
+              "name": "Blake C. Price",
+              "party": "Democratic",
+              "total_votes": 4852
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Gary Weaver",
+              "party": "Republican",
+              "total_votes": 6917
+            }
+          ]
+        }
+      ]
+    },
+    "Polk": {
+      "contests": [
+        {
+          "contest": "POLK COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "David Moore",
+              "party": "Republican",
+              "total_votes": 4848
+            },
+            {
+              "name": "Ray Gasperson",
+              "party": "Democratic",
+              "total_votes": 4776
+            },
+            {
+              "name": "Andre Overholt",
+              "party": "Republican",
+              "total_votes": 4537
+            },
+            {
+              "name": "Jon Klimstra",
+              "party": "Democratic",
+              "total_votes": 3933
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David Moore",
+              "party": "Republican",
+              "total_votes": 4848
+            },
+            {
+              "name": "Ray Gasperson",
+              "party": "Democratic",
+              "total_votes": 4776
+            }
+          ]
+        }
+      ]
+    },
+    "Randolph": {
+      "contests": [
+        {
+          "contest": "RANDOLPH COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Darrell L. Frye",
+              "party": "Republican",
+              "total_votes": 33258
+            },
+            {
+              "name": "Robin A. Stevens",
+              "party": "Democratic",
+              "total_votes": 14047
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Darrell L. Frye",
+              "party": "Republican",
+              "total_votes": 33258
+            }
+          ]
+        },
+        {
+          "contest": "RANDOLPH COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "David L. Allen",
+              "party": "Republican",
+              "total_votes": 37552
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David L. Allen",
+              "party": "Republican",
+              "total_votes": 37552
+            }
+          ]
+        },
+        {
+          "contest": "RANDOLPH COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Duffy Johnson",
+              "party": "Republican",
+              "total_votes": 37315
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Duffy Johnson",
+              "party": "Republican",
+              "total_votes": 37315
+            }
+          ]
+        }
+      ]
+    },
+    "Richmond": {
+      "contests": [
+        {
+          "contest": "RICHMOND COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 4,
+          "choices": [
+            {
+              "name": "Justin Dawkins",
+              "party": "Republican",
+              "total_votes": 6649
+            },
+            {
+              "name": "Terry Lewis",
+              "party": "Republican",
+              "total_votes": 6645
+            },
+            {
+              "name": "Cameron Wright",
+              "party": "Democratic",
+              "total_votes": 6464
+            },
+            {
+              "name": "Laverne Schultz",
+              "party": "Republican",
+              "total_votes": 6359
+            },
+            {
+              "name": "Jason R. Gainey",
+              "party": "Republican",
+              "total_votes": 6187
+            },
+            {
+              "name": "Linda S. Ross",
+              "party": "Democratic",
+              "total_votes": 5897
+            },
+            {
+              "name": "Michael Legrand",
+              "party": "Unaffiliated",
+              "total_votes": 4104
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Justin Dawkins",
+              "party": "Republican",
+              "total_votes": 6649
+            },
+            {
+              "name": "Terry Lewis",
+              "party": "Republican",
+              "total_votes": 6645
+            },
+            {
+              "name": "Cameron Wright",
+              "party": "Democratic",
+              "total_votes": 6464
+            },
+            {
+              "name": "Laverne Schultz",
+              "party": "Republican",
+              "total_votes": 6359
+            }
+          ]
+        }
+      ]
+    },
+    "Robeson": {
+      "contests": [
+        {
+          "contest": "ROBESON COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Melvin Ellison",
+              "party": "Democratic",
+              "total_votes": 3136
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Melvin Ellison",
+              "party": "Democratic",
+              "total_votes": 3136
+            }
+          ]
+        },
+        {
+          "contest": "ROBESON COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Harry Warriax",
+              "party": "Unaffiliated",
+              "total_votes": 1701
+            },
+            {
+              "name": "Faline Locklear Dial",
+              "party": "Republican",
+              "total_votes": 1673
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Harry Warriax",
+              "party": "Unaffiliated",
+              "total_votes": 1701
+            }
+          ]
+        },
+        {
+          "contest": "ROBESON COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ray Cox",
+              "party": "Democratic",
+              "total_votes": 2417
+            },
+            {
+              "name": "David Lee Edge",
+              "party": "Republican",
+              "total_votes": 2414
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ray Cox",
+              "party": "Democratic",
+              "total_votes": 2417
+            }
+          ]
+        },
+        {
+          "contest": "ROBESON COUNTY BOARD OF COMMISSIONERS DISTRICT 08",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Mike Ferguson",
+              "party": "Democratic",
+              "total_votes": 2337
+            },
+            {
+              "name": "Lance Herndon",
+              "party": "Republican",
+              "total_votes": 1808
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mike Ferguson",
+              "party": "Democratic",
+              "total_votes": 2337
+            }
+          ]
+        }
+      ]
+    },
+    "Rockingham": {
+      "contests": [
+        {
+          "contest": "ROCKINGHAM COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Greg Ziglar",
+              "party": "Republican",
+              "total_votes": 19759
+            },
+            {
+              "name": "Kevin Suthard",
+              "party": "Republican",
+              "total_votes": 18801
+            },
+            {
+              "name": "R. Michael Jordan",
+              "party": "Libertarian",
+              "total_votes": 8966
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Greg Ziglar",
+              "party": "Republican",
+              "total_votes": 19759
+            },
+            {
+              "name": "Kevin Suthard",
+              "party": "Republican",
+              "total_votes": 18801
+            }
+          ]
+        }
+      ]
+    },
+    "Rowan": {
+      "contests": [
+        {
+          "contest": "ROWAN COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Karla Foster Leonard",
+              "party": "Republican",
+              "total_votes": 28154
+            },
+            {
+              "name": "Jason Scott Hinson",
+              "party": "Republican",
+              "total_votes": 27751
+            },
+            {
+              "name": "Daniel R. Lancaster",
+              "party": "Republican",
+              "total_votes": 27455
+            },
+            {
+              "name": "Alissa Redmond",
+              "party": "Democratic",
+              "total_votes": 18695
+            },
+            {
+              "name": "Hannah Addair",
+              "party": "Democratic",
+              "total_votes": 18094
+            },
+            {
+              "name": "Ray Pope",
+              "party": "Democratic",
+              "total_votes": 17097
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Karla Foster Leonard",
+              "party": "Republican",
+              "total_votes": 28154
+            },
+            {
+              "name": "Jason Scott Hinson",
+              "party": "Republican",
+              "total_votes": 27751
+            },
+            {
+              "name": "Daniel R. Lancaster",
+              "party": "Republican",
+              "total_votes": 27455
+            }
+          ]
+        }
+      ]
+    },
+    "Rutherford": {
+      "contests": [
+        {
+          "contest": "RUTHERFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Allen Hardin",
+              "party": "Republican",
+              "total_votes": 16935
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Allen Hardin",
+              "party": "Republican",
+              "total_votes": 16935
+            }
+          ]
+        },
+        {
+          "contest": "RUTHERFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Adam Yelton",
+              "party": "Republican",
+              "total_votes": 16998
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Adam Yelton",
+              "party": "Republican",
+              "total_votes": 16998
+            }
+          ]
+        },
+        {
+          "contest": "RUTHERFORD COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Scott J. Haynes",
+              "party": "Republican",
+              "total_votes": 15330
+            },
+            {
+              "name": "Phil Burney",
+              "party": "Democratic",
+              "total_votes": 7371
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Scott J. Haynes",
+              "party": "Republican",
+              "total_votes": 15330
+            }
+          ]
+        }
+      ]
+    },
+    "Sampson": {
+      "contests": [
+        {
+          "contest": "SAMPSON COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Allen McLamb",
+              "party": "Republican",
+              "total_votes": 2972
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Allen McLamb",
+              "party": "Republican",
+              "total_votes": 2972
+            }
+          ]
+        },
+        {
+          "contest": "SAMPSON COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Chip Crumpler",
+              "party": "Republican",
+              "total_votes": 2664
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Chip Crumpler",
+              "party": "Republican",
+              "total_votes": 2664
+            }
+          ]
+        },
+        {
+          "contest": "SAMPSON COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Thaddeus Godwin, Sr.",
+              "party": "Democratic",
+              "total_votes": 2398
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Thaddeus Godwin, Sr.",
+              "party": "Democratic",
+              "total_votes": 2398
+            }
+          ]
+        }
+      ]
+    },
+    "Scotland": {
+      "contests": [
+        {
+          "contest": "SCOTLAND COUNTY BOARD OF COMMISSIONERS SPRING HILL TWP",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ronnie Nicholson",
+              "party": "Democratic",
+              "total_votes": 5971
+            },
+            {
+              "name": "Bo Frizzell",
+              "party": "Republican",
+              "total_votes": 4189
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ronnie Nicholson",
+              "party": "Democratic",
+              "total_votes": 5971
+            }
+          ]
+        },
+        {
+          "contest": "SCOTLAND COUNTY BOARD OF COMMISSIONERS STEWARTSVILLE TWP",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Darwin (Duke) Williams",
+              "party": "Democratic",
+              "total_votes": 5560
+            },
+            {
+              "name": "George Medlock",
+              "party": "Democratic",
+              "total_votes": 4190
+            },
+            {
+              "name": "Randy Johnson",
+              "party": "Republican",
+              "total_votes": 3975
+            },
+            {
+              "name": "Tim Ivey",
+              "party": "Republican",
+              "total_votes": 3593
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Darwin (Duke) Williams",
+              "party": "Democratic",
+              "total_votes": 5560
+            },
+            {
+              "name": "George Medlock",
+              "party": "Democratic",
+              "total_votes": 4190
+            }
+          ]
+        }
+      ]
+    },
+    "Stanly": {
+      "contests": [
+        {
+          "contest": "STANLY COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Bill Lawhon",
+              "party": "Republican",
+              "total_votes": 15641
+            },
+            {
+              "name": "Gwendolyn Harris",
+              "party": "Democratic",
+              "total_votes": 7265
+            },
+            {
+              "name": "Melvin B. Poole",
+              "party": "Libertarian",
+              "total_votes": 1481
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Bill Lawhon",
+              "party": "Republican",
+              "total_votes": 15641
+            }
+          ]
+        },
+        {
+          "contest": "STANLY COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Lane Furr",
+              "party": "Republican",
+              "total_votes": 18361
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Lane Furr",
+              "party": "Republican",
+              "total_votes": 18361
+            }
+          ]
+        },
+        {
+          "contest": "STANLY COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Shaun Morgan",
+              "party": "Republican",
+              "total_votes": 18213
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Shaun Morgan",
+              "party": "Republican",
+              "total_votes": 18213
+            }
+          ]
+        },
+        {
+          "contest": "STANLY COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Matthew Swain",
+              "party": "Republican",
+              "total_votes": 18256
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Matthew Swain",
+              "party": "Republican",
+              "total_votes": 18256
+            }
+          ]
+        },
+        {
+          "contest": "STANLY COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Trent Hatley",
+              "party": "Republican",
+              "total_votes": 17746
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Trent Hatley",
+              "party": "Republican",
+              "total_votes": 17746
+            }
+          ]
+        }
+      ]
+    },
+    "Stokes": {
+      "contests": [
+        {
+          "contest": "STOKES COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Mike Marshall",
+              "party": "Republican",
+              "total_votes": 12850
+            },
+            {
+              "name": "Josh Bohannon",
+              "party": "Republican",
+              "total_votes": 11835
+            },
+            {
+              "name": "Ronnie Mendenhall",
+              "party": "Republican",
+              "total_votes": 11612
+            },
+            {
+              "name": "R.A. Reaves",
+              "party": "Democratic",
+              "total_votes": 5145
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mike Marshall",
+              "party": "Republican",
+              "total_votes": 12850
+            },
+            {
+              "name": "Josh Bohannon",
+              "party": "Republican",
+              "total_votes": 11835
+            },
+            {
+              "name": "Ronnie Mendenhall",
+              "party": "Republican",
+              "total_votes": 11612
+            }
+          ]
+        }
+      ]
+    },
+    "Surry": {
+      "contests": [
+        {
+          "contest": "SURRY COUNTY BOARD OF COMMISSIONERS CENTRAL DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Brandon K. Whitaker",
+              "party": "Republican",
+              "total_votes": 18860
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Brandon K. Whitaker",
+              "party": "Republican",
+              "total_votes": 18860
+            }
+          ]
+        },
+        {
+          "contest": "SURRY COUNTY BOARD OF COMMISSIONERS MOUNT AIRY DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Frank Fleming",
+              "party": "Republican",
+              "total_votes": 18863
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Frank Fleming",
+              "party": "Republican",
+              "total_votes": 18863
+            }
+          ]
+        },
+        {
+          "contest": "SURRY COUNTY BOARD OF COMMISSIONERS SOUTH DISTRICT",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Eddie Harris",
+              "party": "Republican",
+              "total_votes": 18534
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Eddie Harris",
+              "party": "Republican",
+              "total_votes": 18534
+            }
+          ]
+        }
+      ]
+    },
+    "Swain": {
+      "contests": [
+        {
+          "contest": "SWAIN COUNTY BOARD OF COMMISSIONERS CHAIRMAN",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Robert (Robbie) Brown",
+              "party": "Republican",
+              "total_votes": 2056
+            },
+            {
+              "name": "Jeramy Shuler",
+              "party": "Democratic",
+              "total_votes": 1748
+            },
+            {
+              "name": "Fred Crawford",
+              "party": "Unaffiliated",
+              "total_votes": 1320
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Robert (Robbie) Brown",
+              "party": "Republican",
+              "total_votes": 2056
+            }
+          ]
+        },
+        {
+          "contest": "SWAIN COUNTY BOARD OF COMMISSIONERS MEMBERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Jason (Jay) Kirkland",
+              "party": "Republican",
+              "total_votes": 2524
+            },
+            {
+              "name": "Lisa Stevenson Barker",
+              "party": "Republican",
+              "total_votes": 2208
+            },
+            {
+              "name": "Erika Smith",
+              "party": "Democratic",
+              "total_votes": 1967
+            },
+            {
+              "name": "Chris Reed",
+              "party": "Democratic",
+              "total_votes": 1660
+            },
+            {
+              "name": "Cynthia Womble",
+              "party": "Unaffiliated",
+              "total_votes": 1009
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jason (Jay) Kirkland",
+              "party": "Republican",
+              "total_votes": 2524
+            },
+            {
+              "name": "Lisa Stevenson Barker",
+              "party": "Republican",
+              "total_votes": 2208
+            }
+          ]
+        }
+      ]
+    },
+    "Transylvania": {
+      "contests": [
+        {
+          "contest": "TRANSYLVANIA COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Owen Carson",
+              "party": "Democratic",
+              "total_votes": 8364
+            },
+            {
+              "name": "Bryan O'Neill",
+              "party": "Democratic",
+              "total_votes": 7690
+            },
+            {
+              "name": "George C. Sutherland",
+              "party": "Republican",
+              "total_votes": 7168
+            },
+            {
+              "name": "Kevin Howell",
+              "party": "Republican",
+              "total_votes": 7017
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Owen Carson",
+              "party": "Democratic",
+              "total_votes": 8364
+            },
+            {
+              "name": "Bryan O'Neill",
+              "party": "Democratic",
+              "total_votes": 7690
+            }
+          ]
+        }
+      ]
+    },
+    "Tyrrell": {
+      "contests": [
+        {
+          "contest": "TYRRELL COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Jordan R. Davis",
+              "party": "Republican",
+              "total_votes": 769
+            },
+            {
+              "name": "Nina Basnight Griswell",
+              "party": "Democratic",
+              "total_votes": 344
+            },
+            {
+              "name": "Mark Mixon",
+              "party": "Democratic",
+              "total_votes": 247
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Jordan R. Davis",
+              "party": "Republican",
+              "total_votes": 769
+            }
+          ]
+        }
+      ]
+    },
+    "Union": {
+      "contests": [
+        {
+          "contest": "UNION COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Melissa M. Merrell",
+              "party": "Republican",
+              "total_votes": 52231
+            },
+            {
+              "name": "Brian W. Helms",
+              "party": "Republican",
+              "total_votes": 51420
+            },
+            {
+              "name": "Sam Harris",
+              "party": "Republican",
+              "total_votes": 51136
+            },
+            {
+              "name": "Christina Dupont",
+              "party": "Democratic",
+              "total_votes": 47110
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Melissa M. Merrell",
+              "party": "Republican",
+              "total_votes": 52231
+            },
+            {
+              "name": "Brian W. Helms",
+              "party": "Republican",
+              "total_votes": 51420
+            },
+            {
+              "name": "Sam Harris",
+              "party": "Republican",
+              "total_votes": 51136
+            }
+          ]
+        },
+        {
+          "contest": "UNION COUNTY BOARD OF COMMISSIONERS (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Errol Wedra",
+              "party": "Republican",
+              "total_votes": 53954
+            },
+            {
+              "name": "Madeleine Byl",
+              "party": "Democratic",
+              "total_votes": 45626
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Errol Wedra",
+              "party": "Republican",
+              "total_votes": 53954
+            }
+          ]
+        }
+      ]
+    },
+    "Vance": {
+      "contests": [
+        {
+          "contest": "VANCE COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Charisse Meadows Fain",
+              "party": "Democratic",
+              "total_votes": 945
+            },
+            {
+              "name": "Angie Ryan",
+              "party": "Republican",
+              "total_votes": 636
+            },
+            {
+              "name": "Gordon Wilder",
+              "party": "Unaffiliated",
+              "total_votes": 190
+            },
+            {
+              "name": "Charles (CJ) Turrentine, Jr.",
+              "party": "Unaffiliated",
+              "total_votes": 169
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Charisse Meadows Fain",
+              "party": "Democratic",
+              "total_votes": 945
+            }
+          ]
+        },
+        {
+          "contest": "VANCE COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Kelley Wade Perdue",
+              "party": "Republican",
+              "total_votes": 1290
+            },
+            {
+              "name": "June Lewis III",
+              "party": "Democratic",
+              "total_votes": 1073
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Kelley Wade Perdue",
+              "party": "Republican",
+              "total_votes": 1290
+            }
+          ]
+        },
+        {
+          "contest": "VANCE COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Joanne Evans",
+              "party": "Democratic",
+              "total_votes": 1535
+            },
+            {
+              "name": "Joseph Falkner",
+              "party": "Republican",
+              "total_votes": 1217
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Joanne Evans",
+              "party": "Democratic",
+              "total_votes": 1535
+            }
+          ]
+        }
+      ]
+    },
+    "Wake": {
+      "contests": [
+        {
+          "contest": "WAKE COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "Mona Singh",
+              "party": "Democratic",
+              "total_votes": 327138
+            },
+            {
+              "name": "Christine Kushner",
+              "party": "Democratic",
+              "total_votes": 299786
+            },
+            {
+              "name": "Kyle Stogoski",
+              "party": "Republican",
+              "total_votes": 135091
+            },
+            {
+              "name": "Gary Dale Hartong",
+              "party": "Republican",
+              "total_votes": 126581
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mona Singh",
+              "party": "Democratic",
+              "total_votes": 327138
+            },
+            {
+              "name": "Christine Kushner",
+              "party": "Democratic",
+              "total_votes": 299786
+            }
+          ]
+        },
+        {
+          "contest": "WAKE COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Don Mial",
+              "party": "Democratic",
+              "total_votes": 58678
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Don Mial",
+              "party": "Democratic",
+              "total_votes": 58678
+            }
+          ]
+        },
+        {
+          "contest": "WAKE COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Safiyah Jackson",
+              "party": "Democratic",
+              "total_votes": 47631
+            },
+            {
+              "name": "John B. Adcock",
+              "party": "Republican",
+              "total_votes": 34709
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Safiyah Jackson",
+              "party": "Democratic",
+              "total_votes": 47631
+            }
+          ]
+        },
+        {
+          "contest": "WAKE COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Cheryl F. Stallings",
+              "party": "Democratic",
+              "total_votes": 58618
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Cheryl F. Stallings",
+              "party": "Democratic",
+              "total_votes": 58618
+            }
+          ]
+        },
+        {
+          "contest": "WAKE COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Vickie Adamson",
+              "party": "Democratic",
+              "total_votes": 55758
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Vickie Adamson",
+              "party": "Democratic",
+              "total_votes": 55758
+            }
+          ]
+        }
+      ]
+    },
+    "Warren": {
+      "contests": [
+        {
+          "contest": "WARREN COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "R. Lorenzo Wilkins",
+              "party": "Democratic",
+              "total_votes": 6514
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "R. Lorenzo Wilkins",
+              "party": "Democratic",
+              "total_votes": 6514
+            }
+          ]
+        },
+        {
+          "contest": "WARREN COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Victor Hunt",
+              "party": "Democratic",
+              "total_votes": 6467
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Victor Hunt",
+              "party": "Democratic",
+              "total_votes": 6467
+            }
+          ]
+        },
+        {
+          "contest": "WARREN COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Patrick Brown",
+              "party": "Democratic",
+              "total_votes": 4075
+            },
+            {
+              "name": "Joey Andrews",
+              "party": "Unaffiliated",
+              "total_votes": 2601
+            },
+            {
+              "name": "Thomas Fleming",
+              "party": "Republican",
+              "total_votes": 1411
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Patrick Brown",
+              "party": "Democratic",
+              "total_votes": 4075
+            }
+          ]
+        }
+      ]
+    },
+    "Washington": {
+      "contests": [
+        {
+          "contest": "WASHINGTON COUNTY BOARD OF COMMISSIONERS AT-LARGE",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Melinda Porter",
+              "party": "Democratic",
+              "total_votes": 2823
+            },
+            {
+              "name": "Jonathan B. Sawyer IV",
+              "party": "Republican",
+              "total_votes": 1701
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Melinda Porter",
+              "party": "Democratic",
+              "total_votes": 2823
+            }
+          ]
+        },
+        {
+          "contest": "WASHINGTON COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Julius Walker, Jr.",
+              "party": "Democratic",
+              "total_votes": 972
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Julius Walker, Jr.",
+              "party": "Democratic",
+              "total_votes": 972
+            }
+          ]
+        },
+        {
+          "contest": "WASHINGTON COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Tracey A. Johnson",
+              "party": "Democratic",
+              "total_votes": 943
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Tracey A. Johnson",
+              "party": "Democratic",
+              "total_votes": 943
+            }
+          ]
+        }
+      ]
+    },
+    "Watauga": {
+      "contests": [
+        {
+          "contest": "WATAUGA COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Adam Hege",
+              "party": "Democratic",
+              "total_votes": 3057
+            },
+            {
+              "name": "Rick Woods",
+              "party": "Republican",
+              "total_votes": 395
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Adam Hege",
+              "party": "Democratic",
+              "total_votes": 3057
+            }
+          ]
+        },
+        {
+          "contest": "WATAUGA COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Ray Russell",
+              "party": "Democratic",
+              "total_votes": 3369
+            },
+            {
+              "name": "Savva Kostis",
+              "party": "Republican",
+              "total_votes": 1231
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Ray Russell",
+              "party": "Democratic",
+              "total_votes": 3369
+            }
+          ]
+        }
+      ]
+    },
+    "Wayne": {
+      "contests": [
+        {
+          "contest": "WAYNE COUNTY BOARD OF COMMISSIONERS AT-LARGE (UNEXPIRED)",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Kevin Johnson",
+              "party": "Republican",
+              "total_votes": 20484
+            },
+            {
+              "name": "Beatrice Jones",
+              "party": "Democratic",
+              "total_votes": 18161
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Kevin Johnson",
+              "party": "Republican",
+              "total_votes": 20484
+            }
+          ]
+        }
+      ]
+    },
+    "Wilkes": {
+      "contests": [
+        {
+          "contest": "WILKES COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 2,
+          "choices": [
+            {
+              "name": "G. Keith Elmore",
+              "party": "Republican",
+              "total_votes": 15231
+            },
+            {
+              "name": "H. S. Greene",
+              "party": "Republican",
+              "total_votes": 13812
+            },
+            {
+              "name": "Joe Woodie",
+              "party": "Democratic",
+              "total_votes": 7298
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "G. Keith Elmore",
+              "party": "Republican",
+              "total_votes": 15231
+            },
+            {
+              "name": "H. S. Greene",
+              "party": "Republican",
+              "total_votes": 13812
+            }
+          ]
+        }
+      ]
+    },
+    "Wilson": {
+      "contests": [
+        {
+          "contest": "WILSON COUNTY BOARD OF COMMISSIONERS DISTRICT 01",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Leslie Thomas Atkinson",
+              "party": "Democratic",
+              "total_votes": 2608
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Leslie Thomas Atkinson",
+              "party": "Democratic",
+              "total_votes": 2608
+            }
+          ]
+        },
+        {
+          "contest": "WILSON COUNTY BOARD OF COMMISSIONERS DISTRICT 02",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Sherry Lucas",
+              "party": "Democratic",
+              "total_votes": 2771
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Sherry Lucas",
+              "party": "Democratic",
+              "total_votes": 2771
+            }
+          ]
+        },
+        {
+          "contest": "WILSON COUNTY BOARD OF COMMISSIONERS DISTRICT 03",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "JoAnne Daniels",
+              "party": "Democratic",
+              "total_votes": 2553
+            },
+            {
+              "name": "Patrick VanHook",
+              "party": "Republican",
+              "total_votes": 597
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "JoAnne Daniels",
+              "party": "Democratic",
+              "total_votes": 2553
+            }
+          ]
+        },
+        {
+          "contest": "WILSON COUNTY BOARD OF COMMISSIONERS DISTRICT 04",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Mick Rankin",
+              "party": "Republican",
+              "total_votes": 2865
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Mick Rankin",
+              "party": "Republican",
+              "total_votes": 2865
+            }
+          ]
+        },
+        {
+          "contest": "WILSON COUNTY BOARD OF COMMISSIONERS DISTRICT 05",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Rob Boyette",
+              "party": "Democratic",
+              "total_votes": 3332
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Rob Boyette",
+              "party": "Democratic",
+              "total_votes": 3332
+            }
+          ]
+        },
+        {
+          "contest": "WILSON COUNTY BOARD OF COMMISSIONERS DISTRICT 06",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Christopher (Chris) Hill",
+              "party": "Republican",
+              "total_votes": 3439
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Christopher (Chris) Hill",
+              "party": "Republican",
+              "total_votes": 3439
+            }
+          ]
+        },
+        {
+          "contest": "WILSON COUNTY BOARD OF COMMISSIONERS DISTRICT 07",
+          "vote_for": 1,
+          "choices": [
+            {
+              "name": "Richard Fulghum",
+              "party": "Democratic",
+              "total_votes": 2638
+            },
+            {
+              "name": "Michael T. Wetherington",
+              "party": "Republican",
+              "total_votes": 2511
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Richard Fulghum",
+              "party": "Democratic",
+              "total_votes": 2638
+            }
+          ]
+        }
+      ]
+    },
+    "Yadkin": {
+      "contests": [
+        {
+          "contest": "YADKIN COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "Todd Martin",
+              "party": "Republican",
+              "total_votes": 9249
+            },
+            {
+              "name": "Frank C. Zachary",
+              "party": "Republican",
+              "total_votes": 8736
+            },
+            {
+              "name": "Ricky Oliver",
+              "party": "Republican",
+              "total_votes": 8634
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "Todd Martin",
+              "party": "Republican",
+              "total_votes": 9249
+            },
+            {
+              "name": "Frank C. Zachary",
+              "party": "Republican",
+              "total_votes": 8736
+            },
+            {
+              "name": "Ricky Oliver",
+              "party": "Republican",
+              "total_votes": 8634
+            }
+          ]
+        }
+      ]
+    },
+    "Yancey": {
+      "contests": [
+        {
+          "contest": "YANCEY COUNTY BOARD OF COMMISSIONERS",
+          "vote_for": 3,
+          "choices": [
+            {
+              "name": "David Grindstaff",
+              "party": "Republican",
+              "total_votes": 3990
+            },
+            {
+              "name": "Stacey McEntyre Greene",
+              "party": "Republican",
+              "total_votes": 3888
+            },
+            {
+              "name": "Amber Westall Briggs",
+              "party": "Democratic",
+              "total_votes": 3754
+            },
+            {
+              "name": "Sandi Norton",
+              "party": "Republican",
+              "total_votes": 3733
+            },
+            {
+              "name": "Landon Beaver",
+              "party": "Democratic",
+              "total_votes": 3525
+            },
+            {
+              "name": "Carol Golightly",
+              "party": "Democratic",
+              "total_votes": 3042
+            },
+            {
+              "name": "Nute Nicholson",
+              "party": "Unaffiliated",
+              "total_votes": 1725
+            }
+          ],
+          "apparent_winners_by_total_votes": [
+            {
+              "name": "David Grindstaff",
+              "party": "Republican",
+              "total_votes": 3990
+            },
+            {
+              "name": "Stacey McEntyre Greene",
+              "party": "Republican",
+              "total_votes": 3888
+            },
+            {
+              "name": "Amber Westall Briggs",
+              "party": "Democratic",
+              "total_votes": 3754
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
