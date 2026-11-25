@@ -1,16 +1,17 @@
 <!doctype html>
-<html lang="en" data-base="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Historical public-benefit spending tables will be rebuilt from official North Carolina agency and Census sources.">
-  <title>Historical public benefit spending in North Carolina | North Carolina Civic Atlas</title>
+  <meta name="description" content="Official places to check North Carolina state budget and government finance records. County historical benefit spending is not yet compiled.">
+  <title>Historical public spending records in North Carolina | North Carolina Civic Atlas</title>
   <link rel="icon" type="image/png" href="assets/nc-badge.png">
   <link rel="stylesheet" href="atlas-navigation.css">
   <link rel="stylesheet" href="atlas-app.css">
+  <link rel="stylesheet" href="research-pages.css">
   <script src="site-config.js"></script>
 </head>
-<body data-page-title="Historical public benefit spending in North Carolina">
+<body data-page-title="Historical public spending records in North Carolina">
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="top">
     <div class="wrap">
@@ -19,29 +20,76 @@
         <span data-site-brand-label>NORTH CAROLINA<br>CIVIC ATLAS</span>
       </a>
       <nav aria-label="Main navigation" class="site-nav">
-        <a href="index.html">County atlas</a>
         <a href="war_map/">War Map</a>
+        <a href="index.html#counties">County atlas</a>
+        <details>
+          <summary>Research</summary>
+          <div>
+            <a href="public-health.html">Public health</a>
+            <a href="demographics.html">County demographics</a>
+            <a href="trends.html">State trends</a>
+            <a href="history.html">Historical spending</a>
+            <a href="governors.html">Taxes by governor</a>
+            <a href="migration-tax.html">Migration and taxes</a>
+            <a href="suffrage.html">Voting eligibility</a>
+            <a href="american-history.html">American history</a>
+            <a href="ppc-funding.html">Organization funding</a>
+          </div>
+        </details>
+        <details>
+          <summary>Civic records</summary>
+          <div>
+            <a href="war_map/">North Carolina War Map</a>
+            <a href="index.html#docket">Legislative docket</a>
+            <a href="index.html#elections">Election dates</a>
+            <a href="index.html#sources">Source directory</a>
+            <a href="index.html#method">Research method</a>
+          </div>
+        </details>
+        <details>
+          <summary>Project RFPs</summary>
+          <div>
+            <a href="rfp.html">Daily sourdough at home</a>
+            <a href="rfp-battery.html">Household battery buffering</a>
+          </div>
+        </details>
       </nav>
     </div>
   </header>
-  <main id="main" class="wrap" style="padding:48px 24px 72px">
-    <p class="kicker">Phase 4</p>
-    <h1 style="font-family:Georgia,serif">Historical public benefit spending in North Carolina</h1>
-    <p>Historical public-benefit spending tables will be rebuilt from official North Carolina agency and Census sources.</p>
-    <div class="todo">
-      <strong>TODO (Phase 4):</strong> This page will be rebuilt with North Carolina sources. Pennsylvania research content was not carried forward, so this site does not present another state’s figures as North Carolina’s.
-    </div>
-    
-    <p><a href="index.html">Back to the county atlas</a></p>
+  <main id="main" class="wrap research-main">
+    <p class="kicker">Public finance</p>
+    <h1>Historical public spending records</h1>
+    <p class="lede">This page points to official budget and government-finance sources. It does not invent county-level public-benefit time series. Census state tax collections, which are own-source taxes rather than benefit outlays, are on the governors page.</p>
+    <h2 id="county-spending">County spending</h2>
+    <div class="todo" id="county-todo"><strong>TODO:</strong> A compact, official historical series of county public-benefit or human-services spending was not compiled for this release. County budgets and audits remain on each county’s own site, linked from the <a href="index.html#counties">county atlas</a>. Census historical county-area finance files are large and were not copied into this repository; they are published at the <a href="https://www.census.gov/programs-surveys/state/data/historical_data.html">Census historical government finance</a> page.</div>
+    <h2>Official state sources</h2>
+    <ul class="plain">
+      <li><a href="https://www.osbm.nc.gov/budget">N.C. Office of State Budget and Management</a>, including the <a href="https://www.osbm.nc.gov/budget/certified-budget">certified budget</a></li>
+      <li><a href="https://www.ncdhhs.gov/">N.C. Department of Health and Human Services</a> for current human-services program and budget materials</li>
+      <li><a href="https://www.census.gov/programs-surveys/state/data/historical_data.html">U.S. Census Bureau historical state and local government finance</a>, including state government finance files</li>
+      <li><a href="governors.html">Census state tax collections, 1942–2025, with governor year ranges</a></li>
+      <li><a href="welfare-files/program-directory.html">Current official program directory</a> (benefits and contacts, not a historical spending table)</li>
+    </ul>
+
   </main>
+  <aside class="atlas-explore" aria-label="Related pages">
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="governors.html">Tax collections by year</a></li>
+      <li><a href="welfare-files/program-directory.html">Program directory</a></li>
+      <li><a href="index.html#counties">County atlas</a></li>
+    </ul>
+  </aside>
   <footer class="footer">
     <div class="wrap">
       <div>
         <strong data-site-name>North Carolina Civic Atlas</strong>
         <p data-site-disclaimer></p>
       </div>
+      <div><a href="index.html">County atlas</a></div>
     </div>
   </footer>
   <script src="site-chrome.js"></script>
+
 </body>
 </html>

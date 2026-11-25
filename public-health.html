@@ -1,16 +1,17 @@
 <!doctype html>
-<html lang="en" data-base="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Resident deaths and related vital statistics will be rebuilt from official North Carolina and Census sources.">
-  <title>North Carolina mortality and health statistics | North Carolina Civic Atlas</title>
+  <meta name="description" content="North Carolina resident abortion and fertility figures from official SCHS tables, plus the 2024 NCDHHS statutory report, with sources.">
+  <title>North Carolina pregnancy and vital statistics | North Carolina Civic Atlas</title>
   <link rel="icon" type="image/png" href="assets/nc-badge.png">
   <link rel="stylesheet" href="atlas-navigation.css">
   <link rel="stylesheet" href="atlas-app.css">
+  <link rel="stylesheet" href="research-pages.css">
   <script src="site-config.js"></script>
 </head>
-<body data-page-title="North Carolina mortality and health statistics">
+<body data-page-title="North Carolina pregnancy and vital statistics">
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="top">
     <div class="wrap">
@@ -19,29 +20,84 @@
         <span data-site-brand-label>NORTH CAROLINA<br>CIVIC ATLAS</span>
       </a>
       <nav aria-label="Main navigation" class="site-nav">
-        <a href="index.html">County atlas</a>
         <a href="war_map/">War Map</a>
+        <a href="index.html#counties">County atlas</a>
+        <details>
+          <summary>Research</summary>
+          <div>
+            <a href="public-health.html">Public health</a>
+            <a href="demographics.html">County demographics</a>
+            <a href="trends.html">State trends</a>
+            <a href="history.html">Historical spending</a>
+            <a href="governors.html">Taxes by governor</a>
+            <a href="migration-tax.html">Migration and taxes</a>
+            <a href="suffrage.html">Voting eligibility</a>
+            <a href="american-history.html">American history</a>
+            <a href="ppc-funding.html">Organization funding</a>
+          </div>
+        </details>
+        <details>
+          <summary>Civic records</summary>
+          <div>
+            <a href="war_map/">North Carolina War Map</a>
+            <a href="index.html#docket">Legislative docket</a>
+            <a href="index.html#elections">Election dates</a>
+            <a href="index.html#sources">Source directory</a>
+            <a href="index.html#method">Research method</a>
+          </div>
+        </details>
+        <details>
+          <summary>Project RFPs</summary>
+          <div>
+            <a href="rfp.html">Daily sourdough at home</a>
+            <a href="rfp-battery.html">Household battery buffering</a>
+          </div>
+        </details>
       </nav>
     </div>
   </header>
-  <main id="main" class="wrap" style="padding:48px 24px 72px">
-    <p class="kicker">Phase 4</p>
-    <h1 style="font-family:Georgia,serif">North Carolina mortality and health statistics</h1>
-    <p>Resident deaths and related vital statistics will be rebuilt from official North Carolina and Census sources.</p>
-    <div class="todo">
-      <strong>TODO (Phase 4):</strong> This page will be rebuilt with North Carolina sources. Pennsylvania research content was not carried forward, so this site does not present another state’s figures as North Carolina’s.
-    </div>
-    
-    <p><a href="index.html">Back to the county atlas</a></p>
+  <main id="main" class="wrap research-main">
+    <p class="kicker">Vital statistics</p>
+    <h1>Pregnancy, fertility, and reported abortions</h1>
+    <p class="lede">Figures below were read from official N.C. Department of Health and Human Services publications. Resident SCHS series and the 2024 statutory procedure count are not the same measure. County death tables are not extracted in this release.</p>
+    <h2>Resident abortions and fertility, 2018–2023</h2>
+    <p>Source: N.C. State Center for Health Statistics, Reported Pregnancies 2023, Tables 1 and 8. Rates are per 1,000 females age 15–44. The rate table cautions that figures may differ from earlier publications because of revised population estimates.</p>
+    <table>
+      <thead><tr><th>Year</th><th class="num">Resident abortions</th><th class="num">Abortion rate</th><th class="num">Fertility rate</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">2018</th><td class="num">23,018</td><td class="num">11.3</td><td class="num">58.4</td></tr>
+        <tr><th scope="row">2019</th><td class="num">23,495</td><td class="num">11.4</td><td class="num">57.8</td></tr>
+        <tr><th scope="row">2020</th><td class="num">25,058</td><td class="num">12.3</td><td class="num">57.1</td></tr>
+        <tr><th scope="row">2021</th><td class="num">27,305</td><td class="num">13.1</td><td class="num">57.9</td></tr>
+        <tr><th scope="row">2022</th><td class="num">28,855</td><td class="num">13.7</td><td class="num">57.6</td></tr>
+        <tr><th scope="row">2023</th><td class="num">27,146</td><td class="num">12.7</td><td class="num">56.0</td></tr>
+      </tbody>
+    </table>
+    <p><a href="https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/Table8-2018-2023-AbortionsByRaceEthnicity.pdf">Table 8, resident counts (PDF)</a> · <a href="https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/Table1-2018-2023-PregnancyFertilityAbortionFetalDeathRates.pdf">Table 1, rates (PDF)</a> · <a href="research/nc-health-sourced.json">JSON extract</a></p>
+    <h2>2024 statutory report (different series)</h2>
+    <p>The NCDHHS report required by G.S. 90-21.93, submitted February 26, 2026, states that 39,315 intentional terminations of pregnancy were reported from January 1 through December 31, 2024. That is a count of reported procedures, not a 2024 point on the resident SCHS series above, and should not be plotted as one.</p>
+    <p><a href="https://www.ncdhhs.gov/ncgs-90-2193-care-women-children-and-families-act-0/download?attachment=">Care for Women, Children, and Families Act 2025 Statistical Report (PDF)</a></p>
+    <div class="todo"><strong>TODO:</strong> County-level resident deaths, suicides, and homicides from <a href="https://schs.dph.ncdhhs.gov/data/vital/volume1/2023/">SCHS Vital Statistics Volume 1, 2023</a> were not extracted into this repository. A long historical all-cause death series was also not compiled. Use the official SCHS tables and <a href="https://schs.dph.ncdhhs.gov/data/vital.cfm">vital statistics portal</a>.</div>
+
   </main>
+  <aside class="atlas-explore" aria-label="Related pages">
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="trends.html">State trends</a></li>
+      <li><a href="demographics.html">County population</a></li>
+      <li><a href="index.html">County atlas</a></li>
+    </ul>
+  </aside>
   <footer class="footer">
     <div class="wrap">
       <div>
         <strong data-site-name>North Carolina Civic Atlas</strong>
         <p data-site-disclaimer></p>
       </div>
+      <div><a href="index.html">County atlas</a></div>
     </div>
   </footer>
   <script src="site-chrome.js"></script>
+
 </body>
 </html>

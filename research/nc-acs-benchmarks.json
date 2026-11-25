@@ -1,0 +1,31 @@
+{
+  "period": "2024 ACS 5-year estimates (2019-2024 pooled)",
+  "as_of": "2026-11-24",
+  "place_of_birth": {
+    "table": "B05002",
+    "total": 10730404,
+    "native": 9757079,
+    "foreign_born": 973325,
+    "foreign_born_moe_90pct": 9858,
+    "foreign_born_share": 0.0907
+  },
+  "language": {
+    "table": "B16001",
+    "universe": "Population 5 years and over",
+    "total": 10127421,
+    "speak_only_english": 8764888,
+    "speak_only_english_moe_90pct": 10970,
+    "language_other_than_english": 1362533,
+    "language_other_than_english_share": 0.1345
+  },
+  "sources": [
+    {
+      "title": "U.S. Census Bureau, 2024 ACS 5-year summary file, tables B05002 and B16001",
+      "urls": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05002.dat",
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b16001.dat"
+      ],
+      "note": "Five-year pooled estimates, not a single calendar-year value. Estimates have margins of error. Do not splice these ACS figures into a continuous line with decennial census nativity or language counts."
+    }
+  ]
+}

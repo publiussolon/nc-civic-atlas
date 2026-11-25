@@ -4,9 +4,7 @@ An independent, open-source county atlas for North Carolina. This project is not
 
 The site is a port of the public [YoungRepublicansOfPA/Home](https://github.com/YoungRepublicansOfPA/Home) civic-records app. Code and structured-data ideas are used under the MIT license. Placeholder badge and banner images in `assets/` were generated for this edition and do not use the upstream project’s artwork (those images were excluded from the MIT license).
 
-**Phase 3 (current):** Phase 2 plus the War Map: 2,655 official-boundary precinct polygons and 2024 presidential results (NYT dataset under the NYT C-UDA, compared with official NCSBE returns), Census 2024 legislative and congressional district boundaries, and seated 2025–2026 officeholders. County board party control is not assigned. County committee vacancies and municipal outlines are TODO.
-
-Later phase: research pages rebuilt from North Carolina sources.
+**Phase 4 (current):** Phase 3 plus research pages rebuilt from official North Carolina and federal sources: county population history (Census 1790–2025), state tax collections, ACS and IRS migration benchmarks, SCHS/NCDHHS pregnancy statistics, and constitutional voting sources. County board party control, committee vacancies, municipal outlines, organization funding, church directories, and historical county benefit-spending tables remain unverified or TODO.
 
 Live preview: run `python3 -m http.server 8000` in this directory, then open `http://localhost:8000/`. There is no build step. On GitHub Pages the site is served from `main` at the `/nc-civic-atlas/` subpath; keep links and data fetches relative.
 
@@ -40,6 +38,18 @@ Rebuild the map and county JSON with `tools/build-county-map.py` (requires `pysh
 - Polling place lookup (not hosted here): [NCSBE polling place search](https://vt.ncsbe.gov/PPLkup/).
 
 Rebuild War Map data with `tools/build-war-map.py` (requires `pyshp` and `shapely`). Details are in `war_map/README.md` and `war_map/data/README.md`.
+
+
+## Phase 4 sources (research pages)
+
+- County population 1790–1990: [Census Forstall Part III spreadsheet](https://www2.census.gov/programs-surveys/decennial/tables/1990/population-of-states-and-counties-us-1790-1990/population_partiii.xls). 2000 estimates base, 2010 Census, 2020 estimates base, and July 1, 2025 estimates from Census county totals files; see `research/county-pop-history.json`.
+- State tax collections: [Census STC historical database](https://www2.census.gov/programs-surveys/stc/datasets/historical/STC-Historical-DB.xlsx). Governor year ranges: [NCpedia chronology](https://www.ncpedia.org/biography/governors) (State Library of North Carolina, revised September 2025).
+- ACS 2024 five-year tables [B05002](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05002.dat) and [B16001](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b16001.dat).
+- IRS SOI [state-to-state migration](https://www.irs.gov/statistics/soi-tax-stats-migration-data), filing years 2023–2024.
+- Pregnancy and abortion: [SCHS Reported Pregnancies 2023](https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/) tables 1 and 8, and the [G.S. 90-21.93 report](https://www.ncdhhs.gov/ncgs-90-2193-care-women-children-and-families-act-0/download?attachment=) (February 26, 2026). These are distinct series.
+- Voting rules: [official N.C. Constitution](https://www.ncleg.gov/EnactedLegislation/Constitution/NCConstitution.html) and NCGA Library historical compilations.
+
+Rebuild compact research tables with `tools/build-phase4.py`.
 
 ## Contributing records
 

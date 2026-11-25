@@ -1,0 +1,119 @@
+{
+  "as_of": "2026-11-24",
+  "resident_abortion_counts_schs": {
+    "series": "North Carolina resident induced abortions, SCHS Reported Pregnancies 2023, Table 8",
+    "unit": "count",
+    "points": [
+      {
+        "year": 2018,
+        "value": 23018
+      },
+      {
+        "year": 2019,
+        "value": 23495
+      },
+      {
+        "year": 2020,
+        "value": 25058
+      },
+      {
+        "year": 2021,
+        "value": 27305
+      },
+      {
+        "year": 2022,
+        "value": 28855
+      },
+      {
+        "year": 2023,
+        "value": 27146
+      }
+    ],
+    "source": "https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/Table8-2018-2023-AbortionsByRaceEthnicity.pdf",
+    "note": "Race-specific counts in the source may not sum to the total because of unknown race. These are resident counts, not procedures performed in the state regardless of residence."
+  },
+  "resident_abortion_rate_schs": {
+    "series": "Abortion rate, North Carolina residents, SCHS Reported Pregnancies 2023, Table 1",
+    "unit": "per 1,000 females age 15-44",
+    "points": [
+      {
+        "year": 2018,
+        "value": 11.3
+      },
+      {
+        "year": 2019,
+        "value": 11.4
+      },
+      {
+        "year": 2020,
+        "value": 12.3
+      },
+      {
+        "year": 2021,
+        "value": 13.1
+      },
+      {
+        "year": 2022,
+        "value": 13.7
+      },
+      {
+        "year": 2023,
+        "value": 12.7
+      }
+    ],
+    "source": "https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/Table1-2018-2023-PregnancyFertilityAbortionFetalDeathRates.pdf",
+    "note": "The source cautions that rates may differ from earlier publications because of revised population estimates."
+  },
+  "resident_fertility_rate_schs": {
+    "series": "Fertility rate, North Carolina residents, SCHS Reported Pregnancies 2023, Table 1",
+    "unit": "per 1,000 females age 15-44",
+    "points": [
+      {
+        "year": 2018,
+        "value": 58.4
+      },
+      {
+        "year": 2019,
+        "value": 57.8
+      },
+      {
+        "year": 2020,
+        "value": 57.1
+      },
+      {
+        "year": 2021,
+        "value": 57.9
+      },
+      {
+        "year": 2022,
+        "value": 57.6
+      },
+      {
+        "year": 2023,
+        "value": 56.0
+      }
+    ],
+    "source": "https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/Table1-2018-2023-PregnancyFertilityAbortionFetalDeathRates.pdf"
+  },
+  "reported_terminations_2024_ncdhhs": {
+    "series": "Intentional terminations of pregnancy reported to NCDHHS, January 1-December 31, 2024, G.S. 90-21.93 report",
+    "value": 39315,
+    "source": "https://www.ncdhhs.gov/ncgs-90-2193-care-women-children-and-families-act-0/download?attachment=",
+    "date": "February 26, 2026",
+    "note": "This statutory report is a count of reported procedures, not the SCHS resident-abortion series above. Do not plot it as the 2024 point on the 2018-2023 resident series."
+  },
+  "todo": [
+    "County-level resident deaths, suicides, and homicides from SCHS Vital Statistics Volume 1 are not extracted in this release. Use the official county tables: https://schs.dph.ncdhhs.gov/data/vital/volume1/2023/",
+    "A comparable long historical death series was not compiled for this release."
+  ],
+  "portals": [
+    {
+      "title": "NC SCHS vital statistics",
+      "url": "https://schs.dph.ncdhhs.gov/data/vital.cfm"
+    },
+    {
+      "title": "NC SCHS Reported Pregnancies 2023",
+      "url": "https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/"
+    }
+  ]
+}

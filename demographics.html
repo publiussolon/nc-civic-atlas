@@ -1,13 +1,15 @@
 <!doctype html>
-<html lang="en" data-base="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="County population history across census years will be rebuilt from Census data for North Carolina’s 100 counties.">
+  <meta name="description" content="How North Carolina’s population changed by county across census years, with downloadable official source data.">
   <title>North Carolina population history by county | North Carolina Civic Atlas</title>
   <link rel="icon" type="image/png" href="assets/nc-badge.png">
   <link rel="stylesheet" href="atlas-navigation.css">
   <link rel="stylesheet" href="atlas-app.css">
+  <link rel="stylesheet" href="research-pages.css">
+  
   <script src="site-config.js"></script>
 </head>
 <body data-page-title="North Carolina population history by county">
@@ -19,29 +21,145 @@
         <span data-site-brand-label>NORTH CAROLINA<br>CIVIC ATLAS</span>
       </a>
       <nav aria-label="Main navigation" class="site-nav">
-        <a href="index.html">County atlas</a>
         <a href="war_map/">War Map</a>
+        <a href="index.html#counties">County atlas</a>
+        <details>
+          <summary>Research</summary>
+          <div>
+            <a href="public-health.html">Public health</a>
+            <a href="demographics.html">County demographics</a>
+            <a href="trends.html">State trends</a>
+            <a href="history.html">Historical spending</a>
+            <a href="governors.html">Taxes by governor</a>
+            <a href="migration-tax.html">Migration and taxes</a>
+            <a href="suffrage.html">Voting eligibility</a>
+            <a href="american-history.html">American history</a>
+            <a href="ppc-funding.html">Organization funding</a>
+          </div>
+        </details>
+        <details>
+          <summary>Civic records</summary>
+          <div>
+            <a href="war_map/">North Carolina War Map</a>
+            <a href="index.html#docket">Legislative docket</a>
+            <a href="index.html#elections">Election dates</a>
+            <a href="index.html#sources">Source directory</a>
+            <a href="index.html#method">Research method</a>
+          </div>
+        </details>
+        <details>
+          <summary>Project RFPs</summary>
+          <div>
+            <a href="rfp.html">Daily sourdough at home</a>
+            <a href="rfp-battery.html">Household battery buffering</a>
+          </div>
+        </details>
       </nav>
     </div>
   </header>
-  <main id="main" class="wrap" style="padding:48px 24px 72px">
-    <p class="kicker">Phase 4</p>
-    <h1 style="font-family:Georgia,serif">North Carolina population history by county</h1>
-    <p>County population history across census years will be rebuilt from Census data for North Carolina’s 100 counties.</p>
-    <div class="todo">
-      <strong>TODO (Phase 4):</strong> This page will be rebuilt with North Carolina sources. Pennsylvania research content was not carried forward, so this site does not present another state’s figures as North Carolina’s.
+  <main id="main" class="wrap research-main">
+    <p class="kicker">Census records</p>
+    <h1>North Carolina population through time</h1>
+    <p class="lede">Decennial census counts from 1790 through 1990, plus official 2000 and 2020 estimates bases, the 2010 Census count, and the July 1, 2025 county estimate. A dash means the county is not reported in that census, usually because it had not yet been created.</p>
+    <div class="controls">
+      <label>Place
+        <select id="area"></select>
+      </label>
     </div>
-    
-    <p><a href="index.html">Back to the county atlas</a></p>
+    <h2 id="title">North Carolina</h2>
+    <p id="summary" class="note"></p>
+    <div id="chart" aria-hidden="true"></div>
+    <table>
+      <thead><tr><th>Year</th><th class="num">Population</th><th class="num">Change from prior listed year</th><th>Share of peak in this series</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p><a class="download" href="research/county-pop-history.csv">Download the county table (CSV)</a> · <a class="download" href="research/county-pop-history.json">JSON with sources</a></p>
+    <h2>Sources</h2>
+    <ul class="plain" id="source-list"></ul>
+    <p class="note">Do not treat the 2000, 2020, and 2025 columns as additional decennial censuses. The 2000 and 2020 figures are Census estimates bases; 2025 is a mid-year estimate. Historical counts use the county boundaries of that census.</p>
+
   </main>
+  <aside class="atlas-explore" aria-label="Related pages">
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="migration-tax.html">Migration and tax records</a></li>
+      <li><a href="trends.html">State trends</a></li>
+      <li><a href="index.html#counties">County atlas</a></li>
+      <li><a href="war_map/">War Map</a></li>
+    </ul>
+  </aside>
   <footer class="footer">
     <div class="wrap">
       <div>
         <strong data-site-name>North Carolina Civic Atlas</strong>
         <p data-site-disclaimer></p>
       </div>
+      <div><a href="index.html">County atlas</a></div>
     </div>
   </footer>
   <script src="site-chrome.js"></script>
+<script>
+const format = new Intl.NumberFormat('en-US');
+const percent = new Intl.NumberFormat('en-US', {style:'percent', maximumFractionDigits:1, signDisplay:'exceptZero'});
+fetch('research/county-pop-history.json').then(r => { if (!r.ok) throw r; return r.json(); }).then(series => {
+  const area = document.getElementById('area');
+  const names = Object.keys(series.places);
+  const state = names.filter(n => n === 'North Carolina');
+  const counties = names.filter(n => n !== 'North Carolina').sort((a,b)=>a.localeCompare(b));
+  for (const name of state.concat(counties)) area.add(new Option(name === 'North Carolina' ? name : name + ' County', name));
+  const requested = new URLSearchParams(location.search).get('county');
+  if (requested && Object.hasOwn(series.places, requested)) area.value = requested;
+  const sourceList = document.getElementById('source-list');
+  sourceList.replaceChildren(...series.sources.map(s => {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = s.url; a.textContent = s.title;
+    li.append(a, document.createTextNode(' — ' + (s.years || '') + (s.note ? '. ' + s.note : '')));
+    return li;
+  }));
+  function display(){
+    const place = area.value;
+    const counts = series.places[place];
+    const observed = counts.filter(v => v != null);
+    const peak = Math.max(...observed);
+    const first = counts.findIndex(v => v != null);
+    const last = counts.reduce((i,v,idx)=> v != null ? idx : i, 0);
+    document.getElementById('title').textContent = place === 'North Carolina' ? place : place + ' County';
+    document.getElementById('summary').textContent = series.years[first] + ' to ' + series.years[last] + ' · ' + format.format(counts[first]) + ' to ' + format.format(counts[last]) + ' residents (' + percent.format(counts[last]/counts[first]-1) + ').';
+    const rows = document.getElementById('rows');
+    const chart = document.getElementById('chart');
+    rows.replaceChildren();
+    chart.replaceChildren();
+    let prev = null;
+    counts.forEach((count, index) => {
+      const row = rows.insertRow();
+      const year = document.createElement('th'); year.scope='row'; year.textContent = series.years[index]; row.append(year);
+      row.insertCell().textContent = count == null ? '—' : format.format(count);
+      row.cells[0].className = 'num';
+      const ch = row.insertCell(); ch.className='num';
+      ch.textContent = count == null || prev == null ? '—' : percent.format(count/prev-1);
+      const barCell = row.insertCell();
+      if (count != null) {
+        const bar = document.createElement('div'); bar.className='bar'; bar.style.width=(100*count/peak)+'%'; barCell.append(bar);
+        const i = document.createElement('i'); i.style.height=(100*count/peak)+'%'; i.title=String(series.years[index]); chart.append(i);
+        prev = count;
+      } else {
+        barCell.textContent = '';
+        const i = document.createElement('i'); i.style.height='0'; i.style.background='#d5dee6'; chart.append(i);
+      }
+    });
+  }
+  area.addEventListener('change', () => {
+    display();
+    const url = new URL(location.href);
+    url.searchParams.set('county', area.value);
+    history.replaceState(null,'',url);
+  });
+  display();
+}).catch(() => {
+  document.getElementById('summary').textContent = 'The population table could not load. Check your connection and reload.';
+});
+</script>
+
 </body>
 </html>

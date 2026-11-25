@@ -1,13 +1,14 @@
 <!doctype html>
-<html lang="en" data-base="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Source-linked historical and current trends for population, families, and conservation in North Carolina will be added in a later phase.">
+  <meta name="description" content="Source-linked population, language, and vital-statistics benchmarks for North Carolina.">
   <title>North Carolina trends | North Carolina Civic Atlas</title>
   <link rel="icon" type="image/png" href="assets/nc-badge.png">
   <link rel="stylesheet" href="atlas-navigation.css">
   <link rel="stylesheet" href="atlas-app.css">
+  <link rel="stylesheet" href="research-pages.css">
   <script src="site-config.js"></script>
 </head>
 <body data-page-title="North Carolina trends">
@@ -19,29 +20,88 @@
         <span data-site-brand-label>NORTH CAROLINA<br>CIVIC ATLAS</span>
       </a>
       <nav aria-label="Main navigation" class="site-nav">
-        <a href="index.html">County atlas</a>
         <a href="war_map/">War Map</a>
+        <a href="index.html#counties">County atlas</a>
+        <details>
+          <summary>Research</summary>
+          <div>
+            <a href="public-health.html">Public health</a>
+            <a href="demographics.html">County demographics</a>
+            <a href="trends.html">State trends</a>
+            <a href="history.html">Historical spending</a>
+            <a href="governors.html">Taxes by governor</a>
+            <a href="migration-tax.html">Migration and taxes</a>
+            <a href="suffrage.html">Voting eligibility</a>
+            <a href="american-history.html">American history</a>
+            <a href="ppc-funding.html">Organization funding</a>
+          </div>
+        </details>
+        <details>
+          <summary>Civic records</summary>
+          <div>
+            <a href="war_map/">North Carolina War Map</a>
+            <a href="index.html#docket">Legislative docket</a>
+            <a href="index.html#elections">Election dates</a>
+            <a href="index.html#sources">Source directory</a>
+            <a href="index.html#method">Research method</a>
+          </div>
+        </details>
+        <details>
+          <summary>Project RFPs</summary>
+          <div>
+            <a href="rfp.html">Daily sourdough at home</a>
+            <a href="rfp-battery.html">Household battery buffering</a>
+          </div>
+        </details>
       </nav>
     </div>
   </header>
-  <main id="main" class="wrap" style="padding:48px 24px 72px">
-    <p class="kicker">Phase 4</p>
-    <h1 style="font-family:Georgia,serif">North Carolina trends</h1>
-    <p>Source-linked historical and current trends for population, families, and conservation in North Carolina will be added in a later phase.</p>
-    <div class="todo">
-      <strong>TODO (Phase 4):</strong> This page will be rebuilt with North Carolina sources. Pennsylvania research content was not carried forward, so this site does not present another state’s figures as North Carolina’s.
-    </div>
-    
-    <p><a href="index.html">Back to the county atlas</a></p>
+  <main id="main" class="wrap research-main">
+    <p class="kicker">State trends</p>
+    <h1>Know what changed. Check the record.</h1>
+    <p class="lede">These are dated official benchmarks, not a single smoothed storyline. ACS five-year estimates are pooled surveys. They are not interchangeable with decennial census counts or with vital-statistics rates.</p>
+    <article class="card">
+      <h2>Resident population</h2>
+      <p>The Census publication <i>Population of States and Counties of the United States: 1790 to 1990</i> lists 393,751 North Carolina residents in 1790 and 6,628,637 in 1990. The April 1, 2020 estimates base is 10,441,392. The July 1, 2025 county-based state estimate is 11,197,968.</p>
+      <p><a href="demographics.html">Open the county time series</a> · <a href="https://www2.census.gov/programs-surveys/decennial/tables/1990/population-of-states-and-counties-us-1790-1990/population_partiii.xls">Forstall Part III spreadsheet</a> · <a href="https://www2.census.gov/programs-surveys/popest/tables/2020-2025/counties/totals/co-est2025-pop-37.xlsx">CO-EST2025-POP-37</a></p>
+    </article>
+    <article class="card">
+      <h2>Foreign-born residents (ACS benchmark)</h2>
+      <p>The 2024 ACS five-year estimates (2019–2024) count 973,325 foreign-born residents in North Carolina, 9.1% of the 10,730,404 people in that survey estimate (margin of error ±9,858 on the foreign-born count, 90% confidence). This is a survey estimate, not a 2024 headcount, and should not be plotted as a continuous series with earlier decennial nativity counts.</p>
+      <p><a href="https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05002.dat">ACS 2024 5-year table B05002</a> · <a href="migration-tax.html">Migration and tax records</a></p>
+    </article>
+    <article class="card">
+      <h2>Language other than English at home (ACS benchmark)</h2>
+      <p>Among 10,127,421 North Carolina residents age 5 and over in the same ACS 5-year release, 8,764,888 speak only English at home. The remainder, 1,362,533 people (13.5%), speak a language other than English at home.</p>
+      <p><a href="https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b16001.dat">ACS 2024 5-year table B16001</a></p>
+    </article>
+    <article class="card">
+      <h2>Fertility and resident abortion rates</h2>
+      <p>The State Center for Health Statistics, in its 2023 Reported Pregnancies tables, publishes resident fertility and abortion rates per 1,000 females age 15–44. The total fertility rate was 58.4 in 2018 and 56.0 in 2023. The resident abortion rate was 11.3 in 2018, peaked at 13.7 in 2022 in this window, and was 12.7 in 2023. Resident abortion counts and a separately defined 2024 statutory report are on the public-health page.</p>
+      <p><a href="public-health.html">Public health tables</a> · <a href="https://schs.dph.ncdhhs.gov/data/vital/pregnancies/2023/Table1-2018-2023-PregnancyFertilityAbortionFetalDeathRates.pdf">SCHS Table 1 (PDF)</a></p>
+    </article>
+    <div class="todo"><strong>TODO:</strong> Official statewide park acreage and forest-land series were not compiled for this release. Start with <a href="https://www.ncparks.gov/">N.C. State Parks</a> and the <a href="https://www.ncagr.gov/divisions/nc-forest-service">N.C. Forest Service</a>.</div>
+
   </main>
+  <aside class="atlas-explore" aria-label="Related pages">
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="demographics.html">County population history</a></li>
+      <li><a href="public-health.html">Public health</a></li>
+      <li><a href="governors.html">State tax collections</a></li>
+      <li><a href="index.html">County atlas</a></li>
+    </ul>
+  </aside>
   <footer class="footer">
     <div class="wrap">
       <div>
         <strong data-site-name>North Carolina Civic Atlas</strong>
         <p data-site-disclaimer></p>
       </div>
+      <div><a href="index.html">County atlas</a></div>
     </div>
   </footer>
   <script src="site-chrome.js"></script>
+
 </body>
 </html>

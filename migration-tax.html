@@ -1,16 +1,17 @@
 <!doctype html>
-<html lang="en" data-base="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Migration and tax-incentive measures will be rebuilt from Census and official North Carolina tax sources.">
-  <title>Migration and tax incentives in North Carolina | North Carolina Civic Atlas</title>
+  <meta name="description" content="IRS state-to-state migration into and out of North Carolina, ACS foreign-born estimates, and official tax-agency links.">
+  <title>Migration and taxes in North Carolina | North Carolina Civic Atlas</title>
   <link rel="icon" type="image/png" href="assets/nc-badge.png">
   <link rel="stylesheet" href="atlas-navigation.css">
   <link rel="stylesheet" href="atlas-app.css">
+  <link rel="stylesheet" href="research-pages.css">
   <script src="site-config.js"></script>
 </head>
-<body data-page-title="Migration and tax incentives in North Carolina">
+<body data-page-title="Migration and taxes in North Carolina">
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="top">
     <div class="wrap">
@@ -19,29 +20,75 @@
         <span data-site-brand-label>NORTH CAROLINA<br>CIVIC ATLAS</span>
       </a>
       <nav aria-label="Main navigation" class="site-nav">
-        <a href="index.html">County atlas</a>
         <a href="war_map/">War Map</a>
+        <a href="index.html#counties">County atlas</a>
+        <details>
+          <summary>Research</summary>
+          <div>
+            <a href="public-health.html">Public health</a>
+            <a href="demographics.html">County demographics</a>
+            <a href="trends.html">State trends</a>
+            <a href="history.html">Historical spending</a>
+            <a href="governors.html">Taxes by governor</a>
+            <a href="migration-tax.html">Migration and taxes</a>
+            <a href="suffrage.html">Voting eligibility</a>
+            <a href="american-history.html">American history</a>
+            <a href="ppc-funding.html">Organization funding</a>
+          </div>
+        </details>
+        <details>
+          <summary>Civic records</summary>
+          <div>
+            <a href="war_map/">North Carolina War Map</a>
+            <a href="index.html#docket">Legislative docket</a>
+            <a href="index.html#elections">Election dates</a>
+            <a href="index.html#sources">Source directory</a>
+            <a href="index.html#method">Research method</a>
+          </div>
+        </details>
+        <details>
+          <summary>Project RFPs</summary>
+          <div>
+            <a href="rfp.html">Daily sourdough at home</a>
+            <a href="rfp-battery.html">Household battery buffering</a>
+          </div>
+        </details>
       </nav>
     </div>
   </header>
-  <main id="main" class="wrap" style="padding:48px 24px 72px">
-    <p class="kicker">Phase 4</p>
-    <h1 style="font-family:Georgia,serif">Migration and tax incentives in North Carolina</h1>
-    <p>Migration and tax-incentive measures will be rebuilt from Census and official North Carolina tax sources.</p>
-    <div class="todo">
-      <strong>TODO (Phase 4):</strong> This page will be rebuilt with North Carolina sources. Pennsylvania research content was not carried forward, so this site does not present another state’s figures as North Carolina’s.
-    </div>
-    
-    <p><a href="index.html">Back to the county atlas</a></p>
+  <main id="main" class="wrap research-main">
+    <p class="kicker">Migration and taxes</p>
+    <h1>Who moves, and where to read the tax rules</h1>
+    <p class="lede">Tax-return migration, Census survey estimates of the foreign-born population, and tax-agency pages are different records. They are shown separately here.</p>
+    <h2>Foreign-born residents</h2>
+    <p>The 2024 ACS five-year estimates count 973,325 foreign-born residents of North Carolina, 9.1% of that survey population, with a 90% margin of error of ±9,858 on the foreign-born count. This is not an annual immigration flow.</p>
+    <p><a href="https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05002.dat">Census ACS 2024 5-year table B05002</a></p>
+    <h2>State-to-state tax-return migration, filing years 2023–2024</h2>
+    <p>The IRS Statistics of Income state-to-state files count income-tax returns that changed state between filing years 2023 and 2024. North Carolina received 169,694 returns in the published “Total Migration-US and Foreign” inflow total and sent 131,912 in the matching outflow total. The largest inbound state sources, after those file-wide totals and same-state rows, were Florida (21,177 returns), South Carolina (15,232), and Virginia (14,985). The largest outbound destinations were South Carolina (17,481), Florida (13,675), and Virginia (12,484). These are tax-return flows, not a Census change-of-residence estimate. AGI in the source file is in thousands of dollars.</p>
+    <p><a href="https://www.irs.gov/statistics/soi-tax-stats-migration-data">IRS SOI migration data</a> · <a href="https://www.irs.gov/pub/irs-soi/stateinflow2324.csv">Inflow CSV</a> · <a href="https://www.irs.gov/pub/irs-soi/stateoutflow2324.csv">Outflow CSV</a> · <a href="research/nc-migration-irs.json">JSON extract</a></p>
+    <h2>Tax rules</h2>
+    <p>Federal earned income tax credit rules are published by the <a href="https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc">Internal Revenue Service</a>. North Carolina individual income tax forms, rate schedules, and bulletins are on the <a href="https://www.ncdor.gov/taxes-forms/individual-income-tax">N.C. Department of Revenue individual income tax page</a>. This page does not assert a North Carolina state earned-income credit, because that was not verified from the official pages reviewed for this release.</p>
+    <p><a href="governors.html">State tax collections over time</a></p>
+
   </main>
+  <aside class="atlas-explore" aria-label="Related pages">
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="demographics.html">County population</a></li>
+      <li><a href="governors.html">Tax collections</a></li>
+      <li><a href="trends.html">State trends</a></li>
+    </ul>
+  </aside>
   <footer class="footer">
     <div class="wrap">
       <div>
         <strong data-site-name>North Carolina Civic Atlas</strong>
         <p data-site-disclaimer></p>
       </div>
+      <div><a href="index.html">County atlas</a></div>
     </div>
   </footer>
   <script src="site-chrome.js"></script>
+
 </body>
 </html>

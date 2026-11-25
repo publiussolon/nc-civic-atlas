@@ -1,0 +1,529 @@
+{
+  "as_of": "2026-11-24",
+  "units": "Thousands of dollars, Census State Tax Collections field C105 (Total Taxes).",
+  "fy_note": "Census FY ending codes of the form 630YY mean a fiscal year ending June 30. Attribution to a governor uses the calendar-year ranges published by NCpedia (State Library of North Carolina / Office of Archives and History). Mid-year inaugurations are not dated in that list, so a fiscal year may overlap more than one governor.",
+  "series": [
+    {
+      "year": 1942,
+      "fy_ending_code": 63042,
+      "total_taxes_thousands_usd": 99194
+    },
+    {
+      "year": 1944,
+      "fy_ending_code": 63044,
+      "total_taxes_thousands_usd": 111238
+    },
+    {
+      "year": 1946,
+      "fy_ending_code": 63046,
+      "total_taxes_thousands_usd": 137544
+    },
+    {
+      "year": 1948,
+      "fy_ending_code": 63048,
+      "total_taxes_thousands_usd": 195677
+    },
+    {
+      "year": 1950,
+      "fy_ending_code": 63050,
+      "total_taxes_thousands_usd": 212728
+    },
+    {
+      "year": 1951,
+      "fy_ending_code": 63051,
+      "total_taxes_thousands_usd": 255667
+    },
+    {
+      "year": 1952,
+      "fy_ending_code": 63052,
+      "total_taxes_thousands_usd": 278482
+    },
+    {
+      "year": 1953,
+      "fy_ending_code": 63053,
+      "total_taxes_thousands_usd": 287817
+    },
+    {
+      "year": 1954,
+      "fy_ending_code": 63054,
+      "total_taxes_thousands_usd": 294771
+    },
+    {
+      "year": 1955,
+      "fy_ending_code": 63055,
+      "total_taxes_thousands_usd": 307411
+    },
+    {
+      "year": 1956,
+      "fy_ending_code": 63056,
+      "total_taxes_thousands_usd": 352531
+    },
+    {
+      "year": 1957,
+      "fy_ending_code": 63057,
+      "total_taxes_thousands_usd": 369779
+    },
+    {
+      "year": 1958,
+      "fy_ending_code": 63058,
+      "total_taxes_thousands_usd": 375134
+    },
+    {
+      "year": 1959,
+      "fy_ending_code": 63059,
+      "total_taxes_thousands_usd": 397630
+    },
+    {
+      "year": 1960,
+      "fy_ending_code": 63060,
+      "total_taxes_thousands_usd": 459373
+    },
+    {
+      "year": 1961,
+      "fy_ending_code": 63061,
+      "total_taxes_thousands_usd": 479439
+    },
+    {
+      "year": 1962,
+      "fy_ending_code": 63062,
+      "total_taxes_thousands_usd": 539134
+    },
+    {
+      "year": 1963,
+      "fy_ending_code": 63063,
+      "total_taxes_thousands_usd": 588551
+    },
+    {
+      "year": 1964,
+      "fy_ending_code": 63064,
+      "total_taxes_thousands_usd": 623835
+    },
+    {
+      "year": 1965,
+      "fy_ending_code": 63065,
+      "total_taxes_thousands_usd": 688109
+    },
+    {
+      "year": 1966,
+      "fy_ending_code": 63066,
+      "total_taxes_thousands_usd": 776887
+    },
+    {
+      "year": 1967,
+      "fy_ending_code": 63067,
+      "total_taxes_thousands_usd": 840712
+    },
+    {
+      "year": 1968,
+      "fy_ending_code": 63068,
+      "total_taxes_thousands_usd": 901528
+    },
+    {
+      "year": 1969,
+      "fy_ending_code": 63069,
+      "total_taxes_thousands_usd": 1009568
+    },
+    {
+      "year": 1970,
+      "fy_ending_code": 63070,
+      "total_taxes_thousands_usd": 1190220
+    },
+    {
+      "year": 1971,
+      "fy_ending_code": 63071,
+      "total_taxes_thousands_usd": 1296974
+    },
+    {
+      "year": 1972,
+      "fy_ending_code": 63072,
+      "total_taxes_thousands_usd": 1460869
+    },
+    {
+      "year": 1973,
+      "fy_ending_code": 63073,
+      "total_taxes_thousands_usd": 1657474
+    },
+    {
+      "year": 1974,
+      "fy_ending_code": 63074,
+      "total_taxes_thousands_usd": 1806433
+    },
+    {
+      "year": 1975,
+      "fy_ending_code": 63075,
+      "total_taxes_thousands_usd": 1900440
+    },
+    {
+      "year": 1976,
+      "fy_ending_code": 63076,
+      "total_taxes_thousands_usd": 2059951
+    },
+    {
+      "year": 1977,
+      "fy_ending_code": 63077,
+      "total_taxes_thousands_usd": 2384780
+    },
+    {
+      "year": 1978,
+      "fy_ending_code": 63078,
+      "total_taxes_thousands_usd": 2608437
+    },
+    {
+      "year": 1979,
+      "fy_ending_code": 63079,
+      "total_taxes_thousands_usd": 2914931
+    },
+    {
+      "year": 1980,
+      "fy_ending_code": 63080,
+      "total_taxes_thousands_usd": 3215348
+    },
+    {
+      "year": 1981,
+      "fy_ending_code": 63081,
+      "total_taxes_thousands_usd": 3431002
+    },
+    {
+      "year": 1982,
+      "fy_ending_code": 63082,
+      "total_taxes_thousands_usd": 3790035
+    },
+    {
+      "year": 1983,
+      "fy_ending_code": 63083,
+      "total_taxes_thousands_usd": 4028477
+    },
+    {
+      "year": 1984,
+      "fy_ending_code": 63084,
+      "total_taxes_thousands_usd": 4636021
+    },
+    {
+      "year": 1985,
+      "fy_ending_code": 63085,
+      "total_taxes_thousands_usd": 5198024
+    },
+    {
+      "year": 1986,
+      "fy_ending_code": 63086,
+      "total_taxes_thousands_usd": 5579710
+    },
+    {
+      "year": 1987,
+      "fy_ending_code": 63087,
+      "total_taxes_thousands_usd": 6274524
+    },
+    {
+      "year": 1988,
+      "fy_ending_code": 63088,
+      "total_taxes_thousands_usd": 6843064
+    },
+    {
+      "year": 1989,
+      "fy_ending_code": 63089,
+      "total_taxes_thousands_usd": 7369389
+    },
+    {
+      "year": 1990,
+      "fy_ending_code": 63090,
+      "total_taxes_thousands_usd": 7864737
+    },
+    {
+      "year": 1991,
+      "fy_ending_code": 63091,
+      "total_taxes_thousands_usd": 7850043
+    },
+    {
+      "year": 1992,
+      "fy_ending_code": 63092,
+      "total_taxes_thousands_usd": 9009742
+    },
+    {
+      "year": 1993,
+      "fy_ending_code": 63093,
+      "total_taxes_thousands_usd": 9753838
+    },
+    {
+      "year": 1994,
+      "fy_ending_code": 63094,
+      "total_taxes_thousands_usd": 10518600
+    },
+    {
+      "year": 1995,
+      "fy_ending_code": 63095,
+      "total_taxes_thousands_usd": 11425714
+    },
+    {
+      "year": 1996,
+      "fy_ending_code": 63096,
+      "total_taxes_thousands_usd": 11882318
+    },
+    {
+      "year": 1997,
+      "fy_ending_code": 63097,
+      "total_taxes_thousands_usd": 12678199
+    },
+    {
+      "year": 1998,
+      "fy_ending_code": 63098,
+      "total_taxes_thousands_usd": 13869426
+    },
+    {
+      "year": 1999,
+      "fy_ending_code": 63099,
+      "total_taxes_thousands_usd": 14436294
+    },
+    {
+      "year": 2000,
+      "fy_ending_code": 63000,
+      "total_taxes_thousands_usd": 15315386
+    },
+    {
+      "year": 2001,
+      "fy_ending_code": 63001,
+      "total_taxes_thousands_usd": 15599964
+    },
+    {
+      "year": 2002,
+      "fy_ending_code": 63002,
+      "total_taxes_thousands_usd": 15537366
+    },
+    {
+      "year": 2003,
+      "fy_ending_code": 63003,
+      "total_taxes_thousands_usd": 15848650
+    },
+    {
+      "year": 2004,
+      "fy_ending_code": 63004,
+      "total_taxes_thousands_usd": 16836454
+    },
+    {
+      "year": 2005,
+      "fy_ending_code": 63005,
+      "total_taxes_thousands_usd": 18639618
+    },
+    {
+      "year": 2006,
+      "fy_ending_code": 63006,
+      "total_taxes_thousands_usd": 20602902
+    },
+    {
+      "year": 2007,
+      "fy_ending_code": 63007,
+      "total_taxes_thousands_usd": 22612798
+    },
+    {
+      "year": 2008,
+      "fy_ending_code": 63008,
+      "total_taxes_thousands_usd": 22809716
+    },
+    {
+      "year": 2009,
+      "fy_ending_code": 63009,
+      "total_taxes_thousands_usd": 20525663
+    },
+    {
+      "year": 2010,
+      "fy_ending_code": 63010,
+      "total_taxes_thousands_usd": 21514930
+    },
+    {
+      "year": 2011,
+      "fy_ending_code": 63011,
+      "total_taxes_thousands_usd": 22400573
+    },
+    {
+      "year": 2012,
+      "fy_ending_code": 63012,
+      "total_taxes_thousands_usd": 22714557
+    },
+    {
+      "year": 2013,
+      "fy_ending_code": 63013,
+      "total_taxes_thousands_usd": 23767449
+    },
+    {
+      "year": 2014,
+      "fy_ending_code": 63014,
+      "total_taxes_thousands_usd": 23512645
+    },
+    {
+      "year": 2015,
+      "fy_ending_code": 63015,
+      "total_taxes_thousands_usd": 25084225
+    },
+    {
+      "year": 2016,
+      "fy_ending_code": 63016,
+      "total_taxes_thousands_usd": 26218693
+    },
+    {
+      "year": 2017,
+      "fy_ending_code": 63017,
+      "total_taxes_thousands_usd": 26868715
+    },
+    {
+      "year": 2018,
+      "fy_ending_code": 63018,
+      "total_taxes_thousands_usd": 27854728
+    },
+    {
+      "year": 2019,
+      "fy_ending_code": 63019,
+      "total_taxes_thousands_usd": 29324429
+    },
+    {
+      "year": 2020,
+      "fy_ending_code": 63020,
+      "total_taxes_thousands_usd": 28307011
+    },
+    {
+      "year": 2021,
+      "fy_ending_code": 63021,
+      "total_taxes_thousands_usd": 34735106
+    },
+    {
+      "year": 2022,
+      "fy_ending_code": 63022,
+      "total_taxes_thousands_usd": 38605027
+    },
+    {
+      "year": 2023,
+      "fy_ending_code": 63023,
+      "total_taxes_thousands_usd": 39074633
+    },
+    {
+      "year": 2024,
+      "fy_ending_code": 63024,
+      "total_taxes_thousands_usd": 39170317
+    },
+    {
+      "year": 2025,
+      "fy_ending_code": 63025,
+      "total_taxes_thousands_usd": 40626167
+    }
+  ],
+  "governors": [
+    {
+      "name": "Clyde Roark Hoey",
+      "start": 1937,
+      "end": 1941,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Joseph Melville Broughton",
+      "start": 1941,
+      "end": 1945,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Robert Gregg Cherry",
+      "start": 1945,
+      "end": 1949,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "William Kerr Scott",
+      "start": 1949,
+      "end": 1953,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "William Bradley Umstead",
+      "start": 1953,
+      "end": 1954,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Luther Hartwell Hodges",
+      "start": 1954,
+      "end": 1961,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Terry Sanford",
+      "start": 1961,
+      "end": 1965,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Dan Killian Moore",
+      "start": 1965,
+      "end": 1969,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Robert Walter Scott",
+      "start": 1969,
+      "end": 1973,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "James Eubert Holshouser, Jr.",
+      "start": 1973,
+      "end": 1977,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "James Baxter Hunt, Jr.",
+      "start": 1977,
+      "end": 1985,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "James Grubbs Martin",
+      "start": 1985,
+      "end": 1993,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "James Baxter Hunt, Jr.",
+      "start": 1993,
+      "end": 2001,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Michael F. Easley",
+      "start": 2001,
+      "end": 2009,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Beverly Eaves Perdue",
+      "start": 2009,
+      "end": 2012,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Patrick McCrory",
+      "start": 2013,
+      "end": 2016,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Roy Cooper",
+      "start": 2017,
+      "end": 2024,
+      "source": "https://www.ncpedia.org/biography/governors"
+    },
+    {
+      "name": "Josh Stein",
+      "start": 2025,
+      "end": null,
+      "source": "https://www.ncpedia.org/biography/governors"
+    }
+  ],
+  "sources": [
+    {
+      "title": "U.S. Census Bureau, State Tax Collections Historical Database (2025)",
+      "url": "https://www2.census.gov/programs-surveys/stc/datasets/historical/STC-Historical-DB.xlsx",
+      "page": "https://www.census.gov/programs-surveys/stc/data/datasets.html"
+    },
+    {
+      "title": "Chronology of North Carolina Governors, NCpedia, revised September 2025",
+      "url": "https://www.ncpedia.org/biography/governors",
+      "publisher": "State Library of North Carolina, Government & Heritage Library"
+    }
+  ]
+}
