@@ -1,0 +1,1414 @@
+{
+  "schema_version": "0.1",
+  "retrieved_at": "2026-11-24",
+  "description": "Official North Carolina county government websites copied from the NC.gov county website directory. A directory listing does not establish current officeholders, budget amounts, or meeting records.",
+  "verification_labels": {
+    "source_directory_verified": "The URL was copied from the official NC.gov county government website directory on the retrieval date; the linked site can change, and individual records such as budgets and agendas have not yet been ingested."
+  },
+  "directory_source": {
+    "title": "County Government Websites | nc.gov",
+    "url": "https://www.nc.gov/your-government/county-government-websites"
+  },
+  "counties": [
+    {
+      "county": "Alamance",
+      "government_url": "https://alamancecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Alamance County government website",
+          "url": "https://alamancecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Alexander",
+      "government_url": "https://alexandercountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Alexander County government website",
+          "url": "https://alexandercountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Alleghany",
+      "government_url": "https://www.alleghanycounty-nc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Alleghany County government website",
+          "url": "https://www.alleghanycounty-nc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Anson",
+      "government_url": "https://www.co.anson.nc.us/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Anson County government website",
+          "url": "https://www.co.anson.nc.us/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Ashe",
+      "government_url": "https://www.ashecountygov.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Ashe County government website",
+          "url": "https://www.ashecountygov.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Avery",
+      "government_url": "https://www.averycountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Avery County government website",
+          "url": "https://www.averycountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Beaufort",
+      "government_url": "https://www.co.beaufort.nc.us",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Beaufort County government website",
+          "url": "https://www.co.beaufort.nc.us",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Bertie",
+      "government_url": "https://www.co.bertie.nc.us/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Bertie County government website",
+          "url": "https://www.co.bertie.nc.us/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Bladen",
+      "government_url": "https://bladennc.govoffice3.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Bladen County government website",
+          "url": "https://bladennc.govoffice3.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Brunswick",
+      "government_url": "https://www.brunswickcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Brunswick County government website",
+          "url": "https://www.brunswickcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Buncombe",
+      "government_url": "https://www.buncombenc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Buncombe County government website",
+          "url": "https://www.buncombenc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Burke",
+      "government_url": "https://www.burkenc.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Burke County government website",
+          "url": "https://www.burkenc.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Cabarrus",
+      "government_url": "https://www.cabarruscounty.us/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Cabarrus County government website",
+          "url": "https://www.cabarruscounty.us/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Caldwell",
+      "government_url": "https://www.caldwellcountync.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Caldwell County government website",
+          "url": "https://www.caldwellcountync.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Camden",
+      "government_url": "https://www.camdencountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Camden County government website",
+          "url": "https://www.camdencountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Carteret",
+      "government_url": "https://www.carteretcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Carteret County government website",
+          "url": "https://www.carteretcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Caswell",
+      "government_url": "https://www.caswellcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Caswell County government website",
+          "url": "https://www.caswellcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Catawba",
+      "government_url": "https://www.catawbacountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Catawba County government website",
+          "url": "https://www.catawbacountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Chatham",
+      "government_url": "https://www.chathamcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Chatham County government website",
+          "url": "https://www.chathamcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Cherokee",
+      "government_url": "https://www.cherokeecounty-nc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Cherokee County government website",
+          "url": "https://www.cherokeecounty-nc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Chowan",
+      "government_url": "https://www.chowancounty-nc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Chowan County government website",
+          "url": "https://www.chowancounty-nc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Clay",
+      "government_url": "https://www.clayconc.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Clay County government website",
+          "url": "https://www.clayconc.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Cleveland",
+      "government_url": "https://www.clevelandcounty.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Cleveland County government website",
+          "url": "https://www.clevelandcounty.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Columbus",
+      "government_url": "https://www.columbusco.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Columbus County government website",
+          "url": "https://www.columbusco.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Craven",
+      "government_url": "https://www.cravencountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Craven County government website",
+          "url": "https://www.cravencountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Cumberland",
+      "government_url": "https://www.cumberlandcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Cumberland County government website",
+          "url": "https://www.cumberlandcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Currituck",
+      "government_url": "https://currituckcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Currituck County government website",
+          "url": "https://currituckcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Dare",
+      "government_url": "https://www.darenc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Dare County government website",
+          "url": "https://www.darenc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Davidson",
+      "government_url": "https://www.co.davidson.nc.us/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Davidson County government website",
+          "url": "https://www.co.davidson.nc.us/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Davie",
+      "government_url": "https://www.daviecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Davie County government website",
+          "url": "https://www.daviecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Duplin",
+      "government_url": "https://www.duplinnc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Duplin County government website",
+          "url": "https://www.duplinnc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Durham",
+      "government_url": "https://dconc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Durham County government website",
+          "url": "https://dconc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Edgecombe",
+      "government_url": "https://www.edgecombecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Edgecombe County government website",
+          "url": "https://www.edgecombecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Forsyth",
+      "government_url": "https://www.co.forsyth.nc.us/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Forsyth County government website",
+          "url": "https://www.co.forsyth.nc.us/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Franklin",
+      "government_url": "https://www.franklincountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Franklin County government website",
+          "url": "https://www.franklincountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Gaston",
+      "government_url": "https://www.gastongov.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Gaston County government website",
+          "url": "https://www.gastongov.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Gates",
+      "government_url": "https://gatescountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Gates County government website",
+          "url": "https://gatescountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Graham",
+      "government_url": "https://grahamcounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Graham County government website",
+          "url": "https://grahamcounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Granville",
+      "government_url": "https://www.granvillecounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Granville County government website",
+          "url": "https://www.granvillecounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Greene",
+      "government_url": "https://greenecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Greene County government website",
+          "url": "https://greenecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Guilford",
+      "government_url": "https://www.guilfordcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Guilford County government website",
+          "url": "https://www.guilfordcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Halifax",
+      "government_url": "https://www.halifaxnc.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Halifax County government website",
+          "url": "https://www.halifaxnc.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Harnett",
+      "government_url": "https://harnett.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Harnett County government website",
+          "url": "https://harnett.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Haywood",
+      "government_url": "https://www.haywoodcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Haywood County government website",
+          "url": "https://www.haywoodcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Henderson",
+      "government_url": "https://www.hendersoncountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Henderson County government website",
+          "url": "https://www.hendersoncountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Hertford",
+      "government_url": "https://www.hertfordcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Hertford County government website",
+          "url": "https://www.hertfordcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Hoke",
+      "government_url": "https://www.hokecounty.net/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Hoke County government website",
+          "url": "https://www.hokecounty.net/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Hyde",
+      "government_url": "https://www.hydecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Hyde County government website",
+          "url": "https://www.hydecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Iredell",
+      "government_url": "https://www.iredellcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Iredell County government website",
+          "url": "https://www.iredellcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Jackson",
+      "government_url": "https://www.jacksonnc.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Jackson County government website",
+          "url": "https://www.jacksonnc.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Johnston",
+      "government_url": "https://www.johnstonnc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Johnston County government website",
+          "url": "https://www.johnstonnc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Jones",
+      "government_url": "https://www.jonescountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Jones County government website",
+          "url": "https://www.jonescountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Lee",
+      "government_url": "https://leecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Lee County government website",
+          "url": "https://leecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Lenoir",
+      "government_url": "https://lenoircountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Lenoir County government website",
+          "url": "https://lenoircountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Lincoln",
+      "government_url": "https://www.lincolncountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Lincoln County government website",
+          "url": "https://www.lincolncountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Macon",
+      "government_url": "https://maconnc.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Macon County government website",
+          "url": "https://maconnc.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Madison",
+      "government_url": "https://www.madisoncountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Madison County government website",
+          "url": "https://www.madisoncountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Martin",
+      "government_url": "https://www.martincountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Martin County government website",
+          "url": "https://www.martincountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "McDowell",
+      "government_url": "https://mcdowellnc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "McDowell County government website",
+          "url": "https://mcdowellnc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Mecklenburg",
+      "government_url": "https://www.charlottenc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Mecklenburg County government website",
+          "url": "https://www.charlottenc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Mitchell",
+      "government_url": "https://www.mitchellcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Mitchell County government website",
+          "url": "https://www.mitchellcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Montgomery",
+      "government_url": "https://www.montgomerycountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Montgomery County government website",
+          "url": "https://www.montgomerycountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Moore",
+      "government_url": "https://www.moorecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Moore County government website",
+          "url": "https://www.moorecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Nash",
+      "government_url": "https://nashcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Nash County government website",
+          "url": "https://nashcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "New Hanover",
+      "government_url": "https://www.nhcgov.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "New Hanover County government website",
+          "url": "https://www.nhcgov.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Northampton",
+      "government_url": "https://www.northamptonnc.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Northampton County government website",
+          "url": "https://www.northamptonnc.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Onslow",
+      "government_url": "https://www.onslowcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Onslow County government website",
+          "url": "https://www.onslowcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Orange",
+      "government_url": "https://www.orangecountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Orange County government website",
+          "url": "https://www.orangecountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Pamlico",
+      "government_url": "https://www.pamlicocounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Pamlico County government website",
+          "url": "https://www.pamlicocounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Pasquotank",
+      "government_url": "https://www.pasquotankcountync.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Pasquotank County government website",
+          "url": "https://www.pasquotankcountync.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Pender",
+      "government_url": "https://www.pendercountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Pender County government website",
+          "url": "https://www.pendercountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Perquimans",
+      "government_url": "https://www.perquimanscountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Perquimans County government website",
+          "url": "https://www.perquimanscountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Person",
+      "government_url": "https://www.personcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Person County government website",
+          "url": "https://www.personcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Pitt",
+      "government_url": "https://www.pittcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Pitt County government website",
+          "url": "https://www.pittcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Polk",
+      "government_url": "https://www.polknc.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Polk County government website",
+          "url": "https://www.polknc.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Randolph",
+      "government_url": "https://www.randolphcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Randolph County government website",
+          "url": "https://www.randolphcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Richmond",
+      "government_url": "https://www.richmondnc.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Richmond County government website",
+          "url": "https://www.richmondnc.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Robeson",
+      "government_url": "https://www.robesoncountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Robeson County government website",
+          "url": "https://www.robesoncountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Rockingham",
+      "government_url": "https://www.rockinghamcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Rockingham County government website",
+          "url": "https://www.rockinghamcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Rowan",
+      "government_url": "https://www.rowancountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Rowan County government website",
+          "url": "https://www.rowancountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Rutherford",
+      "government_url": "https://www.rutherfordcountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Rutherford County government website",
+          "url": "https://www.rutherfordcountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Sampson",
+      "government_url": "https://www.sampsoncountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Sampson County government website",
+          "url": "https://www.sampsoncountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Scotland",
+      "government_url": "https://www.scotlandcounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Scotland County government website",
+          "url": "https://www.scotlandcounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Stanly",
+      "government_url": "https://www.stanlycountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Stanly County government website",
+          "url": "https://www.stanlycountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Stokes",
+      "government_url": "https://www.co.stokes.nc.us/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Stokes County government website",
+          "url": "https://www.co.stokes.nc.us/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Surry",
+      "government_url": "https://www.co.surry.nc.us/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Surry County government website",
+          "url": "https://www.co.surry.nc.us/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Swain",
+      "government_url": "https://www.swaincountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Swain County government website",
+          "url": "https://www.swaincountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Transylvania",
+      "government_url": "https://www.transylvaniacounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Transylvania County government website",
+          "url": "https://www.transylvaniacounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Tyrrell",
+      "government_url": "http://www.tyrrellcounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Tyrrell County government website",
+          "url": "http://www.tyrrellcounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Union",
+      "government_url": "https://www.unioncountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Union County government website",
+          "url": "https://www.unioncountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Vance",
+      "government_url": "https://www.vancecounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Vance County government website",
+          "url": "https://www.vancecounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Wake",
+      "government_url": "https://www.wake.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Wake County government website",
+          "url": "https://www.wake.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Warren",
+      "government_url": "https://www.warrencountync.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Warren County government website",
+          "url": "https://www.warrencountync.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Washington",
+      "government_url": "https://www.washconc.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Washington County government website",
+          "url": "https://www.washconc.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Watauga",
+      "government_url": "https://www.wataugacounty.org/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Watauga County government website",
+          "url": "https://www.wataugacounty.org/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Wayne",
+      "government_url": "https://www.waynegov.com/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Wayne County government website",
+          "url": "https://www.waynegov.com/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Wilkes",
+      "government_url": "https://www.wilkescounty.net/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Wilkes County government website",
+          "url": "https://www.wilkescounty.net/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Wilson",
+      "government_url": "https://www.wilsoncountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Wilson County government website",
+          "url": "https://www.wilsoncountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Yadkin",
+      "government_url": "https://www.yadkincountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Yadkin County government website",
+          "url": "https://www.yadkincountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    },
+    {
+      "county": "Yancey",
+      "government_url": "https://www.yanceycountync.gov/",
+      "sources": [
+        {
+          "category": "county_website",
+          "title": "Yancey County government website",
+          "url": "https://www.yanceycountync.gov/",
+          "description": "Official county website as listed on the NC.gov county government website directory.",
+          "retrieved_at": "2026-11-24",
+          "verification": "source_directory_verified"
+        }
+      ]
+    }
+  ]
+}

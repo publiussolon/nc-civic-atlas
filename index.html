@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A county-by-county guide to North Carolina elections, public offices, budgets, and legislation.">
+  <title>North Carolina Civic Atlas</title>
+  <link rel="icon" type="image/png" href="assets/nc-badge.png">
+  <link rel="stylesheet" href="atlas-navigation.css">
+  <link rel="stylesheet" href="atlas-app.css">
+  <script src="site-config.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#county-search">Skip to county search</a>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <img class="brand-badge" data-site-badge src="assets/nc-badge.png" alt="">
+        <span data-site-brand-label>NORTH CAROLINA<br>CIVIC ATLAS</span>
+      </a>
+      <nav aria-label="Main navigation" class="site-nav">
+        <a href="war_map/">War Map</a>
+        <a href="#counties">County atlas</a>
+        <details>
+          <summary>Research</summary>
+          <div>
+            <a href="ppc-funding.html">Partnerships funding</a>
+            <a href="#issues">Issue priorities</a>
+            <a href="public-health.html">Public health</a>
+            <a href="demographics.html">County demographics</a>
+            <a href="trends.html">State trends</a>
+            <a href="history.html">Historical spending</a>
+            <a href="governors.html">Spending by governor</a>
+            <a href="american-history.html">American history</a>
+          </div>
+        </details>
+        <details>
+          <summary>Civic records</summary>
+          <div>
+            <a href="war_map/">North Carolina War Map</a>
+            <a href="#docket">Legislative docket</a>
+            <a href="#elections">Election dates</a>
+            <a href="#sources">Source directory</a>
+            <a href="#method">Research method</a>
+          </div>
+        </details>
+        <details>
+          <summary>Project RFPs</summary>
+          <div>
+            <a href="rfp.html">Daily sourdough at home</a>
+            <a href="rfp-battery.html">Household battery buffering</a>
+          </div>
+        </details>
+      </nav>
+    </div>
+  </header>
+  <main id="top">
+    <section id="counties">
+      <div class="wrap">
+        <div class="atlas-banner">
+          <h1>North Carolina county atlas</h1>
+          <p>Select a county to explore official records and Census population for all 100 counties.</p>
+        </div>
+        <div class="mapbox">
+          <div class="mapbar">
+            <h2>County map</h2>
+            <div class="mapmodes" role="group" aria-label="Map layer">
+              <button type="button" data-mapmode="counties" aria-pressed="false">Counties</button>
+              <button type="button" data-mapmode="population" aria-pressed="true">Population</button>
+              <button type="button" data-mapmode="income" aria-pressed="false">Income</button>
+              <button type="button" data-mapmode="control" aria-pressed="false">County leadership</button>
+            </div>
+          </div>
+          <a href="#county-search" class="map-search-link">Find a county by name</a>
+          <div id="nc-map" class="mapcanvas"><p>Loading county boundaries…</p></div>
+          <a id="county-drilldown" class="drilldown" href="history.html?county=Alamance#county-spending">Explore Alamance County records →</a>
+          <a id="county-history" class="drilldown" href="demographics.html?county=Alamance">Population history →</a>
+          <div id="map-status" class="mapstatus">Choose a county on the map or in the list.</div>
+          <div id="map-legend" class="maplegend"></div>
+          <p id="map-provenance" class="meta"></p>
+          <p class="meta">Boundary source: <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau Cartographic Boundary File, 1:500,000, 2024</a> (state FIPS 37, from <a href="https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip" target="_blank" rel="noopener noreferrer">cb_2024_us_county_500k</a>). Population is the Vintage 2025 Census county estimate as of July 1, 2025. The county leadership layer is unverified in this release.</p>
+        </div>
+        <div class="finder">
+          <aside class="sidebar">
+            <div class="searchbox">
+              <label for="county-search">Find a county</label>
+              <input id="county-search" type="search" placeholder="Search all 100 counties" autocomplete="off">
+            </div>
+            <div id="county-list" class="county-list" role="list"></div>
+          </aside>
+          <article class="panel" aria-live="polite">
+            <div class="county-top">
+              <div>
+                <h3 id="county-title" tabindex="-1">Alamance County</h3>
+                <p id="county-subtitle">North Carolina county profile</p>
+              </div>
+              <span class="pill">Source directory · Phase 1</span>
+            </div>
+            <div class="tabs" role="tablist" aria-label="County information">
+              <button type="button" role="tab" aria-selected="true" data-tab="overview">Overview</button>
+              <button type="button" role="tab" aria-selected="false" data-tab="offices">Offices</button>
+              <button type="button" role="tab" aria-selected="false" data-tab="living">Living costs</button>
+              <button type="button" role="tab" aria-selected="false" data-tab="money">Money</button>
+              <button type="button" role="tab" aria-selected="false" data-tab="docket">On the docket</button>
+            </div>
+            <div id="county-detail" class="tabpanel" role="tabpanel"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap stats" aria-label="Project status">
+      <div class="stat"><strong>100</strong><span>North Carolina counties indexed</span></div>
+      <div class="stat"><strong>Phase 1</strong><span>Map, Census population, and official county websites</span></div>
+      <div class="stat"><strong id="source-county-count">100</strong><span>County source profiles started</span></div>
+    </div>
+
+    <section id="issues">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">What we track</div>
+            <h2>Issues worth measuring</h2>
+          </div>
+          <p>These are editorial priorities. Each claim we publish should link to a primary record, show its date, and distinguish a measured trend from an argument about its cause.</p>
+        </div>
+        <div class="three">
+          <div class="card">
+            <div class="kicker">Public money</div>
+            <h3>Taxes and spending</h3>
+            <p>Compare tax rates, adopted budgets, actual spending, and documented audit findings. A spending choice is labeled “misallocated” only with a stated standard and evidence.</p>
+            <a href="https://www.osbm.nc.gov/budget" target="_blank" rel="noopener noreferrer">N.C. Office of State Budget and Management</a>
+          </div>
+          <div class="card">
+            <div class="kicker">Daily life</div>
+            <h3>Cost of living</h3>
+            <p>Track rents, housing cost burden, income, and local taxes by county where comparable data exists. Show the year and denominator for every comparison.</p>
+            <p class="phase-note">TODO (Phase 2): load Census ACS county tables. No North Carolina affordability figures are published in this release.</p>
+          </div>
+          <div class="card">
+            <div class="kicker">Population</div>
+            <h3>Housing and migration</h3>
+            <p>Compare population flows with housing supply and prices. Migration and affordability can move together without one proving the cause of the other.</p>
+            <a href="https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html" target="_blank" rel="noopener noreferrer">Census county population estimates</a>
+          </div>
+          <div class="card">
+            <div class="kicker">Family</div>
+            <h3>Births and health</h3>
+            <p>Use official vital statistics for births and related health measures. Distinguish residents from procedures performed in the state and account for reporting lag.</p>
+            <a href="https://www.ncdhhs.gov/" target="_blank" rel="noopener noreferrer">N.C. Department of Health and Human Services</a>
+            <p class="phase-note">TODO (Phase 4): add a direct, verified vital-statistics table for North Carolina.</p>
+          </div>
+          <div class="card">
+            <div class="kicker">Future</div>
+            <h3>Education and culture</h3>
+            <p>Track school outcomes and public school board decisions. Culture includes lived experience and local judgment; numeric measures alone cannot fully describe it.</p>
+            <a href="https://www.dpi.nc.gov/" target="_blank" rel="noopener noreferrer">N.C. Department of Public Instruction</a>
+          </div>
+          <div class="card">
+            <div class="kicker">Accountability</div>
+            <h3>Votes and officeholders</h3>
+            <p>Show bills, upcoming calendars, recorded votes, and sourced public positions. Keep a politician’s statement separate from what they voted for or enacted.</p>
+            <a href="https://www.ncleg.gov/Legislation" target="_blank" rel="noopener noreferrer">N.C. General Assembly legislation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="docket">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Legislative watch</div>
+            <h2>On the docket</h2>
+          </div>
+          <p>Sourced measures and meeting listings will appear here in a later phase. A listing is not a scheduled floor vote. Check the official record for changes.</p>
+        </div>
+        <h3>Upcoming public meetings</h3>
+        <div class="three" id="meeting-list"><div class="card"><h3>Loading meetings…</h3></div></div>
+        <h3>Tracked bills</h3>
+        <div class="three" id="docket-list"><div class="card"><h3>Loading checked measures…</h3></div></div>
+        <p class="meta" id="docket-asof">TODO (Phase 2) · <a href="https://www.ncleg.gov/Legislation" target="_blank" rel="noopener noreferrer">Official General Assembly legislation</a></p>
+      </div>
+    </section>
+
+    <section class="band" id="elections">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Election information</div>
+            <h2>Check official dates</h2>
+          </div>
+          <p>Statewide general elections in North Carolina are held in even-numbered years, on the Tuesday after the first Monday in November. Most municipal elections are held in odd-numbered years. Confirm every date with the State Board of Elections before acting. The November 3, 2026 statewide general election has already been held.</p>
+        </div>
+        <div class="three">
+          <div class="card">
+            <h3>Upcoming elections</h3>
+            <p>See the official NCSBE page for the next scheduled statewide or municipal contest and its deadlines.</p>
+            <a href="https://www.ncsbe.gov/voting/upcoming-election" target="_blank" rel="noopener noreferrer">NCSBE upcoming election</a>
+          </div>
+          <div class="card">
+            <h3>Types of elections</h3>
+            <p>The State Board of Elections explains the difference between statewide (even-year) and municipal (typically odd-year) contests, and the four municipal election methods.</p>
+            <a href="https://www.ncsbe.gov/about-elections/types-elections" target="_blank" rel="noopener noreferrer">Types of elections</a>
+          </div>
+          <div class="card">
+            <h3>County boards</h3>
+            <p>County boards of elections conduct local and statewide elections. Use the official directory to find your county board.</p>
+            <a href="https://www.ncsbe.gov/about-elections/county-boards-elections" target="_blank" rel="noopener noreferrer">County boards of elections</a>
+          </div>
+        </div>
+        <p class="meta">Checked November 24, 2026 · official sources only. Specific 2027 municipal calendar dates are not listed here until an official NCSBE calendar for that cycle is added.</p>
+      </div>
+    </section>
+
+    <section id="sources">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Source desk</div>
+            <h2>Go straight to the record</h2>
+          </div>
+          <p>Official sources lead. Outside directories are labeled so readers can tell a primary record from a useful pointer.</p>
+        </div>
+        <div class="link-list">
+          <a href="https://www.ncleg.gov/Legislation" target="_blank" rel="noopener noreferrer"><strong>N.C. General Assembly</strong><span>Bills, status, and legislative text · official</span></a>
+          <a href="https://www.ncleg.gov/FindYourLegislators" target="_blank" rel="noopener noreferrer"><strong>Find your legislators</strong><span>Official address lookup for House and Senate members</span></a>
+          <a href="https://www.osbm.nc.gov/budget" target="_blank" rel="noopener noreferrer"><strong>State budget office</strong><span>Office of State Budget and Management · official</span></a>
+          <a href="https://www.ncsbe.gov/about-elections/county-boards-elections" target="_blank" rel="noopener noreferrer"><strong>County boards of elections</strong><span>Contacts for all 100 county boards · official</span></a>
+          <a href="https://www.nc.gov/your-government/county-government-websites" target="_blank" rel="noopener noreferrer"><strong>County government websites</strong><span>Directory maintained by NC.gov; follow through for local budgets and agendas</span></a>
+          <a href="https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html" target="_blank" rel="noopener noreferrer"><strong>Census county population estimates</strong><span>Vintage 2025 county totals · official</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="method">
+      <div class="wrap method">
+        <div>
+          <div class="kicker">Our method</div>
+          <h2>Transparent by design</h2>
+          <p>We are building a useful database, one verified record at a time. A link to a source is not the same as a checked claim about an officeholder, a budget amount, or a bill’s status.</p>
+          <div class="note"><strong>Current release (Phase 1):</strong> all 100 county boundaries, Census population estimates, and official county website listings are live. Legislator rosters, ACS affordability, budgets, the War Map, and research pages are marked as later-phase work and do not display out-of-state figures.</div>
+        </div>
+        <div>
+          <h3>Every future record should include</h3>
+          <ul>
+            <li>Jurisdiction and office or measure</li>
+            <li>Primary source URL and document date</li>
+            <li>Date checked and status of verification</li>
+            <li>Budget year and units for financial amounts</li>
+            <li>Bill number, chamber, session, and latest action</li>
+            <li>A visible correction history when a record changes</li>
+          </ul>
+          <h3>Editorial priorities</h3>
+          <p>We expect to pay particular attention to youth opportunity, family stability, public spending, and civic liberty. Those are editorial choices. Source documents and factual fields should remain visible regardless of viewpoint.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      <div>
+        <strong data-site-name>North Carolina Civic Atlas</strong>
+        <p data-site-disclaimer>An independent, open source project. We are not a government office or an official affiliate of NCGOP or a chartered Young Republican organization. Confirm time-sensitive information with the responsible agency.</p>
+      </div>
+      <div><a href="#top">Back to top</a></div>
+    </div>
+  </footer>
+  <script src="site-chrome.js"></script>
+  <script src="county-index.js"></script>
+  <script src="index-app.js"></script>
+</body>
+</html>

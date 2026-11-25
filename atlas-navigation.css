@@ -1,0 +1,16 @@
+.atlas-explore {
+  margin: 2.5rem auto 0;
+  padding: 1.25rem clamp(1rem, 4vw, 3rem);
+  max-width: 70rem;
+  border-top: 2px solid #aa824b;
+  color: #17334a;
+  background: #eef2f3;
+  font: 1rem/1.5 system-ui, sans-serif;
+}
+.atlas-explore h2 {font: bold 1.4rem/1.25 Georgia, serif; margin: 0 0 .75rem}
+.atlas-explore ul {display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; margin: 0; padding: 0; list-style: none}
+.atlas-explore li {margin: 0}
+.atlas-explore a {display: inline-block; color: #174e6b; padding: .4rem 0; text-underline-offset: .15em}
+.atlas-explore a:focus-visible {outline: 3px solid #9e640e; outline-offset: 2px}
+@media print {.atlas-explore {display: none}}
+.skip-link{position:absolute;left:1rem;top:-8rem;z-index:9;background:#fff;color:#173950;padding:.65rem;font:1rem system-ui,sans-serif}.skip-link:focus{top:.5rem}

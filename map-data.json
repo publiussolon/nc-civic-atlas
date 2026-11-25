@@ -1,0 +1,714 @@
+{
+  "population_year": 2025,
+  "population_as_of": "2025-07-01",
+  "population_source": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/counties/totals/co-est2025-pop-37.xlsx",
+  "population_source_page": "https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html",
+  "population_also_published_as": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
+  "boundary_source": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+  "boundary_source_page": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+  "boundary_vintage": "Census Cartographic Boundary File 2024, 1:500,000, state FIPS 37",
+  "party_control_definition": "Majority party of the county board of commissioners, not how the county voted in an election. Not yet verified for any North Carolina county in this Phase 1 release.",
+  "checked_at": "2026-11-24",
+  "counties": {
+    "Alamance": {
+      "fips": "37001",
+      "population": 186177,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Alexander": {
+      "fips": "37003",
+      "population": 36958,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Alleghany": {
+      "fips": "37005",
+      "population": 11479,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Anson": {
+      "fips": "37007",
+      "population": 21758,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Ashe": {
+      "fips": "37009",
+      "population": 27514,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Avery": {
+      "fips": "37011",
+      "population": 18110,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Beaufort": {
+      "fips": "37013",
+      "population": 44670,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Bertie": {
+      "fips": "37015",
+      "population": 17086,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Bladen": {
+      "fips": "37017",
+      "population": 30007,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Brunswick": {
+      "fips": "37019",
+      "population": 174702,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Buncombe": {
+      "fips": "37021",
+      "population": 277417,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Burke": {
+      "fips": "37023",
+      "population": 88655,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Cabarrus": {
+      "fips": "37025",
+      "population": 249725,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Caldwell": {
+      "fips": "37027",
+      "population": 81105,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Camden": {
+      "fips": "37029",
+      "population": 11315,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Carteret": {
+      "fips": "37031",
+      "population": 70469,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Caswell": {
+      "fips": "37033",
+      "population": 22563,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Catawba": {
+      "fips": "37035",
+      "population": 170172,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Chatham": {
+      "fips": "37037",
+      "population": 85111,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Cherokee": {
+      "fips": "37039",
+      "population": 30830,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Chowan": {
+      "fips": "37041",
+      "population": 14082,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Clay": {
+      "fips": "37043",
+      "population": 12239,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Cleveland": {
+      "fips": "37045",
+      "population": 103325,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Columbus": {
+      "fips": "37047",
+      "population": 50487,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Craven": {
+      "fips": "37049",
+      "population": 105025,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Cumberland": {
+      "fips": "37051",
+      "population": 338473,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Currituck": {
+      "fips": "37053",
+      "population": 33158,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Dare": {
+      "fips": "37055",
+      "population": 38245,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Davidson": {
+      "fips": "37057",
+      "population": 180182,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Davie": {
+      "fips": "37059",
+      "population": 45855,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Duplin": {
+      "fips": "37061",
+      "population": 51571,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Durham": {
+      "fips": "37063",
+      "population": 347240,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Edgecombe": {
+      "fips": "37065",
+      "population": 49121,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Forsyth": {
+      "fips": "37067",
+      "population": 401718,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Franklin": {
+      "fips": "37069",
+      "population": 82037,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Gaston": {
+      "fips": "37071",
+      "population": 246558,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Gates": {
+      "fips": "37073",
+      "population": 10234,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Graham": {
+      "fips": "37075",
+      "population": 8190,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Granville": {
+      "fips": "37077",
+      "population": 61421,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Greene": {
+      "fips": "37079",
+      "population": 20700,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Guilford": {
+      "fips": "37081",
+      "population": 562234,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Halifax": {
+      "fips": "37083",
+      "population": 46534,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Harnett": {
+      "fips": "37085",
+      "population": 150137,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Haywood": {
+      "fips": "37087",
+      "population": 63369,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Henderson": {
+      "fips": "37089",
+      "population": 122375,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Hertford": {
+      "fips": "37091",
+      "population": 19015,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Hoke": {
+      "fips": "37093",
+      "population": 56939,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Hyde": {
+      "fips": "37095",
+      "population": 4554,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Iredell": {
+      "fips": "37097",
+      "population": 211798,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Jackson": {
+      "fips": "37099",
+      "population": 45039,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Johnston": {
+      "fips": "37101",
+      "population": 256448,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Jones": {
+      "fips": "37103",
+      "population": 9575,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Lee": {
+      "fips": "37105",
+      "population": 70258,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Lenoir": {
+      "fips": "37107",
+      "population": 55837,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Lincoln": {
+      "fips": "37109",
+      "population": 98654,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Macon": {
+      "fips": "37113",
+      "population": 39232,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Madison": {
+      "fips": "37115",
+      "population": 22553,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Martin": {
+      "fips": "37117",
+      "population": 21601,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "McDowell": {
+      "fips": "37111",
+      "population": 45198,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Mecklenburg": {
+      "fips": "37119",
+      "population": 1233383,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Mitchell": {
+      "fips": "37121",
+      "population": 15062,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Montgomery": {
+      "fips": "37123",
+      "population": 26403,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Moore": {
+      "fips": "37125",
+      "population": 110619,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Nash": {
+      "fips": "37127",
+      "population": 99365,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "New Hanover": {
+      "fips": "37129",
+      "population": 245959,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Northampton": {
+      "fips": "37131",
+      "population": 16491,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Onslow": {
+      "fips": "37133",
+      "population": 217175,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Orange": {
+      "fips": "37135",
+      "population": 152498,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Pamlico": {
+      "fips": "37137",
+      "population": 12758,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Pasquotank": {
+      "fips": "37139",
+      "population": 42201,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Pender": {
+      "fips": "37141",
+      "population": 72111,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Perquimans": {
+      "fips": "37143",
+      "population": 13490,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Person": {
+      "fips": "37145",
+      "population": 40636,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Pitt": {
+      "fips": "37147",
+      "population": 182936,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Polk": {
+      "fips": "37149",
+      "population": 20533,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Randolph": {
+      "fips": "37151",
+      "population": 149516,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Richmond": {
+      "fips": "37153",
+      "population": 42041,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Robeson": {
+      "fips": "37155",
+      "population": 119941,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Rockingham": {
+      "fips": "37157",
+      "population": 94195,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Rowan": {
+      "fips": "37159",
+      "population": 155096,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Rutherford": {
+      "fips": "37161",
+      "population": 65745,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Sampson": {
+      "fips": "37163",
+      "population": 61504,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Scotland": {
+      "fips": "37165",
+      "population": 33322,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Stanly": {
+      "fips": "37167",
+      "population": 68830,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Stokes": {
+      "fips": "37169",
+      "population": 46126,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Surry": {
+      "fips": "37171",
+      "population": 72287,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Swain": {
+      "fips": "37173",
+      "population": 14024,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Transylvania": {
+      "fips": "37175",
+      "population": 34211,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Tyrrell": {
+      "fips": "37177",
+      "population": 3537,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Union": {
+      "fips": "37179",
+      "population": 267674,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Vance": {
+      "fips": "37181",
+      "population": 42638,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Wake": {
+      "fips": "37183",
+      "population": 1257235,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Warren": {
+      "fips": "37185",
+      "population": 18898,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Washington": {
+      "fips": "37187",
+      "population": 10638,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Watauga": {
+      "fips": "37189",
+      "population": 54786,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Wayne": {
+      "fips": "37191",
+      "population": 122278,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Wilkes": {
+      "fips": "37193",
+      "population": 66233,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Wilson": {
+      "fips": "37195",
+      "population": 81150,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Yadkin": {
+      "fips": "37197",
+      "population": 38325,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    },
+    "Yancey": {
+      "fips": "37199",
+      "population": 19084,
+      "party_control": null,
+      "party_control_as_of": null,
+      "party_source": null
+    }
+  }
+}

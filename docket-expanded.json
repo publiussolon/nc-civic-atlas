@@ -1,0 +1,11 @@
+{
+  "checked_at": null,
+  "session": null,
+  "status_summary": "TODO (Phase 2): no North Carolina bills or meetings have been checked in this release.",
+  "status_sources": [],
+  "upcoming_meetings": [],
+  "tracked_bills": [],
+  "county_agenda_sources": [],
+  "method_note": "Placeholder file so the homepage atlas can load without Pennsylvania docket records.",
+  "machine_readable_sources": []
+}

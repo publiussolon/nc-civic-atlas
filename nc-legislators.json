@@ -1,0 +1,15 @@
+{
+  "as_of": null,
+  "scope": "TODO (Phase 2): North Carolina General Assembly House and Senate roster has not been loaded yet.",
+  "sources": {},
+  "notes": [
+    "Legislator names will be added from official NCGA member pages in Phase 2.",
+    "This file is empty so county names that also exist in Pennsylvania cannot display that state's members."
+  ],
+  "counts": {
+    "counties": 0,
+    "house_districts": 0,
+    "senate_districts": 0
+  },
+  "counties": []
+}
