@@ -1,0 +1,48 @@
+{
+  "nyt_precincts": 2655,
+  "official_real_precincts": 2658,
+  "official_admin_units": 250,
+  "official_admin_votes": 1775402,
+  "official_all": {
+    "trump": 2898423,
+    "harris": 2715375,
+    "other": 85343,
+    "total": 5699141
+  },
+  "nyt_votes": {
+    "trump": 2896574,
+    "harris": 2712787,
+    "other": 86471,
+    "total": 5695832
+  },
+  "vote_gap": 3309,
+  "unmapped_official": "Henderson CV (457 votes), Wake 07-07A (378 votes), Wake 01-07A (106 votes)",
+  "unmapped_official_votes": 941,
+  "fuzzy_matches": [
+    [
+      "Union",
+      "044",
+      "0044"
+    ],
+    [
+      "Union",
+      "020B",
+      "0020B"
+    ],
+    [
+      "Union",
+      "045",
+      "0045"
+    ]
+  ],
+  "official_boundary_flags": {
+    "true": 2655
+  },
+  "bbox": [
+    -84.321869,
+    33.842316,
+    -75.460621,
+    36.588117
+  ],
+  "counties": 100
+}

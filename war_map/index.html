@@ -3,52 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A precinct-level election and district map for North Carolina will be built in Phase 3. Pennsylvania precinct files were not copied into this site.">
   <title>North Carolina War Map | North Carolina Civic Atlas</title>
+  <meta name="description" content="North Carolina's 2024 presidential results by precinct, county population, and state legislative and congressional districts, with address search biased to North Carolina.">
   <link rel="icon" type="image/png" href="../assets/nc-badge.png">
-  <link rel="stylesheet" href="../atlas-navigation.css">
-  <link rel="stylesheet" href="../atlas-app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400..800&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="war-map.css?v=20261124-nc">
   <script src="../site-config.js"></script>
 </head>
 <body data-page-title="North Carolina War Map">
-  <a class="skip-link" href="#main">Skip to main content</a>
-  <header class="top">
-    <div class="wrap">
-      <a class="brand" href="../index.html">
-        <img class="brand-badge" data-site-badge src="../assets/nc-badge.png" alt="">
-        <span data-site-brand-label>NORTH CAROLINA<br>CIVIC ATLAS</span>
-      </a>
-      <nav aria-label="Main navigation" class="site-nav">
-        <a href="../index.html">County atlas</a>
-        <a href="../war_map/">War Map</a>
-      </nav>
-    </div>
-  </header>
-  <main id="main" class="wrap" style="padding:48px 24px 72px">
-    <p class="kicker">Phase 3</p>
-    <h1 style="font-family:Georgia,serif">North Carolina War Map</h1>
-    <p>A precinct-level election and district map for North Carolina will be built in Phase 3. Pennsylvania precinct files were not copied into this site.</p>
-    <div class="todo">
-      <strong>TODO (Phase 3):</strong> This page will be rebuilt with North Carolina sources. Pennsylvania research content was not carried forward, so this site does not present another state’s figures as North Carolina’s.
-    </div>
-    
-<p>Phase 3 will add precinct-level maps from official sources such as the North Carolina State Board of Elections, plus legislative and congressional district boundaries. If precinct results from the New York Times 2024 precinct dataset are used, that data will remain under the NYT Computational Use of Data Agreement (non-commercial, with attribution).</p>
-<p>Official starting points:</p>
-<ul>
-  <li><a href="https://www.ncsbe.gov/" target="_blank" rel="noopener noreferrer">North Carolina State Board of Elections</a></li>
-  <li><a href="https://www.ncleg.gov/" target="_blank" rel="noopener noreferrer">N.C. General Assembly</a></li>
-</ul>
-
-    <p><a href="../index.html">Back to the county atlas</a></p>
-  </main>
-  <footer class="footer">
-    <div class="wrap">
-      <div>
-        <strong data-site-name>North Carolina Civic Atlas</strong>
-        <p data-site-disclaimer></p>
-      </div>
-    </div>
-  </footer>
-  <script src="../site-chrome.js"></script>
+<header class="topbar">
+  <a class="brand" href="../index.html"><img data-site-badge src="../assets/nc-badge.png" alt=""><span data-site-name>North Carolina Civic Atlas</span></a>
+  <h1>War Map</h1>
+  <nav class="toplinks" aria-label="Site"><a href="../index.html">Atlas home</a><a class="cta" href="https://vt.ncsbe.gov/PPLkup/">Polling place</a></nav>
+</header>
+<main class="stage">
+  <div id="map" role="region" aria-label="North Carolina map"></div>
+  <nav class="tabs" aria-label="Map layer">
+    <button type="button" data-layer="results" aria-pressed="true">Precinct results</button>
+    <button type="button" data-layer="chairs" aria-pressed="false">Empty chairs</button>
+    <button type="button" data-layer="house" aria-pressed="false">NC House</button>
+    <button type="button" data-layer="senate" aria-pressed="false">NC Senate</button>
+    <button type="button" data-layer="congress" aria-pressed="false">U.S. House</button>
+    <button type="button" data-layer="population" aria-pressed="false">Population</button>
+    <button type="button" data-layer="government" aria-pressed="false">County government</button>
+  </nav>
+  <aside class="panel" aria-label="Map details">
+    <form class="search" id="search" role="search" autocomplete="off">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <label class="visually-hidden" for="search-input">Search an address, ZIP, county, or precinct</label>
+      <input id="search-input" type="search" placeholder="Your address, ZIP, precinct, or county" role="combobox" aria-expanded="false" aria-controls="suggestions" aria-autocomplete="list" aria-describedby="search-note">
+      <button type="submit">Find</button>
+      <ul id="suggestions" role="listbox" hidden></ul>
+    </form>
+    <p id="search-status" class="search-status" role="status"></p>
+    <div id="panel" class="panel-body" aria-live="polite"><p class="lede">Loading the map…</p></div>
+    <footer class="sources">
+      <p id="search-note">Street addresses and ZIP codes are sent to Esri's geocoder, biased to North Carolina. Precinct and county names are searched on this page.</p>
+      <details>
+        <summary>Sources and map coverage</summary>
+        <p>The map covers 2,655 precinct polygons across all 100 counties for the November 5, 2024 presidential election. The official NCSBE results file lists 2,658 real precincts plus administrative reporting units for early, absentee, and provisional ballots. The two sets do not correspond one for one. Mapped vote totals come from the New York Times precinct dataset, which nearly matches the official statewide US President total. Official Real Precinct = Y rows generally omit those administrative ballots, so they are not painted alone onto Election Day precinct shapes.</p>
+        <p>Compare the mapped results with the <a href="data/state-reported-2024.csv" download>official NCSBE precinct returns for US President (CSV)</a> or the <a href="https://www.ncsbe.gov/results-data/election-results/historical-election-results-data">NCSBE historical election results</a>. <a href="data/">Map sources and matching methods</a>.</p>
+        <p><a href="https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html">2024 Precinct-Level Election Results, The New York Times</a> · <a href="data/NYT-LICENSE.txt">Election data terms (NYT C-UDA)</a>. <a href="districts/">District boundary and officeholder sources</a>. County outlines are from the Census 2024 cartographic county file. Population estimates as of July 1, 2025 · <a href="../map-data.json">County data and sources</a>.</p>
+        <p>District matches use simplified boundaries. Near a line, confirm with the <a href="https://www.ncleg.gov/FindYourLegislators">N.C. General Assembly district finder</a>.</p>
+        <p>TODO: municipal outlines are not included in this release. TODO: county party committee vacancies are not compiled; the Empty chairs layer is a placeholder. County board party control remains unverified.</p>
+      </details>
+    </footer>
+  </aside>
+  <div id="legend" class="legend" aria-live="polite"></div>
+</main>
+<script src="../site-chrome.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="war-map.js?v=20261124-nc"></script>
 </body>
 </html>

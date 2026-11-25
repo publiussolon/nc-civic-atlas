@@ -1,0 +1,928 @@
+{
+  "house": {
+    "63": {
+      "name": "Stephen M. Ross",
+      "url": "https://www.ncleg.gov/Members/Biography/H/812",
+      "party": "Republican"
+    },
+    "64": {
+      "name": "Dennis Riddell",
+      "url": "https://www.ncleg.gov/Members/Biography/H/665",
+      "party": "Republican"
+    },
+    "94": {
+      "name": "Blair Eddins",
+      "url": "https://www.ncleg.gov/Members/Biography/H/825",
+      "party": "Republican"
+    },
+    "93": {
+      "name": "Ray Pickett",
+      "url": "https://www.ncleg.gov/Members/Biography/H/772",
+      "party": "Republican"
+    },
+    "55": {
+      "name": "Mark Brody",
+      "url": "https://www.ncleg.gov/Members/Biography/H/663",
+      "party": "Republican"
+    },
+    "85": {
+      "name": "Dudley Greene",
+      "url": "https://www.ncleg.gov/Members/Biography/H/777",
+      "party": "Republican"
+    },
+    "79": {
+      "name": "Keith Kidwell",
+      "url": "https://www.ncleg.gov/Members/Biography/H/749",
+      "party": "Republican"
+    },
+    "23": {
+      "name": "Shelly Willingham",
+      "url": "https://www.ncleg.gov/Members/Biography/H/700",
+      "party": "Democratic"
+    },
+    "22": {
+      "name": "William D. Brisson",
+      "url": "https://www.ncleg.gov/Members/Biography/H/558",
+      "party": "Republican"
+    },
+    "17": {
+      "name": "Frank Iler",
+      "url": "https://www.ncleg.gov/Members/Biography/H/598",
+      "party": "Republican"
+    },
+    "19": {
+      "name": "Charles W. Miller",
+      "url": "https://www.ncleg.gov/Members/Biography/H/778",
+      "party": "Republican"
+    },
+    "114": {
+      "name": "Eric Ager",
+      "url": "https://www.ncleg.gov/Members/Biography/H/819",
+      "party": "Democratic"
+    },
+    "115": {
+      "name": "Lindsey Prather",
+      "url": "https://www.ncleg.gov/Members/Biography/H/809",
+      "party": "Democratic"
+    },
+    "116": {
+      "name": "Brian Turner",
+      "url": "https://www.ncleg.gov/Members/Biography/H/696",
+      "party": "Democratic"
+    },
+    "86": {
+      "name": "Hugh Blackwell",
+      "url": "https://www.ncleg.gov/Members/Biography/H/580",
+      "party": "Republican"
+    },
+    "73": {
+      "name": "Jonathan L. Almond",
+      "url": "https://www.ncleg.gov/Members/Biography/H/843",
+      "party": "Republican"
+    },
+    "82": {
+      "name": "Brian Echevarria",
+      "url": "https://www.ncleg.gov/Members/Biography/H/828",
+      "party": "Republican"
+    },
+    "83": {
+      "name": "Grant L. Campbell, MD",
+      "url": "https://www.ncleg.gov/Members/Biography/H/830",
+      "party": "Republican"
+    },
+    "87": {
+      "name": "Destin Hall",
+      "url": "https://www.ncleg.gov/Members/Biography/H/719",
+      "party": "Republican"
+    },
+    "5": {
+      "name": "Bill Ward",
+      "url": "https://www.ncleg.gov/Members/Biography/H/816",
+      "party": "Republican"
+    },
+    "13": {
+      "name": "Celeste C. Cairns",
+      "url": "https://www.ncleg.gov/Members/Biography/H/797",
+      "party": "Republican"
+    },
+    "50": {
+      "name": "Renée A. Price",
+      "url": "https://www.ncleg.gov/Members/Biography/H/810",
+      "party": "Democratic"
+    },
+    "89": {
+      "name": "Mitchell S. Setzer",
+      "url": "https://www.ncleg.gov/Members/Biography/H/149",
+      "party": "Republican"
+    },
+    "96": {
+      "name": "Jay Adams",
+      "url": "https://www.ncleg.gov/Members/Biography/H/697",
+      "party": "Republican"
+    },
+    "54": {
+      "name": "Robert T. Reives, II",
+      "url": "https://www.ncleg.gov/Members/Biography/H/684",
+      "party": "Democratic"
+    },
+    "120": {
+      "name": "Karl E. Gillespie",
+      "url": "https://www.ncleg.gov/Members/Biography/H/771",
+      "party": "Republican"
+    },
+    "1": {
+      "name": "Edward C. Goodwin",
+      "url": "https://www.ncleg.gov/Members/Biography/H/744",
+      "party": "Republican"
+    },
+    "110": {
+      "name": "Kelly E. Hastings",
+      "url": "https://www.ncleg.gov/Members/Biography/H/618",
+      "party": "Republican"
+    },
+    "111": {
+      "name": "Paul Scott",
+      "url": "https://www.ncleg.gov/Members/Biography/H/841",
+      "party": "Republican"
+    },
+    "46": {
+      "name": "Brenden H. Jones",
+      "url": "https://www.ncleg.gov/Members/Biography/H/723",
+      "party": "Republican"
+    },
+    "3": {
+      "name": "Steve Tyson",
+      "url": "https://www.ncleg.gov/Members/Biography/H/774",
+      "party": "Republican"
+    },
+    "42": {
+      "name": "Mike Colvin",
+      "url": "https://www.ncleg.gov/Members/Biography/H/831",
+      "party": "Democratic"
+    },
+    "43": {
+      "name": "Diane Wheatley",
+      "url": "https://www.ncleg.gov/Members/Biography/H/785",
+      "party": "Republican"
+    },
+    "44": {
+      "name": "Charles Smith",
+      "url": "https://www.ncleg.gov/Members/Biography/H/813",
+      "party": "Democratic"
+    },
+    "45": {
+      "name": "Frances Jackson, PhD",
+      "url": "https://www.ncleg.gov/Members/Biography/H/803",
+      "party": "Democratic"
+    },
+    "80": {
+      "name": "Sam Watford",
+      "url": "https://www.ncleg.gov/Members/Biography/H/687",
+      "party": "Republican"
+    },
+    "81": {
+      "name": "Larry W. Potts",
+      "url": "https://www.ncleg.gov/Members/Biography/H/724",
+      "party": "Republican"
+    },
+    "77": {
+      "name": "Julia C. Howard",
+      "url": "https://www.ncleg.gov/Members/Biography/H/53",
+      "party": "Republican"
+    },
+    "4": {
+      "name": "Jimmy Dixon",
+      "url": "https://www.ncleg.gov/Members/Biography/H/613",
+      "party": "Republican"
+    },
+    "2": {
+      "name": "B. Ray Jeffers",
+      "url": "https://www.ncleg.gov/Members/Biography/H/805",
+      "party": "Democratic"
+    },
+    "29": {
+      "name": "Vernetta Alston",
+      "url": "https://www.ncleg.gov/Members/Biography/H/765",
+      "party": "Democratic"
+    },
+    "30": {
+      "name": "Marcia Morey",
+      "url": "https://www.ncleg.gov/Members/Biography/H/732",
+      "party": "Democratic"
+    },
+    "31": {
+      "name": "Zack Hawkins",
+      "url": "https://www.ncleg.gov/Members/Biography/H/742",
+      "party": "Democratic"
+    },
+    "71": {
+      "name": "Kanika Brown",
+      "url": "https://www.ncleg.gov/Members/Biography/H/795",
+      "party": "Democratic"
+    },
+    "72": {
+      "name": "Amber M. Baker",
+      "url": "https://www.ncleg.gov/Members/Biography/H/782",
+      "party": "Democratic"
+    },
+    "74": {
+      "name": "Jeff Zenger",
+      "url": "https://www.ncleg.gov/Members/Biography/H/775",
+      "party": "Republican"
+    },
+    "75": {
+      "name": "Donny Lambeth",
+      "url": "https://www.ncleg.gov/Members/Biography/H/646",
+      "party": "Republican"
+    },
+    "91": {
+      "name": "Kyle Hall",
+      "url": "https://www.ncleg.gov/Members/Biography/H/704",
+      "party": "Republican"
+    },
+    "7": {
+      "name": "Matthew Winslow",
+      "url": "https://www.ncleg.gov/Members/Biography/H/776",
+      "party": "Republican"
+    },
+    "108": {
+      "name": "John A. Torbett",
+      "url": "https://www.ncleg.gov/Members/Biography/H/606",
+      "party": "Republican"
+    },
+    "109": {
+      "name": "Donnie Loftis",
+      "url": "https://www.ncleg.gov/Members/Biography/H/788",
+      "party": "Republican"
+    },
+    "32": {
+      "name": "Bryan Cohn",
+      "url": "https://www.ncleg.gov/Members/Biography/H/827",
+      "party": "Democratic"
+    },
+    "12": {
+      "name": "Chris Humphrey",
+      "url": "https://www.ncleg.gov/Members/Biography/H/747",
+      "party": "Republican"
+    },
+    "57": {
+      "name": "Tracy Clark",
+      "url": "https://www.ncleg.gov/Members/Biography/H/822",
+      "party": "Democratic"
+    },
+    "58": {
+      "name": "Amos L. Quick, III",
+      "url": "https://www.ncleg.gov/Members/Biography/H/725",
+      "party": "Democratic"
+    },
+    "59": {
+      "name": "Jerry \"Alan\" Branson",
+      "url": "https://www.ncleg.gov/Members/Biography/H/821",
+      "party": "Republican"
+    },
+    "60": {
+      "name": "Amanda P. Cook",
+      "url": "https://www.ncleg.gov/Members/Biography/H/1002",
+      "party": "Democratic"
+    },
+    "61": {
+      "name": "Pricey Harrison",
+      "url": "https://www.ncleg.gov/Members/Biography/H/504",
+      "party": "Democratic"
+    },
+    "62": {
+      "name": "John M. Blust",
+      "url": "https://www.ncleg.gov/Members/Biography/H/234",
+      "party": "Republican"
+    },
+    "27": {
+      "name": "Rodney D. Pierce",
+      "url": "https://www.ncleg.gov/Members/Biography/H/838",
+      "party": "Democratic"
+    },
+    "6": {
+      "name": "Joseph Pike",
+      "url": "https://www.ncleg.gov/Members/Biography/H/808",
+      "party": "Republican"
+    },
+    "53": {
+      "name": "Howard Penny, Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/H/768",
+      "party": "Republican"
+    },
+    "118": {
+      "name": "Mark Pless",
+      "url": "https://www.ncleg.gov/Members/Biography/H/773",
+      "party": "Republican"
+    },
+    "113": {
+      "name": "Jake Johnson",
+      "url": "https://www.ncleg.gov/Members/Biography/H/762",
+      "party": "Republican"
+    },
+    "117": {
+      "name": "Jennifer Balkcom",
+      "url": "https://www.ncleg.gov/Members/Biography/H/820",
+      "party": "Republican"
+    },
+    "48": {
+      "name": "Garland E. Pierce",
+      "url": "https://www.ncleg.gov/Members/Biography/H/497",
+      "party": "Democratic"
+    },
+    "84": {
+      "name": "Jeffrey C. McNeely",
+      "url": "https://www.ncleg.gov/Members/Biography/H/761",
+      "party": "Republican"
+    },
+    "95": {
+      "name": "Todd Carver",
+      "url": "https://www.ncleg.gov/Members/Biography/H/842",
+      "party": "Republican"
+    },
+    "119": {
+      "name": "Anna Ferguson",
+      "url": "https://www.ncleg.gov/Members/Biography/H/1003",
+      "party": "Republican"
+    },
+    "26": {
+      "name": "Donna McDowell White",
+      "url": "https://www.ncleg.gov/Members/Biography/H/728",
+      "party": "Republican"
+    },
+    "28": {
+      "name": "Larry C. Strickland",
+      "url": "https://www.ncleg.gov/Members/Biography/H/727",
+      "party": "Republican"
+    },
+    "51": {
+      "name": "John Sauls",
+      "url": "https://www.ncleg.gov/Members/Biography/H/393",
+      "party": "Republican"
+    },
+    "97": {
+      "name": "Heather H. Rhyne",
+      "url": "https://www.ncleg.gov/Members/Biography/H/823",
+      "party": "Republican"
+    },
+    "88": {
+      "name": "Mary Belk",
+      "url": "https://www.ncleg.gov/Members/Biography/H/713",
+      "party": "Democratic"
+    },
+    "92": {
+      "name": "Terry M. Brown Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/H/783",
+      "party": "Democratic"
+    },
+    "98": {
+      "name": "Beth Helfrich",
+      "url": "https://www.ncleg.gov/Members/Biography/H/832",
+      "party": "Democratic"
+    },
+    "99": {
+      "name": "Nasif Majeed",
+      "url": "https://www.ncleg.gov/Members/Biography/H/752",
+      "party": "U"
+    },
+    "100": {
+      "name": "Julia Greenfield",
+      "url": "https://www.ncleg.gov/Members/Biography/H/829",
+      "party": "Democratic"
+    },
+    "101": {
+      "name": "Carolyn G. Logan",
+      "url": "https://www.ncleg.gov/Members/Biography/H/750",
+      "party": "Democratic"
+    },
+    "102": {
+      "name": "Becky Carney",
+      "url": "https://www.ncleg.gov/Members/Biography/H/322",
+      "party": "Democratic"
+    },
+    "103": {
+      "name": "Laura Budd",
+      "url": "https://www.ncleg.gov/Members/Biography/H/796",
+      "party": "Democratic"
+    },
+    "104": {
+      "name": "Brandon Lofton",
+      "url": "https://www.ncleg.gov/Members/Biography/H/751",
+      "party": "Democratic"
+    },
+    "105": {
+      "name": "Tricia Ann Cotham",
+      "url": "https://www.ncleg.gov/Members/Biography/H/817",
+      "party": "Republican"
+    },
+    "106": {
+      "name": "Carla D. Cunningham",
+      "url": "https://www.ncleg.gov/Members/Biography/H/642",
+      "party": "U"
+    },
+    "107": {
+      "name": "Aisha O. Dew",
+      "url": "https://www.ncleg.gov/Members/Biography/H/836",
+      "party": "Democratic"
+    },
+    "112": {
+      "name": "Jordan Lopez",
+      "url": "https://www.ncleg.gov/Members/Biography/H/835",
+      "party": "Democratic"
+    },
+    "67": {
+      "name": "Cody Huneycutt",
+      "url": "https://www.ncleg.gov/Members/Biography/H/833",
+      "party": "Republican"
+    },
+    "52": {
+      "name": "Ben T. Moss, Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/H/784",
+      "party": "Republican"
+    },
+    "78": {
+      "name": "Neal Jackson",
+      "url": "https://www.ncleg.gov/Members/Biography/H/804",
+      "party": "Republican"
+    },
+    "24": {
+      "name": "Dante Pittman",
+      "url": "https://www.ncleg.gov/Members/Biography/H/839",
+      "party": "Democratic"
+    },
+    "25": {
+      "name": "Allen Chesser",
+      "url": "https://www.ncleg.gov/Members/Biography/H/799",
+      "party": "Republican"
+    },
+    "18": {
+      "name": "Deb Butler",
+      "url": "https://www.ncleg.gov/Members/Biography/H/730",
+      "party": "Democratic"
+    },
+    "20": {
+      "name": "Ted Davis, Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/H/637",
+      "party": "Republican"
+    },
+    "14": {
+      "name": "Wyatt Gable",
+      "url": "https://www.ncleg.gov/Members/Biography/H/837",
+      "party": "Republican"
+    },
+    "15": {
+      "name": "Phil Shepard",
+      "url": "https://www.ncleg.gov/Members/Biography/H/628",
+      "party": "Republican"
+    },
+    "16": {
+      "name": "Carson Smith",
+      "url": "https://www.ncleg.gov/Members/Biography/H/755",
+      "party": "Republican"
+    },
+    "56": {
+      "name": "Allen Buansi",
+      "url": "https://www.ncleg.gov/Members/Biography/H/790",
+      "party": "Democratic"
+    },
+    "8": {
+      "name": "Gloristine Brown",
+      "url": "https://www.ncleg.gov/Members/Biography/H/794",
+      "party": "Democratic"
+    },
+    "9": {
+      "name": "Timothy Reeder, MD",
+      "url": "https://www.ncleg.gov/Members/Biography/H/811",
+      "party": "Republican"
+    },
+    "70": {
+      "name": "Brian Biggs",
+      "url": "https://www.ncleg.gov/Members/Biography/H/793",
+      "party": "Republican"
+    },
+    "47": {
+      "name": "John L. Lowery",
+      "url": "https://www.ncleg.gov/Members/Biography/H/1001",
+      "party": "Republican"
+    },
+    "65": {
+      "name": "A. Reece Pyrtle, Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/H/787",
+      "party": "Republican"
+    },
+    "76": {
+      "name": "Harry Warren",
+      "url": "https://www.ncleg.gov/Members/Biography/H/630",
+      "party": "Republican"
+    },
+    "90": {
+      "name": "Dan Kiger",
+      "url": "https://www.ncleg.gov/Members/Biography/H/1004",
+      "party": "Republican"
+    },
+    "68": {
+      "name": "David Willis",
+      "url": "https://www.ncleg.gov/Members/Biography/H/779",
+      "party": "Republican"
+    },
+    "69": {
+      "name": "Dean Arp",
+      "url": "https://www.ncleg.gov/Members/Biography/H/640",
+      "party": "Republican"
+    },
+    "11": {
+      "name": "Allison A. Dahle",
+      "url": "https://www.ncleg.gov/Members/Biography/H/740",
+      "party": "Democratic"
+    },
+    "21": {
+      "name": "Ya Liu",
+      "url": "https://www.ncleg.gov/Members/Biography/H/806",
+      "party": "Democratic"
+    },
+    "33": {
+      "name": "Monika Johnson-Hostler",
+      "url": "https://www.ncleg.gov/Members/Biography/H/834",
+      "party": "Democratic"
+    },
+    "34": {
+      "name": "Tim Longest",
+      "url": "https://www.ncleg.gov/Members/Biography/H/818",
+      "party": "Democratic"
+    },
+    "35": {
+      "name": "Mike Schietzelt",
+      "url": "https://www.ncleg.gov/Members/Biography/H/840",
+      "party": "Republican"
+    },
+    "36": {
+      "name": "Julie von Haefen",
+      "url": "https://www.ncleg.gov/Members/Biography/H/758",
+      "party": "Democratic"
+    },
+    "37": {
+      "name": "Erin Paré",
+      "url": "https://www.ncleg.gov/Members/Biography/H/770",
+      "party": "Republican"
+    },
+    "38": {
+      "name": "Abe Jones",
+      "url": "https://www.ncleg.gov/Members/Biography/H/780",
+      "party": "Democratic"
+    },
+    "39": {
+      "name": "James Roberson",
+      "url": "https://www.ncleg.gov/Members/Biography/H/786",
+      "party": "Democratic"
+    },
+    "40": {
+      "name": "Phil Rubin",
+      "url": "https://www.ncleg.gov/Members/Biography/H/844",
+      "party": "Democratic"
+    },
+    "41": {
+      "name": "Maria Cervania",
+      "url": "https://www.ncleg.gov/Members/Biography/H/798",
+      "party": "Democratic"
+    },
+    "49": {
+      "name": "Cynthia Ball",
+      "url": "https://www.ncleg.gov/Members/Biography/H/711",
+      "party": "Democratic"
+    },
+    "66": {
+      "name": "Sarah Crawford",
+      "url": "https://www.ncleg.gov/Members/Biography/H/800",
+      "party": "Democratic"
+    },
+    "10": {
+      "name": "John R. Bell, IV",
+      "url": "https://www.ncleg.gov/Members/Biography/H/661",
+      "party": "Republican"
+    }
+  },
+  "senate": {
+    "25": {
+      "name": "Amy S. Galey",
+      "url": "https://www.ncleg.gov/Members/Biography/S/429",
+      "party": "Republican"
+    },
+    "36": {
+      "name": "Eddie D. Settle",
+      "url": "https://www.ncleg.gov/Members/Biography/S/446",
+      "party": "Republican"
+    },
+    "47": {
+      "name": "Ralph Hise",
+      "url": "https://www.ncleg.gov/Members/Biography/S/298",
+      "party": "Republican"
+    },
+    "29": {
+      "name": "David W. Craven, Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/S/423",
+      "party": "Republican"
+    },
+    "3": {
+      "name": "Bob Brinson",
+      "url": "https://www.ncleg.gov/Members/Biography/S/448",
+      "party": "Republican"
+    },
+    "1": {
+      "name": "Jerry Tillett",
+      "url": "https://www.ncleg.gov/Members/Biography/S/1003",
+      "party": "Republican"
+    },
+    "9": {
+      "name": "Brent Jackson",
+      "url": "https://www.ncleg.gov/Members/Biography/S/281",
+      "party": "Republican"
+    },
+    "8": {
+      "name": "Bill Rabon",
+      "url": "https://www.ncleg.gov/Members/Biography/S/303",
+      "party": "Republican"
+    },
+    "46": {
+      "name": "Warren Daniel",
+      "url": "https://www.ncleg.gov/Members/Biography/S/295",
+      "party": "Republican"
+    },
+    "49": {
+      "name": "Julie Mayfield",
+      "url": "https://www.ncleg.gov/Members/Biography/S/432",
+      "party": "Democratic"
+    },
+    "34": {
+      "name": "Chris Measmer",
+      "url": "https://www.ncleg.gov/Members/Biography/S/455",
+      "party": "Republican"
+    },
+    "35": {
+      "name": "Todd Johnson",
+      "url": "https://www.ncleg.gov/Members/Biography/S/406",
+      "party": "Republican"
+    },
+    "45": {
+      "name": "Mark Hollo",
+      "url": "https://www.ncleg.gov/Members/Biography/S/450",
+      "party": "Republican"
+    },
+    "2": {
+      "name": "Norman W. Sanderson",
+      "url": "https://www.ncleg.gov/Members/Biography/S/375",
+      "party": "Republican"
+    },
+    "23": {
+      "name": "Jonah Garson",
+      "url": "https://www.ncleg.gov/Members/Biography/S/1001",
+      "party": "Democratic"
+    },
+    "20": {
+      "name": "Natalie S. Murdock",
+      "url": "https://www.ncleg.gov/Members/Biography/S/422",
+      "party": "Democratic"
+    },
+    "50": {
+      "name": "Kevin Corbin",
+      "url": "https://www.ncleg.gov/Members/Biography/S/433",
+      "party": "Republican"
+    },
+    "44": {
+      "name": "W. Ted Alexander",
+      "url": "https://www.ncleg.gov/Members/Biography/S/416",
+      "party": "Republican"
+    },
+    "19": {
+      "name": "Val Applewhite",
+      "url": "https://www.ncleg.gov/Members/Biography/S/440",
+      "party": "Democratic"
+    },
+    "21": {
+      "name": "Tom McInnis",
+      "url": "https://www.ncleg.gov/Members/Biography/S/389",
+      "party": "Republican"
+    },
+    "30": {
+      "name": "Steve Jarvis",
+      "url": "https://www.ncleg.gov/Members/Biography/S/430",
+      "party": "Republican"
+    },
+    "22": {
+      "name": "Sophia Chitlik",
+      "url": "https://www.ncleg.gov/Members/Biography/S/452",
+      "party": "Democratic"
+    },
+    "5": {
+      "name": "Kandie D. Smith",
+      "url": "https://www.ncleg.gov/Members/Biography/S/447",
+      "party": "Democratic"
+    },
+    "31": {
+      "name": "Dana Jones",
+      "url": "https://www.ncleg.gov/Members/Biography/S/449",
+      "party": "Republican"
+    },
+    "32": {
+      "name": "Paul A. Lowe, Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/S/394",
+      "party": "Democratic"
+    },
+    "11": {
+      "name": "Lisa S. Barnes",
+      "url": "https://www.ncleg.gov/Members/Biography/S/427",
+      "party": "Republican"
+    },
+    "43": {
+      "name": "Brad Overcash",
+      "url": "https://www.ncleg.gov/Members/Biography/S/444",
+      "party": "Republican"
+    },
+    "18": {
+      "name": "Haseeb Fatmi",
+      "url": "https://www.ncleg.gov/Members/Biography/S/1002",
+      "party": "Democratic"
+    },
+    "4": {
+      "name": "Buck Newton",
+      "url": "https://www.ncleg.gov/Members/Biography/S/443",
+      "party": "Republican"
+    },
+    "26": {
+      "name": "Phil Berger",
+      "url": "https://www.ncleg.gov/Members/Biography/S/64",
+      "party": "Republican"
+    },
+    "27": {
+      "name": "Michael Garrett",
+      "url": "https://www.ncleg.gov/Members/Biography/S/414",
+      "party": "Democratic"
+    },
+    "28": {
+      "name": "Gladys A. Robinson",
+      "url": "https://www.ncleg.gov/Members/Biography/S/364",
+      "party": "Democratic"
+    },
+    "12": {
+      "name": "Jim Burgin",
+      "url": "https://www.ncleg.gov/Members/Biography/S/412",
+      "party": "Republican"
+    },
+    "48": {
+      "name": "Timothy D. Moffitt",
+      "url": "https://www.ncleg.gov/Members/Biography/S/438",
+      "party": "Republican"
+    },
+    "24": {
+      "name": "Danny Earl Britt, Jr.",
+      "url": "https://www.ncleg.gov/Members/Biography/S/399",
+      "party": "Republican"
+    },
+    "37": {
+      "name": "Vickie Sawyer",
+      "url": "https://www.ncleg.gov/Members/Biography/S/405",
+      "party": "Republican"
+    },
+    "10": {
+      "name": "Benton G. Sawrey",
+      "url": "https://www.ncleg.gov/Members/Biography/S/445",
+      "party": "Republican"
+    },
+    "38": {
+      "name": "Mujtaba A. Mohammed",
+      "url": "https://www.ncleg.gov/Members/Biography/S/417",
+      "party": "Democratic"
+    },
+    "39": {
+      "name": "DeAndrea Salvador",
+      "url": "https://www.ncleg.gov/Members/Biography/S/431",
+      "party": "Democratic"
+    },
+    "40": {
+      "name": "Joyce Waddell",
+      "url": "https://www.ncleg.gov/Members/Biography/S/393",
+      "party": "Democratic"
+    },
+    "41": {
+      "name": "Caleb Theodros",
+      "url": "https://www.ncleg.gov/Members/Biography/S/451",
+      "party": "Democratic"
+    },
+    "42": {
+      "name": "Woodson Bradley",
+      "url": "https://www.ncleg.gov/Members/Biography/S/454",
+      "party": "Democratic"
+    },
+    "7": {
+      "name": "Michael V. Lee",
+      "url": "https://www.ncleg.gov/Members/Biography/S/387",
+      "party": "Republican"
+    },
+    "6": {
+      "name": "Michael A. Lazzara",
+      "url": "https://www.ncleg.gov/Members/Biography/S/426",
+      "party": "Republican"
+    },
+    "33": {
+      "name": "Carl Ford",
+      "url": "https://www.ncleg.gov/Members/Biography/S/410",
+      "party": "Republican"
+    },
+    "13": {
+      "name": "Lisa Grafstein",
+      "url": "https://www.ncleg.gov/Members/Biography/S/439",
+      "party": "Democratic"
+    },
+    "14": {
+      "name": "Dan Blue",
+      "url": "https://www.ncleg.gov/Members/Biography/S/268",
+      "party": "Democratic"
+    },
+    "15": {
+      "name": "Jay J. Chaudhuri",
+      "url": "https://www.ncleg.gov/Members/Biography/S/395",
+      "party": "Democratic"
+    },
+    "16": {
+      "name": "Gale Adcock",
+      "url": "https://www.ncleg.gov/Members/Biography/S/436",
+      "party": "Democratic"
+    },
+    "17": {
+      "name": "Sydney Batch",
+      "url": "https://www.ncleg.gov/Members/Biography/S/434",
+      "party": "Democratic"
+    }
+  },
+  "congress": {
+    "9": {
+      "name": "Richard Hudson",
+      "url": "https://hudson.house.gov",
+      "party": "Republican"
+    },
+    "5": {
+      "name": "Virginia Foxx",
+      "url": "https://foxx.house.gov/",
+      "party": "Republican"
+    },
+    "8": {
+      "name": "Mark Harris",
+      "url": "https://markharris.house.gov/",
+      "party": "Republican"
+    },
+    "11": {
+      "name": "Chuck Edwards",
+      "url": "https://edwards.house.gov",
+      "party": "Republican"
+    },
+    "3": {
+      "name": "Gregory Murphy",
+      "url": "https://murphy.house.gov",
+      "party": "Republican"
+    },
+    "1": {
+      "name": "Donald Davis",
+      "url": "https://dondavis.house.gov",
+      "party": "Democratic"
+    },
+    "7": {
+      "name": "David Rouzer",
+      "url": "https://rouzer.house.gov/",
+      "party": "Republican"
+    },
+    "14": {
+      "name": "Tim Moore",
+      "url": "https://timmoore.house.gov/",
+      "party": "Republican"
+    },
+    "6": {
+      "name": "Addison McDowell",
+      "url": "https://mcdowell.house.gov/",
+      "party": "Republican"
+    },
+    "13": {
+      "name": "Brad Knott",
+      "url": "https://knott.house.gov/",
+      "party": "Republican"
+    },
+    "10": {
+      "name": "Pat Harrigan",
+      "url": "https://harrigan.house.gov/",
+      "party": "Republican"
+    },
+    "4": {
+      "name": "Valerie Foushee",
+      "url": "https://foushee.house.gov",
+      "party": "Democratic"
+    },
+    "12": {
+      "name": "Alma Adams",
+      "url": "https://adams.house.gov",
+      "party": "Democratic"
+    },
+    "2": {
+      "name": "Deborah Ross",
+      "url": "https://ross.house.gov",
+      "party": "Democratic"
+    }
+  }
+}

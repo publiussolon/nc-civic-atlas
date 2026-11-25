@@ -4,11 +4,11 @@ An independent, open-source county atlas for North Carolina. This project is not
 
 The site is a port of the public [YoungRepublicansOfPA/Home](https://github.com/YoungRepublicansOfPA/Home) civic-records app. Code and structured-data ideas are used under the MIT license. Placeholder badge and banner images in `assets/` were generated for this edition and do not use the upstream project’s artwork (those images were excluded from the MIT license).
 
-**Phase 2 (current):** Phase 1 plus the seated N.C. General Assembly and U.S. House rosters, 2024 ACS affordability estimates, official NCGA calendar meetings, and official state budget document links. County board party control is not assigned.
+**Phase 3 (current):** Phase 2 plus the War Map: 2,655 official-boundary precinct polygons and 2024 presidential results (NYT dataset under the NYT C-UDA, compared with official NCSBE returns), Census 2024 legislative and congressional district boundaries, and seated 2025–2026 officeholders. County board party control is not assigned. County committee vacancies and municipal outlines are TODO.
 
-Later phases: War Map (NCSBE precincts and districts); research pages.
+Later phase: research pages rebuilt from North Carolina sources.
 
-Live preview: run `python3 -m http.server 8000` in this directory, then open `http://localhost:8000/`. There is no build step. GitHub Pages can publish the repository root from `main` once a remote is connected.
+Live preview: run `python3 -m http.server 8000` in this directory, then open `http://localhost:8000/`. There is no build step. On GitHub Pages the site is served from `main` at the `/nc-civic-atlas/` subpath; keep links and data fetches relative.
 
 ## Branding
 
@@ -30,10 +30,23 @@ Change the site name, disclaimer, and asset paths in `site-config.js`. That is t
 
 Rebuild the map and county JSON with `tools/build-county-map.py` (requires `pyshp`). Rebuild placeholder images with `tools/build-placeholder-assets.py`.
 
+
+## Phase 3 sources (War Map)
+
+- Precinct polygons and 2024 presidential totals: [2024 Precinct-Level Election Results, The New York Times](https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html), North Carolina file. Redistributed under the [NYT C-UDA](war_map/data/NYT-LICENSE.txt). NYT documents these North Carolina shapes as official boundaries.
+- Official comparison file: NCSBE `results_pct_20241105.zip` from [historical election results](https://www.ncsbe.gov/results-data/election-results/historical-election-results-data). A compact US President extract is `war_map/data/state-reported-2024.csv`.
+- Districts: Census 2024 cartographic boundary files for [SLDL](https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_37_sldl_500k.zip), [SLDU](https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_37_sldu_500k.zip), and [CD119](https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_cd119_500k.zip).
+- Officeholders: `nc-legislators.json` (see Phase 2 sources). Confirm a residence with [Find Your Legislators](https://www.ncleg.gov/FindYourLegislators).
+- Polling place lookup (not hosted here): [NCSBE polling place search](https://vt.ncsbe.gov/PPLkup/).
+
+Rebuild War Map data with `tools/build-war-map.py` (requires `pyshp` and `shapely`). Details are in `war_map/README.md` and `war_map/data/README.md`.
+
 ## Contributing records
 
 For a correction or a new record, include the county or jurisdiction, a primary-source link, the document date, and the date you checked it. Do not invent figures, names, or links. Leave gaps marked as TODO.
 
 ## License
 
-The MIT license covers the code and structured data in this repository. Include the original copyright notice. Placeholder images in `assets/` were generated for this project.
+The MIT license covers the code and most structured data in this repository. Include the original copyright notice. Placeholder images in `assets/` were generated for this project.
+
+The 2024 precinct polygons and vote totals in `war_map/data/` are redistributed under the New York Times Computational Use of Data Agreement (non-commercial, with attribution). See `war_map/data/NYT-LICENSE.txt`. Do not use that dataset commercially.
